@@ -1,0 +1,5172 @@
+{
+  "discriminator" : "http://vocab.lappsgrid.org/ns/media/jsonld#lif",
+  "payload" : {
+    "@context" : "http://vocab.lappsgrid.org/context-1.0.0.jsonld",
+    "metadata" : {
+      "sourceid" : "3062687",
+      "docid" : "PMC:3062687:22",
+      "divid" : 22,
+      "sourcedb" : "PMC",
+      "target" : "http://pubannotation.org/docs/sourcedb/PMC/sourceid/3062687/divs/22",
+      "namespaces" : {
+        "prefix" : [ "_base" ],
+        "uri" : [ "http://bionlp.dbcls.jp/ontology/ge.owl#" ]
+      }
+    },
+    "text" : {
+      "@value" : "Immunoprecipitation and immunoblot\nThe cells were harvested and lysed on ice by 0.4 ml of the modified RIPA buffer (50 mM Tris-HCl [pH 7.4], 1% NP-40, 0.25% Na-deoxycholate, 150 mM NaCl, 1 mM EDTA, 1 mM PMSF, 1 mM Na3VO4, 1 mM NaF) supplemented with 1 × protease inhibitor cocktail (Roche) and 1 × phosphatase inhibitor cocktail set I (EMD Biosciences) for 30 min. The lysates were centrifuged at 10,000 × g at 4 °C for 10 min to remove insoluble material. After normalizing protein concentrations, lysates were subjected to immunoprecipitation by adding 10 mg/ml appropriate antibody plus 30 ml of protein G-agarose (Roche), and rotated for at least 2 h at 4°C. The precipitates were washed at least five times with cold lysis buffer followed by separation by SDS-PAGE under reduced and denaturing conditions. Nitrocellulose membranes were blocked in 5 % nonfat milk in 0.1 % PBS-Tween 20 (PBS-T), probed with specific antibodies as described previously6. For immunoblotting of phosphorylated proteins, gels were transferred to methanol-treated polyvinylidene chloride membranes, retreated with methanol, and dried for 30 min. Blots were blocked in 5 % bovine serum albumin in 0.1 % Tris buffered saline-Tween 20 (TBS-T), and probed with specific antibodies as described previously46. Bands were imaged by the Super Signaling system (Pierce) according to the manufacturer's instructions."
+    },
+    "views" : [ {
+      "id" : "tokens",
+      "metadata" : {
+        "contains" : {
+          "http://vocab.lappsgrid.org/Token" : {
+            "producer" : "edu.vassar.cs.eurolan.factories.TokenFactory",
+            "type" : "bionlp"
+          },
+          "http://vocab.lappsgrid.org/Token#pos" : {
+            "producer" : "edu.vassar.cs.eurolan.factories.TokenFactory",
+            "type" : "bionlp"
+          },
+          "http://vocab.lappsgrid.org/Relation" : {
+            "producer" : "edu.vassar.cs.eurolan.factories.TokenFactory",
+            "type" : "bionlp"
+          }
+        }
+      },
+      "annotations" : [ {
+        "id" : "enju_T0",
+        "start" : 0,
+        "end" : 19,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T1",
+        "start" : 20,
+        "end" : 23,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "CC"
+        }
+      }, {
+        "id" : "enju_T2",
+        "start" : 24,
+        "end" : 34,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T3",
+        "start" : 35,
+        "end" : 38,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "DT"
+        }
+      }, {
+        "id" : "enju_T4",
+        "start" : 39,
+        "end" : 44,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T5",
+        "start" : 45,
+        "end" : 49,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "VB"
+        }
+      }, {
+        "id" : "enju_T6",
+        "start" : 50,
+        "end" : 59,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "VB"
+        }
+      }, {
+        "id" : "enju_T7",
+        "start" : 60,
+        "end" : 63,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "CC"
+        }
+      }, {
+        "id" : "enju_T8",
+        "start" : 64,
+        "end" : 69,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "VB"
+        }
+      }, {
+        "id" : "enju_T9",
+        "start" : 70,
+        "end" : 72,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "IN"
+        }
+      }, {
+        "id" : "enju_T10",
+        "start" : 73,
+        "end" : 76,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T11",
+        "start" : 77,
+        "end" : 79,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "IN"
+        }
+      }, {
+        "id" : "enju_T12",
+        "start" : 80,
+        "end" : 83,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "CD"
+        }
+      }, {
+        "id" : "enju_T13",
+        "start" : 84,
+        "end" : 86,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T14",
+        "start" : 87,
+        "end" : 89,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "IN"
+        }
+      }, {
+        "id" : "enju_T15",
+        "start" : 90,
+        "end" : 93,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "DT"
+        }
+      }, {
+        "id" : "enju_T16",
+        "start" : 94,
+        "end" : 102,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "VB"
+        }
+      }, {
+        "id" : "enju_T17",
+        "start" : 103,
+        "end" : 107,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T18",
+        "start" : 108,
+        "end" : 114,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T19",
+        "start" : 115,
+        "end" : 116,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "-LRB-"
+        }
+      }, {
+        "id" : "enju_T20",
+        "start" : 116,
+        "end" : 118,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "CD"
+        }
+      }, {
+        "id" : "enju_T21",
+        "start" : 119,
+        "end" : 121,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T22",
+        "start" : 122,
+        "end" : 130,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T23",
+        "start" : 131,
+        "end" : 132,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "-LRB-"
+        }
+      }, {
+        "id" : "enju_T24",
+        "start" : 132,
+        "end" : 134,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T25",
+        "start" : 135,
+        "end" : 138,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "CD"
+        }
+      }, {
+        "id" : "enju_T26",
+        "start" : 138,
+        "end" : 139,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "-RRB-"
+        }
+      }, {
+        "id" : "enju_T27",
+        "start" : 139,
+        "end" : 140,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "-COMMA-"
+        }
+      }, {
+        "id" : "enju_T28",
+        "start" : 141,
+        "end" : 142,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "CD"
+        }
+      }, {
+        "id" : "enju_T29",
+        "start" : 142,
+        "end" : 143,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T30",
+        "start" : 144,
+        "end" : 149,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T31",
+        "start" : 149,
+        "end" : 150,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "-COMMA-"
+        }
+      }, {
+        "id" : "enju_T32",
+        "start" : 151,
+        "end" : 155,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "CD"
+        }
+      }, {
+        "id" : "enju_T33",
+        "start" : 155,
+        "end" : 156,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T34",
+        "start" : 157,
+        "end" : 172,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "JJ"
+        }
+      }, {
+        "id" : "enju_T35",
+        "start" : 172,
+        "end" : 173,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "-COMMA-"
+        }
+      }, {
+        "id" : "enju_T36",
+        "start" : 174,
+        "end" : 177,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "CD"
+        }
+      }, {
+        "id" : "enju_T37",
+        "start" : 178,
+        "end" : 180,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T38",
+        "start" : 181,
+        "end" : 185,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T39",
+        "start" : 185,
+        "end" : 186,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "-COMMA-"
+        }
+      }, {
+        "id" : "enju_T40",
+        "start" : 187,
+        "end" : 188,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "CD"
+        }
+      }, {
+        "id" : "enju_T41",
+        "start" : 189,
+        "end" : 191,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T42",
+        "start" : 192,
+        "end" : 196,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T43",
+        "start" : 196,
+        "end" : 197,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "-COMMA-"
+        }
+      }, {
+        "id" : "enju_T44",
+        "start" : 198,
+        "end" : 199,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "CD"
+        }
+      }, {
+        "id" : "enju_T45",
+        "start" : 200,
+        "end" : 202,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T46",
+        "start" : 203,
+        "end" : 207,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T47",
+        "start" : 207,
+        "end" : 208,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "-COMMA-"
+        }
+      }, {
+        "id" : "enju_T48",
+        "start" : 209,
+        "end" : 210,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "CD"
+        }
+      }, {
+        "id" : "enju_T49",
+        "start" : 211,
+        "end" : 213,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T50",
+        "start" : 214,
+        "end" : 220,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T51",
+        "start" : 220,
+        "end" : 221,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "-COMMA-"
+        }
+      }, {
+        "id" : "enju_T52",
+        "start" : 222,
+        "end" : 223,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "CD"
+        }
+      }, {
+        "id" : "enju_T53",
+        "start" : 224,
+        "end" : 226,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T54",
+        "start" : 227,
+        "end" : 230,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T55",
+        "start" : 230,
+        "end" : 231,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "-RRB-"
+        }
+      }, {
+        "id" : "enju_T56",
+        "start" : 232,
+        "end" : 244,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "VB"
+        }
+      }, {
+        "id" : "enju_T57",
+        "start" : 245,
+        "end" : 249,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "IN"
+        }
+      }, {
+        "id" : "enju_T58",
+        "start" : 250,
+        "end" : 251,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "CD"
+        }
+      }, {
+        "id" : "enju_T59",
+        "start" : 252,
+        "end" : 253,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "SYM"
+        }
+      }, {
+        "id" : "enju_T60",
+        "start" : 254,
+        "end" : 262,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T61",
+        "start" : 263,
+        "end" : 272,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T62",
+        "start" : 273,
+        "end" : 281,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T63",
+        "start" : 282,
+        "end" : 283,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "-LRB-"
+        }
+      }, {
+        "id" : "enju_T64",
+        "start" : 283,
+        "end" : 288,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T65",
+        "start" : 288,
+        "end" : 289,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "-RRB-"
+        }
+      }, {
+        "id" : "enju_T66",
+        "start" : 290,
+        "end" : 293,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "CC"
+        }
+      }, {
+        "id" : "enju_T67",
+        "start" : 294,
+        "end" : 295,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "CD"
+        }
+      }, {
+        "id" : "enju_T68",
+        "start" : 296,
+        "end" : 297,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "CC"
+        }
+      }, {
+        "id" : "enju_T69",
+        "start" : 298,
+        "end" : 309,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T70",
+        "start" : 310,
+        "end" : 319,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T71",
+        "start" : 320,
+        "end" : 328,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T72",
+        "start" : 329,
+        "end" : 332,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T73",
+        "start" : 333,
+        "end" : 334,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "CD"
+        }
+      }, {
+        "id" : "enju_T74",
+        "start" : 335,
+        "end" : 336,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "-LRB-"
+        }
+      }, {
+        "id" : "enju_T75",
+        "start" : 336,
+        "end" : 339,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NNP"
+        }
+      }, {
+        "id" : "enju_T76",
+        "start" : 340,
+        "end" : 351,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NNP"
+        }
+      }, {
+        "id" : "enju_T77",
+        "start" : 351,
+        "end" : 352,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "-RRB-"
+        }
+      }, {
+        "id" : "enju_T78",
+        "start" : 353,
+        "end" : 356,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "IN"
+        }
+      }, {
+        "id" : "enju_T79",
+        "start" : 357,
+        "end" : 359,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "CD"
+        }
+      }, {
+        "id" : "enju_T80",
+        "start" : 360,
+        "end" : 363,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T81",
+        "start" : 365,
+        "end" : 368,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "DT"
+        }
+      }, {
+        "id" : "enju_T82",
+        "start" : 369,
+        "end" : 376,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T83",
+        "start" : 377,
+        "end" : 381,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "VB"
+        }
+      }, {
+        "id" : "enju_T84",
+        "start" : 382,
+        "end" : 393,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "VB"
+        }
+      }, {
+        "id" : "enju_T85",
+        "start" : 394,
+        "end" : 396,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "IN"
+        }
+      }, {
+        "id" : "enju_T86",
+        "start" : 397,
+        "end" : 403,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "CD"
+        }
+      }, {
+        "id" : "enju_T87",
+        "start" : 404,
+        "end" : 405,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "SYM"
+        }
+      }, {
+        "id" : "enju_T88",
+        "start" : 406,
+        "end" : 407,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T89",
+        "start" : 408,
+        "end" : 410,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "IN"
+        }
+      }, {
+        "id" : "enju_T90",
+        "start" : 411,
+        "end" : 412,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "CD"
+        }
+      }, {
+        "id" : "enju_T91",
+        "start" : 413,
+        "end" : 415,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T92",
+        "start" : 416,
+        "end" : 419,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "IN"
+        }
+      }, {
+        "id" : "enju_T93",
+        "start" : 420,
+        "end" : 422,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "CD"
+        }
+      }, {
+        "id" : "enju_T94",
+        "start" : 423,
+        "end" : 426,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T95",
+        "start" : 427,
+        "end" : 429,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "TO"
+        }
+      }, {
+        "id" : "enju_T96",
+        "start" : 430,
+        "end" : 436,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "VB"
+        }
+      }, {
+        "id" : "enju_T97",
+        "start" : 437,
+        "end" : 446,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "JJ"
+        }
+      }, {
+        "id" : "enju_T98",
+        "start" : 447,
+        "end" : 455,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T99",
+        "start" : 457,
+        "end" : 462,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "IN"
+        }
+      }, {
+        "id" : "enju_T100",
+        "start" : 463,
+        "end" : 474,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "VB"
+        }
+      }, {
+        "id" : "enju_T101",
+        "start" : 475,
+        "end" : 482,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T102",
+        "start" : 483,
+        "end" : 497,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T103",
+        "start" : 497,
+        "end" : 498,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "-COMMA-"
+        }
+      }, {
+        "id" : "enju_T104",
+        "start" : 499,
+        "end" : 506,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T105",
+        "start" : 507,
+        "end" : 511,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "VB"
+        }
+      }, {
+        "id" : "enju_T106",
+        "start" : 512,
+        "end" : 521,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "VB"
+        }
+      }, {
+        "id" : "enju_T107",
+        "start" : 522,
+        "end" : 524,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "TO"
+        }
+      }, {
+        "id" : "enju_T108",
+        "start" : 525,
+        "end" : 544,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T109",
+        "start" : 545,
+        "end" : 547,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "IN"
+        }
+      }, {
+        "id" : "enju_T110",
+        "start" : 548,
+        "end" : 554,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "VB"
+        }
+      }, {
+        "id" : "enju_T111",
+        "start" : 555,
+        "end" : 557,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "CD"
+        }
+      }, {
+        "id" : "enju_T112",
+        "start" : 558,
+        "end" : 563,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T113",
+        "start" : 564,
+        "end" : 575,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "JJ"
+        }
+      }, {
+        "id" : "enju_T114",
+        "start" : 576,
+        "end" : 584,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T115",
+        "start" : 585,
+        "end" : 589,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "CC"
+        }
+      }, {
+        "id" : "enju_T116",
+        "start" : 590,
+        "end" : 592,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "CD"
+        }
+      }, {
+        "id" : "enju_T117",
+        "start" : 593,
+        "end" : 595,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T118",
+        "start" : 596,
+        "end" : 598,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "IN"
+        }
+      }, {
+        "id" : "enju_T119",
+        "start" : 599,
+        "end" : 606,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T120",
+        "start" : 607,
+        "end" : 616,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T121",
+        "start" : 617,
+        "end" : 618,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "-LRB-"
+        }
+      }, {
+        "id" : "enju_T122",
+        "start" : 618,
+        "end" : 623,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NNP"
+        }
+      }, {
+        "id" : "enju_T123",
+        "start" : 623,
+        "end" : 624,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "-RRB-"
+        }
+      }, {
+        "id" : "enju_T124",
+        "start" : 624,
+        "end" : 625,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "-COMMA-"
+        }
+      }, {
+        "id" : "enju_T125",
+        "start" : 626,
+        "end" : 629,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "CC"
+        }
+      }, {
+        "id" : "enju_T126",
+        "start" : 630,
+        "end" : 637,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "VB"
+        }
+      }, {
+        "id" : "enju_T127",
+        "start" : 638,
+        "end" : 641,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "IN"
+        }
+      }, {
+        "id" : "enju_T128",
+        "start" : 642,
+        "end" : 644,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "IN"
+        }
+      }, {
+        "id" : "enju_T129",
+        "start" : 645,
+        "end" : 650,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "JJ"
+        }
+      }, {
+        "id" : "enju_T130",
+        "start" : 651,
+        "end" : 652,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "CD"
+        }
+      }, {
+        "id" : "enju_T131",
+        "start" : 653,
+        "end" : 654,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T132",
+        "start" : 655,
+        "end" : 657,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "IN"
+        }
+      }, {
+        "id" : "enju_T133",
+        "start" : 658,
+        "end" : 662,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NNP"
+        }
+      }, {
+        "id" : "enju_T134",
+        "start" : 663,
+        "end" : 666,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "DT"
+        }
+      }, {
+        "id" : "enju_T135",
+        "start" : 667,
+        "end" : 679,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T136",
+        "start" : 680,
+        "end" : 684,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "VB"
+        }
+      }, {
+        "id" : "enju_T137",
+        "start" : 685,
+        "end" : 691,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "VB"
+        }
+      }, {
+        "id" : "enju_T138",
+        "start" : 692,
+        "end" : 694,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "IN"
+        }
+      }, {
+        "id" : "enju_T139",
+        "start" : 695,
+        "end" : 700,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "JJ"
+        }
+      }, {
+        "id" : "enju_T140",
+        "start" : 701,
+        "end" : 705,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "CD"
+        }
+      }, {
+        "id" : "enju_T141",
+        "start" : 706,
+        "end" : 711,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T142",
+        "start" : 712,
+        "end" : 716,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "IN"
+        }
+      }, {
+        "id" : "enju_T143",
+        "start" : 717,
+        "end" : 721,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "JJ"
+        }
+      }, {
+        "id" : "enju_T144",
+        "start" : 722,
+        "end" : 727,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T145",
+        "start" : 728,
+        "end" : 734,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T146",
+        "start" : 735,
+        "end" : 743,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "VB"
+        }
+      }, {
+        "id" : "enju_T147",
+        "start" : 744,
+        "end" : 746,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "IN"
+        }
+      }, {
+        "id" : "enju_T148",
+        "start" : 747,
+        "end" : 757,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T149",
+        "start" : 758,
+        "end" : 760,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "IN"
+        }
+      }, {
+        "id" : "enju_T150",
+        "start" : 761,
+        "end" : 769,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T151",
+        "start" : 770,
+        "end" : 775,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "IN"
+        }
+      }, {
+        "id" : "enju_T152",
+        "start" : 776,
+        "end" : 783,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "VB"
+        }
+      }, {
+        "id" : "enju_T153",
+        "start" : 784,
+        "end" : 787,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "CC"
+        }
+      }, {
+        "id" : "enju_T154",
+        "start" : 788,
+        "end" : 798,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "VB"
+        }
+      }, {
+        "id" : "enju_T155",
+        "start" : 799,
+        "end" : 809,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T156",
+        "start" : 811,
+        "end" : 825,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T157",
+        "start" : 826,
+        "end" : 835,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T158",
+        "start" : 836,
+        "end" : 840,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "VB"
+        }
+      }, {
+        "id" : "enju_T159",
+        "start" : 841,
+        "end" : 848,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "VB"
+        }
+      }, {
+        "id" : "enju_T160",
+        "start" : 849,
+        "end" : 851,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "IN"
+        }
+      }, {
+        "id" : "enju_T161",
+        "start" : 852,
+        "end" : 853,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "CD"
+        }
+      }, {
+        "id" : "enju_T162",
+        "start" : 854,
+        "end" : 855,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T163",
+        "start" : 856,
+        "end" : 862,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "JJ"
+        }
+      }, {
+        "id" : "enju_T164",
+        "start" : 863,
+        "end" : 867,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T165",
+        "start" : 868,
+        "end" : 870,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "IN"
+        }
+      }, {
+        "id" : "enju_T166",
+        "start" : 871,
+        "end" : 874,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "CD"
+        }
+      }, {
+        "id" : "enju_T167",
+        "start" : 875,
+        "end" : 876,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T168",
+        "start" : 877,
+        "end" : 886,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "JJ"
+        }
+      }, {
+        "id" : "enju_T169",
+        "start" : 887,
+        "end" : 889,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "CD"
+        }
+      }, {
+        "id" : "enju_T170",
+        "start" : 890,
+        "end" : 891,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "-LRB-"
+        }
+      }, {
+        "id" : "enju_T171",
+        "start" : 891,
+        "end" : 896,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T172",
+        "start" : 896,
+        "end" : 897,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "-RRB-"
+        }
+      }, {
+        "id" : "enju_T173",
+        "start" : 897,
+        "end" : 898,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "-COMMA-"
+        }
+      }, {
+        "id" : "enju_T174",
+        "start" : 899,
+        "end" : 905,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "VB"
+        }
+      }, {
+        "id" : "enju_T175",
+        "start" : 906,
+        "end" : 910,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "IN"
+        }
+      }, {
+        "id" : "enju_T176",
+        "start" : 911,
+        "end" : 919,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "JJ"
+        }
+      }, {
+        "id" : "enju_T177",
+        "start" : 920,
+        "end" : 930,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T178",
+        "start" : 931,
+        "end" : 933,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "IN"
+        }
+      }, {
+        "id" : "enju_T179",
+        "start" : 934,
+        "end" : 943,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "VB"
+        }
+      }, {
+        "id" : "enju_T180",
+        "start" : 944,
+        "end" : 955,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T181",
+        "start" : 957,
+        "end" : 960,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "IN"
+        }
+      }, {
+        "id" : "enju_T182",
+        "start" : 961,
+        "end" : 975,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T183",
+        "start" : 976,
+        "end" : 978,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "IN"
+        }
+      }, {
+        "id" : "enju_T184",
+        "start" : 979,
+        "end" : 993,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "VB"
+        }
+      }, {
+        "id" : "enju_T185",
+        "start" : 994,
+        "end" : 1002,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T186",
+        "start" : 1002,
+        "end" : 1003,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "-COMMA-"
+        }
+      }, {
+        "id" : "enju_T187",
+        "start" : 1004,
+        "end" : 1008,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T188",
+        "start" : 1009,
+        "end" : 1013,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "VB"
+        }
+      }, {
+        "id" : "enju_T189",
+        "start" : 1014,
+        "end" : 1025,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "VB"
+        }
+      }, {
+        "id" : "enju_T190",
+        "start" : 1026,
+        "end" : 1028,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "TO"
+        }
+      }, {
+        "id" : "enju_T191",
+        "start" : 1029,
+        "end" : 1045,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "JJ"
+        }
+      }, {
+        "id" : "enju_T192",
+        "start" : 1046,
+        "end" : 1060,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T193",
+        "start" : 1061,
+        "end" : 1069,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T194",
+        "start" : 1070,
+        "end" : 1079,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T195",
+        "start" : 1079,
+        "end" : 1080,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "-COMMA-"
+        }
+      }, {
+        "id" : "enju_T196",
+        "start" : 1081,
+        "end" : 1090,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "VB"
+        }
+      }, {
+        "id" : "enju_T197",
+        "start" : 1091,
+        "end" : 1095,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "IN"
+        }
+      }, {
+        "id" : "enju_T198",
+        "start" : 1096,
+        "end" : 1104,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T199",
+        "start" : 1104,
+        "end" : 1105,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "-COMMA-"
+        }
+      }, {
+        "id" : "enju_T200",
+        "start" : 1106,
+        "end" : 1109,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "CC"
+        }
+      }, {
+        "id" : "enju_T201",
+        "start" : 1110,
+        "end" : 1115,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "VB"
+        }
+      }, {
+        "id" : "enju_T202",
+        "start" : 1116,
+        "end" : 1119,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "IN"
+        }
+      }, {
+        "id" : "enju_T203",
+        "start" : 1120,
+        "end" : 1122,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "CD"
+        }
+      }, {
+        "id" : "enju_T204",
+        "start" : 1123,
+        "end" : 1126,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T205",
+        "start" : 1128,
+        "end" : 1133,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T206",
+        "start" : 1134,
+        "end" : 1138,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "VB"
+        }
+      }, {
+        "id" : "enju_T207",
+        "start" : 1139,
+        "end" : 1146,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "VB"
+        }
+      }, {
+        "id" : "enju_T208",
+        "start" : 1147,
+        "end" : 1149,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "IN"
+        }
+      }, {
+        "id" : "enju_T209",
+        "start" : 1150,
+        "end" : 1151,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "CD"
+        }
+      }, {
+        "id" : "enju_T210",
+        "start" : 1152,
+        "end" : 1153,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T211",
+        "start" : 1154,
+        "end" : 1160,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "JJ"
+        }
+      }, {
+        "id" : "enju_T212",
+        "start" : 1161,
+        "end" : 1166,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T213",
+        "start" : 1167,
+        "end" : 1174,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T214",
+        "start" : 1175,
+        "end" : 1177,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "IN"
+        }
+      }, {
+        "id" : "enju_T215",
+        "start" : 1178,
+        "end" : 1181,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "CD"
+        }
+      }, {
+        "id" : "enju_T216",
+        "start" : 1182,
+        "end" : 1183,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T217",
+        "start" : 1184,
+        "end" : 1188,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NNP"
+        }
+      }, {
+        "id" : "enju_T218",
+        "start" : 1189,
+        "end" : 1197,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "VB"
+        }
+      }, {
+        "id" : "enju_T219",
+        "start" : 1198,
+        "end" : 1210,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "JJ"
+        }
+      }, {
+        "id" : "enju_T220",
+        "start" : 1211,
+        "end" : 1213,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "CD"
+        }
+      }, {
+        "id" : "enju_T221",
+        "start" : 1214,
+        "end" : 1215,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "-LRB-"
+        }
+      }, {
+        "id" : "enju_T222",
+        "start" : 1215,
+        "end" : 1220,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T223",
+        "start" : 1220,
+        "end" : 1221,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "-RRB-"
+        }
+      }, {
+        "id" : "enju_T224",
+        "start" : 1221,
+        "end" : 1222,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "-COMMA-"
+        }
+      }, {
+        "id" : "enju_T225",
+        "start" : 1223,
+        "end" : 1226,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "CC"
+        }
+      }, {
+        "id" : "enju_T226",
+        "start" : 1227,
+        "end" : 1233,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "VB"
+        }
+      }, {
+        "id" : "enju_T227",
+        "start" : 1234,
+        "end" : 1238,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "IN"
+        }
+      }, {
+        "id" : "enju_T228",
+        "start" : 1239,
+        "end" : 1247,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "JJ"
+        }
+      }, {
+        "id" : "enju_T229",
+        "start" : 1248,
+        "end" : 1258,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T230",
+        "start" : 1259,
+        "end" : 1261,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "IN"
+        }
+      }, {
+        "id" : "enju_T231",
+        "start" : 1262,
+        "end" : 1271,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "VB"
+        }
+      }, {
+        "id" : "enju_T232",
+        "start" : 1272,
+        "end" : 1284,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T233",
+        "start" : 1286,
+        "end" : 1291,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T234",
+        "start" : 1292,
+        "end" : 1296,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "VB"
+        }
+      }, {
+        "id" : "enju_T235",
+        "start" : 1297,
+        "end" : 1303,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "VB"
+        }
+      }, {
+        "id" : "enju_T236",
+        "start" : 1304,
+        "end" : 1306,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "IN"
+        }
+      }, {
+        "id" : "enju_T237",
+        "start" : 1307,
+        "end" : 1310,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "DT"
+        }
+      }, {
+        "id" : "enju_T238",
+        "start" : 1311,
+        "end" : 1316,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NNP"
+        }
+      }, {
+        "id" : "enju_T239",
+        "start" : 1317,
+        "end" : 1326,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T240",
+        "start" : 1327,
+        "end" : 1333,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T241",
+        "start" : 1334,
+        "end" : 1335,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "-LRB-"
+        }
+      }, {
+        "id" : "enju_T242",
+        "start" : 1335,
+        "end" : 1341,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T243",
+        "start" : 1341,
+        "end" : 1342,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "-RRB-"
+        }
+      }, {
+        "id" : "enju_T244",
+        "start" : 1343,
+        "end" : 1352,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "VB"
+        }
+      }, {
+        "id" : "enju_T245",
+        "start" : 1353,
+        "end" : 1355,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "TO"
+        }
+      }, {
+        "id" : "enju_T246",
+        "start" : 1356,
+        "end" : 1359,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "DT"
+        }
+      }, {
+        "id" : "enju_T247",
+        "start" : 1360,
+        "end" : 1372,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_T248",
+        "start" : 1372,
+        "end" : 1374,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "POS"
+        }
+      }, {
+        "id" : "enju_T249",
+        "start" : 1375,
+        "end" : 1387,
+        "@type" : "http://vocab.lappsgrid.org/Token",
+        "label" : "Token",
+        "features" : {
+          "pos" : "NN"
+        }
+      }, {
+        "id" : "enju_R0",
+        "start" : 20,
+        "end" : 23,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T0",
+          "obj" : "enju_T1"
+        }
+      }, {
+        "id" : "enju_R1",
+        "start" : 20,
+        "end" : 23,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T2",
+          "obj" : "enju_T1"
+        }
+      }, {
+        "id" : "enju_R10",
+        "start" : 70,
+        "end" : 72,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T10",
+          "obj" : "enju_T9"
+        }
+      }, {
+        "id" : "enju_R100",
+        "start" : 430,
+        "end" : 436,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T98",
+          "obj" : "enju_T96"
+        }
+      }, {
+        "id" : "enju_R101",
+        "start" : 437,
+        "end" : 446,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T98",
+          "obj" : "enju_T97"
+        }
+      }, {
+        "id" : "enju_R102",
+        "start" : 457,
+        "end" : 462,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T125",
+          "obj" : "enju_T99"
+        }
+      }, {
+        "id" : "enju_R103",
+        "start" : 457,
+        "end" : 462,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T100",
+          "obj" : "enju_T99"
+        }
+      }, {
+        "id" : "enju_R104",
+        "start" : 463,
+        "end" : 474,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T104",
+          "obj" : "enju_T100"
+        }
+      }, {
+        "id" : "enju_R105",
+        "start" : 463,
+        "end" : 474,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T102",
+          "obj" : "enju_T100"
+        }
+      }, {
+        "id" : "enju_R106",
+        "start" : 475,
+        "end" : 482,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T102",
+          "obj" : "enju_T101"
+        }
+      }, {
+        "id" : "enju_R107",
+        "start" : 497,
+        "end" : 498,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T125",
+          "obj" : "enju_T103"
+        }
+      }, {
+        "id" : "enju_R108",
+        "start" : 507,
+        "end" : 511,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T104",
+          "obj" : "enju_T105"
+        }
+      }, {
+        "id" : "enju_R109",
+        "start" : 507,
+        "end" : 511,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T125",
+          "obj" : "enju_T105"
+        }
+      }, {
+        "id" : "enju_R11",
+        "start" : 77,
+        "end" : 79,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T8",
+          "obj" : "enju_T11"
+        }
+      }, {
+        "id" : "enju_R110",
+        "start" : 512,
+        "end" : 521,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T104",
+          "obj" : "enju_T106"
+        }
+      }, {
+        "id" : "enju_R111",
+        "start" : 522,
+        "end" : 524,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T106",
+          "obj" : "enju_T107"
+        }
+      }, {
+        "id" : "enju_R112",
+        "start" : 522,
+        "end" : 524,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T108",
+          "obj" : "enju_T107"
+        }
+      }, {
+        "id" : "enju_R113",
+        "start" : 545,
+        "end" : 547,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T106",
+          "obj" : "enju_T109"
+        }
+      }, {
+        "id" : "enju_R114",
+        "start" : 545,
+        "end" : 547,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T110",
+          "obj" : "enju_T109"
+        }
+      }, {
+        "id" : "enju_R115",
+        "start" : 548,
+        "end" : 554,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T104",
+          "obj" : "enju_T110"
+        }
+      }, {
+        "id" : "enju_R116",
+        "start" : 548,
+        "end" : 554,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T115",
+          "obj" : "enju_T110"
+        }
+      }, {
+        "id" : "enju_R117",
+        "start" : 555,
+        "end" : 557,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T114",
+          "obj" : "enju_T111"
+        }
+      }, {
+        "id" : "enju_R118",
+        "start" : 558,
+        "end" : 563,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T114",
+          "obj" : "enju_T112"
+        }
+      }, {
+        "id" : "enju_R119",
+        "start" : 564,
+        "end" : 575,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T114",
+          "obj" : "enju_T113"
+        }
+      }, {
+        "id" : "enju_R12",
+        "start" : 77,
+        "end" : 79,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T13",
+          "obj" : "enju_T11"
+        }
+      }, {
+        "id" : "enju_R120",
+        "start" : 585,
+        "end" : 589,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T114",
+          "obj" : "enju_T115"
+        }
+      }, {
+        "id" : "enju_R121",
+        "start" : 585,
+        "end" : 589,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T117",
+          "obj" : "enju_T115"
+        }
+      }, {
+        "id" : "enju_R122",
+        "start" : 590,
+        "end" : 592,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T117",
+          "obj" : "enju_T116"
+        }
+      }, {
+        "id" : "enju_R123",
+        "start" : 596,
+        "end" : 598,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T117",
+          "obj" : "enju_T118"
+        }
+      }, {
+        "id" : "enju_R124",
+        "start" : 596,
+        "end" : 598,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T120",
+          "obj" : "enju_T118"
+        }
+      }, {
+        "id" : "enju_R125",
+        "start" : 599,
+        "end" : 606,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T120",
+          "obj" : "enju_T119"
+        }
+      }, {
+        "id" : "enju_R126",
+        "start" : 617,
+        "end" : 618,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T110",
+          "obj" : "enju_T121"
+        }
+      }, {
+        "id" : "enju_R127",
+        "start" : 617,
+        "end" : 618,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T122",
+          "obj" : "enju_T121"
+        }
+      }, {
+        "id" : "enju_R128",
+        "start" : 617,
+        "end" : 618,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg3Of",
+        "features" : {
+          "pred" : "arg3Of",
+          "subj" : "enju_T123",
+          "obj" : "enju_T121"
+        }
+      }, {
+        "id" : "enju_R129",
+        "start" : 624,
+        "end" : 625,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T125",
+          "obj" : "enju_T124"
+        }
+      }, {
+        "id" : "enju_R13",
+        "start" : 80,
+        "end" : 83,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T13",
+          "obj" : "enju_T12"
+        }
+      }, {
+        "id" : "enju_R130",
+        "start" : 626,
+        "end" : 629,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T106",
+          "obj" : "enju_T125"
+        }
+      }, {
+        "id" : "enju_R131",
+        "start" : 626,
+        "end" : 629,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T126",
+          "obj" : "enju_T125"
+        }
+      }, {
+        "id" : "enju_R132",
+        "start" : 630,
+        "end" : 637,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T104",
+          "obj" : "enju_T126"
+        }
+      }, {
+        "id" : "enju_R133",
+        "start" : 638,
+        "end" : 641,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T126",
+          "obj" : "enju_T127"
+        }
+      }, {
+        "id" : "enju_R134",
+        "start" : 638,
+        "end" : 641,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T131",
+          "obj" : "enju_T127"
+        }
+      }, {
+        "id" : "enju_R135",
+        "start" : 642,
+        "end" : 644,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T130",
+          "obj" : "enju_T128"
+        }
+      }, {
+        "id" : "enju_R136",
+        "start" : 645,
+        "end" : 650,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T130",
+          "obj" : "enju_T129"
+        }
+      }, {
+        "id" : "enju_R137",
+        "start" : 651,
+        "end" : 652,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T131",
+          "obj" : "enju_T130"
+        }
+      }, {
+        "id" : "enju_R138",
+        "start" : 655,
+        "end" : 657,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T131",
+          "obj" : "enju_T132"
+        }
+      }, {
+        "id" : "enju_R139",
+        "start" : 655,
+        "end" : 657,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T133",
+          "obj" : "enju_T132"
+        }
+      }, {
+        "id" : "enju_R14",
+        "start" : 87,
+        "end" : 89,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T13",
+          "obj" : "enju_T14"
+        }
+      }, {
+        "id" : "enju_R140",
+        "start" : 663,
+        "end" : 666,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T135",
+          "obj" : "enju_T134"
+        }
+      }, {
+        "id" : "enju_R141",
+        "start" : 680,
+        "end" : 684,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "modOf",
+        "features" : {
+          "pred" : "modOf",
+          "subj" : "enju_T133",
+          "obj" : "enju_T136"
+        }
+      }, {
+        "id" : "enju_R142",
+        "start" : 680,
+        "end" : 684,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T135",
+          "obj" : "enju_T136"
+        }
+      }, {
+        "id" : "enju_R143",
+        "start" : 680,
+        "end" : 684,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T137",
+          "obj" : "enju_T136"
+        }
+      }, {
+        "id" : "enju_R144",
+        "start" : 685,
+        "end" : 691,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T135",
+          "obj" : "enju_T137"
+        }
+      }, {
+        "id" : "enju_R145",
+        "start" : 692,
+        "end" : 694,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T140",
+          "obj" : "enju_T138"
+        }
+      }, {
+        "id" : "enju_R146",
+        "start" : 695,
+        "end" : 700,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T140",
+          "obj" : "enju_T139"
+        }
+      }, {
+        "id" : "enju_R147",
+        "start" : 701,
+        "end" : 705,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T141",
+          "obj" : "enju_T140"
+        }
+      }, {
+        "id" : "enju_R148",
+        "start" : 706,
+        "end" : 711,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T126",
+          "obj" : "enju_T141"
+        }
+      }, {
+        "id" : "enju_R149",
+        "start" : 712,
+        "end" : 716,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T141",
+          "obj" : "enju_T142"
+        }
+      }, {
+        "id" : "enju_R15",
+        "start" : 87,
+        "end" : 89,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T18",
+          "obj" : "enju_T14"
+        }
+      }, {
+        "id" : "enju_R150",
+        "start" : 712,
+        "end" : 716,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T145",
+          "obj" : "enju_T142"
+        }
+      }, {
+        "id" : "enju_R151",
+        "start" : 717,
+        "end" : 721,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T145",
+          "obj" : "enju_T143"
+        }
+      }, {
+        "id" : "enju_R152",
+        "start" : 722,
+        "end" : 727,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T145",
+          "obj" : "enju_T144"
+        }
+      }, {
+        "id" : "enju_R153",
+        "start" : 735,
+        "end" : 743,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T150",
+          "obj" : "enju_T146"
+        }
+      }, {
+        "id" : "enju_R154",
+        "start" : 735,
+        "end" : 743,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T145",
+          "obj" : "enju_T146"
+        }
+      }, {
+        "id" : "enju_R155",
+        "start" : 744,
+        "end" : 746,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T146",
+          "obj" : "enju_T147"
+        }
+      }, {
+        "id" : "enju_R156",
+        "start" : 744,
+        "end" : 746,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T148",
+          "obj" : "enju_T147"
+        }
+      }, {
+        "id" : "enju_R157",
+        "start" : 758,
+        "end" : 760,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T150",
+          "obj" : "enju_T149"
+        }
+      }, {
+        "id" : "enju_R158",
+        "start" : 770,
+        "end" : 775,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T146",
+          "obj" : "enju_T151"
+        }
+      }, {
+        "id" : "enju_R159",
+        "start" : 770,
+        "end" : 775,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T155",
+          "obj" : "enju_T151"
+        }
+      }, {
+        "id" : "enju_R16",
+        "start" : 90,
+        "end" : 93,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T18",
+          "obj" : "enju_T15"
+        }
+      }, {
+        "id" : "enju_R160",
+        "start" : 776,
+        "end" : 783,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T155",
+          "obj" : "enju_T152"
+        }
+      }, {
+        "id" : "enju_R161",
+        "start" : 784,
+        "end" : 787,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T155",
+          "obj" : "enju_T153"
+        }
+      }, {
+        "id" : "enju_R162",
+        "start" : 788,
+        "end" : 798,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T155",
+          "obj" : "enju_T154"
+        }
+      }, {
+        "id" : "enju_R163",
+        "start" : 811,
+        "end" : 825,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T157",
+          "obj" : "enju_T156"
+        }
+      }, {
+        "id" : "enju_R164",
+        "start" : 836,
+        "end" : 840,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T157",
+          "obj" : "enju_T158"
+        }
+      }, {
+        "id" : "enju_R165",
+        "start" : 836,
+        "end" : 840,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T159",
+          "obj" : "enju_T158"
+        }
+      }, {
+        "id" : "enju_R166",
+        "start" : 841,
+        "end" : 848,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T157",
+          "obj" : "enju_T159"
+        }
+      }, {
+        "id" : "enju_R167",
+        "start" : 849,
+        "end" : 851,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T159",
+          "obj" : "enju_T160"
+        }
+      }, {
+        "id" : "enju_R168",
+        "start" : 849,
+        "end" : 851,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T164",
+          "obj" : "enju_T160"
+        }
+      }, {
+        "id" : "enju_R169",
+        "start" : 852,
+        "end" : 853,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T164",
+          "obj" : "enju_T161"
+        }
+      }, {
+        "id" : "enju_R17",
+        "start" : 94,
+        "end" : 102,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T18",
+          "obj" : "enju_T16"
+        }
+      }, {
+        "id" : "enju_R170",
+        "start" : 854,
+        "end" : 855,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T161",
+          "obj" : "enju_T162"
+        }
+      }, {
+        "id" : "enju_R171",
+        "start" : 856,
+        "end" : 862,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T164",
+          "obj" : "enju_T163"
+        }
+      }, {
+        "id" : "enju_R172",
+        "start" : 868,
+        "end" : 870,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T164",
+          "obj" : "enju_T165"
+        }
+      }, {
+        "id" : "enju_R173",
+        "start" : 868,
+        "end" : 870,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T169",
+          "obj" : "enju_T165"
+        }
+      }, {
+        "id" : "enju_R174",
+        "start" : 871,
+        "end" : 874,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T169",
+          "obj" : "enju_T166"
+        }
+      }, {
+        "id" : "enju_R175",
+        "start" : 875,
+        "end" : 876,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T166",
+          "obj" : "enju_T167"
+        }
+      }, {
+        "id" : "enju_R176",
+        "start" : 877,
+        "end" : 886,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T169",
+          "obj" : "enju_T168"
+        }
+      }, {
+        "id" : "enju_R177",
+        "start" : 890,
+        "end" : 891,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T169",
+          "obj" : "enju_T170"
+        }
+      }, {
+        "id" : "enju_R178",
+        "start" : 890,
+        "end" : 891,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T171",
+          "obj" : "enju_T170"
+        }
+      }, {
+        "id" : "enju_R179",
+        "start" : 890,
+        "end" : 891,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg3Of",
+        "features" : {
+          "pred" : "arg3Of",
+          "subj" : "enju_T172",
+          "obj" : "enju_T170"
+        }
+      }, {
+        "id" : "enju_R18",
+        "start" : 103,
+        "end" : 107,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T18",
+          "obj" : "enju_T17"
+        }
+      }, {
+        "id" : "enju_R180",
+        "start" : 897,
+        "end" : 898,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T169",
+          "obj" : "enju_T173"
+        }
+      }, {
+        "id" : "enju_R181",
+        "start" : 899,
+        "end" : 905,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T169",
+          "obj" : "enju_T174"
+        }
+      }, {
+        "id" : "enju_R182",
+        "start" : 906,
+        "end" : 910,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T174",
+          "obj" : "enju_T175"
+        }
+      }, {
+        "id" : "enju_R183",
+        "start" : 906,
+        "end" : 910,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T177",
+          "obj" : "enju_T175"
+        }
+      }, {
+        "id" : "enju_R184",
+        "start" : 911,
+        "end" : 919,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T177",
+          "obj" : "enju_T176"
+        }
+      }, {
+        "id" : "enju_R185",
+        "start" : 931,
+        "end" : 933,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T177",
+          "obj" : "enju_T178"
+        }
+      }, {
+        "id" : "enju_R186",
+        "start" : 931,
+        "end" : 933,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T180",
+          "obj" : "enju_T178"
+        }
+      }, {
+        "id" : "enju_R187",
+        "start" : 934,
+        "end" : 943,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T180",
+          "obj" : "enju_T179"
+        }
+      }, {
+        "id" : "enju_R188",
+        "start" : 957,
+        "end" : 960,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T200",
+          "obj" : "enju_T181"
+        }
+      }, {
+        "id" : "enju_R189",
+        "start" : 957,
+        "end" : 960,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T182",
+          "obj" : "enju_T181"
+        }
+      }, {
+        "id" : "enju_R19",
+        "start" : 115,
+        "end" : 116,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T18",
+          "obj" : "enju_T19"
+        }
+      }, {
+        "id" : "enju_R190",
+        "start" : 976,
+        "end" : 978,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T182",
+          "obj" : "enju_T183"
+        }
+      }, {
+        "id" : "enju_R191",
+        "start" : 976,
+        "end" : 978,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T185",
+          "obj" : "enju_T183"
+        }
+      }, {
+        "id" : "enju_R192",
+        "start" : 979,
+        "end" : 993,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T185",
+          "obj" : "enju_T184"
+        }
+      }, {
+        "id" : "enju_R193",
+        "start" : 1002,
+        "end" : 1003,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T200",
+          "obj" : "enju_T186"
+        }
+      }, {
+        "id" : "enju_R194",
+        "start" : 1009,
+        "end" : 1013,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T187",
+          "obj" : "enju_T188"
+        }
+      }, {
+        "id" : "enju_R195",
+        "start" : 1009,
+        "end" : 1013,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T189",
+          "obj" : "enju_T188"
+        }
+      }, {
+        "id" : "enju_R196",
+        "start" : 1014,
+        "end" : 1025,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T187",
+          "obj" : "enju_T189"
+        }
+      }, {
+        "id" : "enju_R197",
+        "start" : 1026,
+        "end" : 1028,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T189",
+          "obj" : "enju_T190"
+        }
+      }, {
+        "id" : "enju_R198",
+        "start" : 1026,
+        "end" : 1028,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T194",
+          "obj" : "enju_T190"
+        }
+      }, {
+        "id" : "enju_R199",
+        "start" : 1029,
+        "end" : 1045,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T194",
+          "obj" : "enju_T191"
+        }
+      }, {
+        "id" : "enju_R2",
+        "start" : 35,
+        "end" : 38,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T4",
+          "obj" : "enju_T3"
+        }
+      }, {
+        "id" : "enju_R20",
+        "start" : 115,
+        "end" : 116,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T27",
+          "obj" : "enju_T19"
+        }
+      }, {
+        "id" : "enju_R200",
+        "start" : 1046,
+        "end" : 1060,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T194",
+          "obj" : "enju_T192"
+        }
+      }, {
+        "id" : "enju_R201",
+        "start" : 1061,
+        "end" : 1069,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T194",
+          "obj" : "enju_T193"
+        }
+      }, {
+        "id" : "enju_R202",
+        "start" : 1079,
+        "end" : 1080,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T194",
+          "obj" : "enju_T195"
+        }
+      }, {
+        "id" : "enju_R203",
+        "start" : 1081,
+        "end" : 1090,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T194",
+          "obj" : "enju_T196"
+        }
+      }, {
+        "id" : "enju_R204",
+        "start" : 1091,
+        "end" : 1095,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T196",
+          "obj" : "enju_T197"
+        }
+      }, {
+        "id" : "enju_R205",
+        "start" : 1091,
+        "end" : 1095,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T198",
+          "obj" : "enju_T197"
+        }
+      }, {
+        "id" : "enju_R206",
+        "start" : 1104,
+        "end" : 1105,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T200",
+          "obj" : "enju_T199"
+        }
+      }, {
+        "id" : "enju_R207",
+        "start" : 1106,
+        "end" : 1109,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T189",
+          "obj" : "enju_T200"
+        }
+      }, {
+        "id" : "enju_R208",
+        "start" : 1106,
+        "end" : 1109,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T201",
+          "obj" : "enju_T200"
+        }
+      }, {
+        "id" : "enju_R209",
+        "start" : 1110,
+        "end" : 1115,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T187",
+          "obj" : "enju_T201"
+        }
+      }, {
+        "id" : "enju_R21",
+        "start" : 115,
+        "end" : 116,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg3Of",
+        "features" : {
+          "pred" : "arg3Of",
+          "subj" : "enju_T55",
+          "obj" : "enju_T19"
+        }
+      }, {
+        "id" : "enju_R210",
+        "start" : 1116,
+        "end" : 1119,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T201",
+          "obj" : "enju_T202"
+        }
+      }, {
+        "id" : "enju_R211",
+        "start" : 1116,
+        "end" : 1119,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T204",
+          "obj" : "enju_T202"
+        }
+      }, {
+        "id" : "enju_R212",
+        "start" : 1120,
+        "end" : 1122,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T204",
+          "obj" : "enju_T203"
+        }
+      }, {
+        "id" : "enju_R213",
+        "start" : 1134,
+        "end" : 1138,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T205",
+          "obj" : "enju_T206"
+        }
+      }, {
+        "id" : "enju_R214",
+        "start" : 1134,
+        "end" : 1138,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T225",
+          "obj" : "enju_T206"
+        }
+      }, {
+        "id" : "enju_R215",
+        "start" : 1139,
+        "end" : 1146,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T205",
+          "obj" : "enju_T207"
+        }
+      }, {
+        "id" : "enju_R216",
+        "start" : 1147,
+        "end" : 1149,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T207",
+          "obj" : "enju_T208"
+        }
+      }, {
+        "id" : "enju_R217",
+        "start" : 1147,
+        "end" : 1149,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T213",
+          "obj" : "enju_T208"
+        }
+      }, {
+        "id" : "enju_R218",
+        "start" : 1150,
+        "end" : 1151,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T213",
+          "obj" : "enju_T209"
+        }
+      }, {
+        "id" : "enju_R219",
+        "start" : 1152,
+        "end" : 1153,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T209",
+          "obj" : "enju_T210"
+        }
+      }, {
+        "id" : "enju_R22",
+        "start" : 116,
+        "end" : 118,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T22",
+          "obj" : "enju_T20"
+        }
+      }, {
+        "id" : "enju_R220",
+        "start" : 1154,
+        "end" : 1160,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T213",
+          "obj" : "enju_T211"
+        }
+      }, {
+        "id" : "enju_R221",
+        "start" : 1161,
+        "end" : 1166,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T213",
+          "obj" : "enju_T212"
+        }
+      }, {
+        "id" : "enju_R222",
+        "start" : 1175,
+        "end" : 1177,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T207",
+          "obj" : "enju_T214"
+        }
+      }, {
+        "id" : "enju_R223",
+        "start" : 1175,
+        "end" : 1177,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T216",
+          "obj" : "enju_T214"
+        }
+      }, {
+        "id" : "enju_R224",
+        "start" : 1178,
+        "end" : 1181,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T216",
+          "obj" : "enju_T215"
+        }
+      }, {
+        "id" : "enju_R225",
+        "start" : 1189,
+        "end" : 1197,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T217",
+          "obj" : "enju_T218"
+        }
+      }, {
+        "id" : "enju_R226",
+        "start" : 1189,
+        "end" : 1197,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T216",
+          "obj" : "enju_T218"
+        }
+      }, {
+        "id" : "enju_R227",
+        "start" : 1198,
+        "end" : 1210,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T220",
+          "obj" : "enju_T219"
+        }
+      }, {
+        "id" : "enju_R228",
+        "start" : 1211,
+        "end" : 1213,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T207",
+          "obj" : "enju_T220"
+        }
+      }, {
+        "id" : "enju_R229",
+        "start" : 1214,
+        "end" : 1215,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T220",
+          "obj" : "enju_T221"
+        }
+      }, {
+        "id" : "enju_R23",
+        "start" : 119,
+        "end" : 121,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T20",
+          "obj" : "enju_T21"
+        }
+      }, {
+        "id" : "enju_R230",
+        "start" : 1214,
+        "end" : 1215,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T222",
+          "obj" : "enju_T221"
+        }
+      }, {
+        "id" : "enju_R231",
+        "start" : 1214,
+        "end" : 1215,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg3Of",
+        "features" : {
+          "pred" : "arg3Of",
+          "subj" : "enju_T223",
+          "obj" : "enju_T221"
+        }
+      }, {
+        "id" : "enju_R232",
+        "start" : 1221,
+        "end" : 1222,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T225",
+          "obj" : "enju_T224"
+        }
+      }, {
+        "id" : "enju_R233",
+        "start" : 1223,
+        "end" : 1226,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T207",
+          "obj" : "enju_T225"
+        }
+      }, {
+        "id" : "enju_R234",
+        "start" : 1223,
+        "end" : 1226,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T226",
+          "obj" : "enju_T225"
+        }
+      }, {
+        "id" : "enju_R235",
+        "start" : 1227,
+        "end" : 1233,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T205",
+          "obj" : "enju_T226"
+        }
+      }, {
+        "id" : "enju_R236",
+        "start" : 1234,
+        "end" : 1238,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T226",
+          "obj" : "enju_T227"
+        }
+      }, {
+        "id" : "enju_R237",
+        "start" : 1234,
+        "end" : 1238,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T229",
+          "obj" : "enju_T227"
+        }
+      }, {
+        "id" : "enju_R238",
+        "start" : 1239,
+        "end" : 1247,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T229",
+          "obj" : "enju_T228"
+        }
+      }, {
+        "id" : "enju_R239",
+        "start" : 1259,
+        "end" : 1261,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T226",
+          "obj" : "enju_T230"
+        }
+      }, {
+        "id" : "enju_R24",
+        "start" : 131,
+        "end" : 132,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T22",
+          "obj" : "enju_T23"
+        }
+      }, {
+        "id" : "enju_R240",
+        "start" : 1259,
+        "end" : 1261,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T232",
+          "obj" : "enju_T230"
+        }
+      }, {
+        "id" : "enju_R241",
+        "start" : 1262,
+        "end" : 1271,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T232",
+          "obj" : "enju_T231"
+        }
+      }, {
+        "id" : "enju_R242",
+        "start" : 1292,
+        "end" : 1296,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T233",
+          "obj" : "enju_T234"
+        }
+      }, {
+        "id" : "enju_R243",
+        "start" : 1292,
+        "end" : 1296,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T235",
+          "obj" : "enju_T234"
+        }
+      }, {
+        "id" : "enju_R244",
+        "start" : 1297,
+        "end" : 1303,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T240",
+          "obj" : "enju_T235"
+        }
+      }, {
+        "id" : "enju_R245",
+        "start" : 1297,
+        "end" : 1303,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T233",
+          "obj" : "enju_T235"
+        }
+      }, {
+        "id" : "enju_R246",
+        "start" : 1304,
+        "end" : 1306,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T240",
+          "obj" : "enju_T236"
+        }
+      }, {
+        "id" : "enju_R247",
+        "start" : 1307,
+        "end" : 1310,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T240",
+          "obj" : "enju_T237"
+        }
+      }, {
+        "id" : "enju_R248",
+        "start" : 1311,
+        "end" : 1316,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T240",
+          "obj" : "enju_T238"
+        }
+      }, {
+        "id" : "enju_R249",
+        "start" : 1317,
+        "end" : 1326,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T240",
+          "obj" : "enju_T239"
+        }
+      }, {
+        "id" : "enju_R25",
+        "start" : 131,
+        "end" : 132,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T24",
+          "obj" : "enju_T23"
+        }
+      }, {
+        "id" : "enju_R250",
+        "start" : 1334,
+        "end" : 1335,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T240",
+          "obj" : "enju_T241"
+        }
+      }, {
+        "id" : "enju_R251",
+        "start" : 1334,
+        "end" : 1335,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T242",
+          "obj" : "enju_T241"
+        }
+      }, {
+        "id" : "enju_R252",
+        "start" : 1334,
+        "end" : 1335,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg3Of",
+        "features" : {
+          "pred" : "arg3Of",
+          "subj" : "enju_T243",
+          "obj" : "enju_T241"
+        }
+      }, {
+        "id" : "enju_R253",
+        "start" : 1343,
+        "end" : 1352,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T235",
+          "obj" : "enju_T244"
+        }
+      }, {
+        "id" : "enju_R254",
+        "start" : 1343,
+        "end" : 1352,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T245",
+          "obj" : "enju_T244"
+        }
+      }, {
+        "id" : "enju_R255",
+        "start" : 1353,
+        "end" : 1355,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T249",
+          "obj" : "enju_T245"
+        }
+      }, {
+        "id" : "enju_R256",
+        "start" : 1356,
+        "end" : 1359,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T247",
+          "obj" : "enju_T246"
+        }
+      }, {
+        "id" : "enju_R257",
+        "start" : 1372,
+        "end" : 1374,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T249",
+          "obj" : "enju_T248"
+        }
+      }, {
+        "id" : "enju_R258",
+        "start" : 1372,
+        "end" : 1374,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T247",
+          "obj" : "enju_T248"
+        }
+      }, {
+        "id" : "enju_R26",
+        "start" : 131,
+        "end" : 132,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg3Of",
+        "features" : {
+          "pred" : "arg3Of",
+          "subj" : "enju_T26",
+          "obj" : "enju_T23"
+        }
+      }, {
+        "id" : "enju_R27",
+        "start" : 135,
+        "end" : 138,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T24",
+          "obj" : "enju_T25"
+        }
+      }, {
+        "id" : "enju_R28",
+        "start" : 139,
+        "end" : 140,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T22",
+          "obj" : "enju_T27"
+        }
+      }, {
+        "id" : "enju_R29",
+        "start" : 139,
+        "end" : 140,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T30",
+          "obj" : "enju_T27"
+        }
+      }, {
+        "id" : "enju_R3",
+        "start" : 45,
+        "end" : 49,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T4",
+          "obj" : "enju_T5"
+        }
+      }, {
+        "id" : "enju_R30",
+        "start" : 141,
+        "end" : 142,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T30",
+          "obj" : "enju_T28"
+        }
+      }, {
+        "id" : "enju_R31",
+        "start" : 142,
+        "end" : 143,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T28",
+          "obj" : "enju_T29"
+        }
+      }, {
+        "id" : "enju_R32",
+        "start" : 149,
+        "end" : 150,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T27",
+          "obj" : "enju_T31"
+        }
+      }, {
+        "id" : "enju_R33",
+        "start" : 149,
+        "end" : 150,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T51",
+          "obj" : "enju_T31"
+        }
+      }, {
+        "id" : "enju_R34",
+        "start" : 151,
+        "end" : 155,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T38",
+          "obj" : "enju_T32"
+        }
+      }, {
+        "id" : "enju_R35",
+        "start" : 155,
+        "end" : 156,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T32",
+          "obj" : "enju_T33"
+        }
+      }, {
+        "id" : "enju_R36",
+        "start" : 157,
+        "end" : 172,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T32",
+          "obj" : "enju_T34"
+        }
+      }, {
+        "id" : "enju_R37",
+        "start" : 172,
+        "end" : 173,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T32",
+          "obj" : "enju_T35"
+        }
+      }, {
+        "id" : "enju_R38",
+        "start" : 172,
+        "end" : 173,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T36",
+          "obj" : "enju_T35"
+        }
+      }, {
+        "id" : "enju_R39",
+        "start" : 174,
+        "end" : 177,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T38",
+          "obj" : "enju_T36"
+        }
+      }, {
+        "id" : "enju_R4",
+        "start" : 45,
+        "end" : 49,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T7",
+          "obj" : "enju_T5"
+        }
+      }, {
+        "id" : "enju_R40",
+        "start" : 178,
+        "end" : 180,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T36",
+          "obj" : "enju_T37"
+        }
+      }, {
+        "id" : "enju_R41",
+        "start" : 185,
+        "end" : 186,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T38",
+          "obj" : "enju_T39"
+        }
+      }, {
+        "id" : "enju_R42",
+        "start" : 185,
+        "end" : 186,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T42",
+          "obj" : "enju_T39"
+        }
+      }, {
+        "id" : "enju_R43",
+        "start" : 187,
+        "end" : 188,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T42",
+          "obj" : "enju_T40"
+        }
+      }, {
+        "id" : "enju_R44",
+        "start" : 189,
+        "end" : 191,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T40",
+          "obj" : "enju_T41"
+        }
+      }, {
+        "id" : "enju_R45",
+        "start" : 196,
+        "end" : 197,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T39",
+          "obj" : "enju_T43"
+        }
+      }, {
+        "id" : "enju_R46",
+        "start" : 196,
+        "end" : 197,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T46",
+          "obj" : "enju_T43"
+        }
+      }, {
+        "id" : "enju_R47",
+        "start" : 198,
+        "end" : 199,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T46",
+          "obj" : "enju_T44"
+        }
+      }, {
+        "id" : "enju_R48",
+        "start" : 200,
+        "end" : 202,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T44",
+          "obj" : "enju_T45"
+        }
+      }, {
+        "id" : "enju_R49",
+        "start" : 207,
+        "end" : 208,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T43",
+          "obj" : "enju_T47"
+        }
+      }, {
+        "id" : "enju_R5",
+        "start" : 50,
+        "end" : 59,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T4",
+          "obj" : "enju_T6"
+        }
+      }, {
+        "id" : "enju_R50",
+        "start" : 207,
+        "end" : 208,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T50",
+          "obj" : "enju_T47"
+        }
+      }, {
+        "id" : "enju_R51",
+        "start" : 209,
+        "end" : 210,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T50",
+          "obj" : "enju_T48"
+        }
+      }, {
+        "id" : "enju_R52",
+        "start" : 211,
+        "end" : 213,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T48",
+          "obj" : "enju_T49"
+        }
+      }, {
+        "id" : "enju_R53",
+        "start" : 220,
+        "end" : 221,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T47",
+          "obj" : "enju_T51"
+        }
+      }, {
+        "id" : "enju_R54",
+        "start" : 220,
+        "end" : 221,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T54",
+          "obj" : "enju_T51"
+        }
+      }, {
+        "id" : "enju_R55",
+        "start" : 222,
+        "end" : 223,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T54",
+          "obj" : "enju_T52"
+        }
+      }, {
+        "id" : "enju_R56",
+        "start" : 224,
+        "end" : 226,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T52",
+          "obj" : "enju_T53"
+        }
+      }, {
+        "id" : "enju_R57",
+        "start" : 232,
+        "end" : 244,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T18",
+          "obj" : "enju_T56"
+        }
+      }, {
+        "id" : "enju_R58",
+        "start" : 245,
+        "end" : 249,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T56",
+          "obj" : "enju_T57"
+        }
+      }, {
+        "id" : "enju_R59",
+        "start" : 245,
+        "end" : 249,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T66",
+          "obj" : "enju_T57"
+        }
+      }, {
+        "id" : "enju_R6",
+        "start" : 60,
+        "end" : 63,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T6",
+          "obj" : "enju_T7"
+        }
+      }, {
+        "id" : "enju_R60",
+        "start" : 250,
+        "end" : 251,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T62",
+          "obj" : "enju_T58"
+        }
+      }, {
+        "id" : "enju_R61",
+        "start" : 252,
+        "end" : 253,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T62",
+          "obj" : "enju_T59"
+        }
+      }, {
+        "id" : "enju_R62",
+        "start" : 254,
+        "end" : 262,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T62",
+          "obj" : "enju_T60"
+        }
+      }, {
+        "id" : "enju_R63",
+        "start" : 263,
+        "end" : 272,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T62",
+          "obj" : "enju_T61"
+        }
+      }, {
+        "id" : "enju_R64",
+        "start" : 282,
+        "end" : 283,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T62",
+          "obj" : "enju_T63"
+        }
+      }, {
+        "id" : "enju_R65",
+        "start" : 282,
+        "end" : 283,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T64",
+          "obj" : "enju_T63"
+        }
+      }, {
+        "id" : "enju_R66",
+        "start" : 282,
+        "end" : 283,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg3Of",
+        "features" : {
+          "pred" : "arg3Of",
+          "subj" : "enju_T65",
+          "obj" : "enju_T63"
+        }
+      }, {
+        "id" : "enju_R67",
+        "start" : 290,
+        "end" : 293,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T62",
+          "obj" : "enju_T66"
+        }
+      }, {
+        "id" : "enju_R68",
+        "start" : 290,
+        "end" : 293,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T72",
+          "obj" : "enju_T66"
+        }
+      }, {
+        "id" : "enju_R69",
+        "start" : 294,
+        "end" : 295,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T72",
+          "obj" : "enju_T67"
+        }
+      }, {
+        "id" : "enju_R7",
+        "start" : 60,
+        "end" : 63,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T8",
+          "obj" : "enju_T7"
+        }
+      }, {
+        "id" : "enju_R70",
+        "start" : 296,
+        "end" : 297,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T67",
+          "obj" : "enju_T68"
+        }
+      }, {
+        "id" : "enju_R71",
+        "start" : 296,
+        "end" : 297,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T69",
+          "obj" : "enju_T68"
+        }
+      }, {
+        "id" : "enju_R72",
+        "start" : 298,
+        "end" : 309,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T72",
+          "obj" : "enju_T69"
+        }
+      }, {
+        "id" : "enju_R73",
+        "start" : 310,
+        "end" : 319,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T72",
+          "obj" : "enju_T70"
+        }
+      }, {
+        "id" : "enju_R74",
+        "start" : 320,
+        "end" : 328,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T72",
+          "obj" : "enju_T71"
+        }
+      }, {
+        "id" : "enju_R75",
+        "start" : 333,
+        "end" : 334,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T72",
+          "obj" : "enju_T73"
+        }
+      }, {
+        "id" : "enju_R76",
+        "start" : 335,
+        "end" : 336,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T72",
+          "obj" : "enju_T74"
+        }
+      }, {
+        "id" : "enju_R77",
+        "start" : 335,
+        "end" : 336,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T76",
+          "obj" : "enju_T74"
+        }
+      }, {
+        "id" : "enju_R78",
+        "start" : 335,
+        "end" : 336,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg3Of",
+        "features" : {
+          "pred" : "arg3Of",
+          "subj" : "enju_T77",
+          "obj" : "enju_T74"
+        }
+      }, {
+        "id" : "enju_R79",
+        "start" : 336,
+        "end" : 339,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T76",
+          "obj" : "enju_T75"
+        }
+      }, {
+        "id" : "enju_R8",
+        "start" : 64,
+        "end" : 69,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T4",
+          "obj" : "enju_T8"
+        }
+      }, {
+        "id" : "enju_R80",
+        "start" : 353,
+        "end" : 356,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T56",
+          "obj" : "enju_T78"
+        }
+      }, {
+        "id" : "enju_R81",
+        "start" : 353,
+        "end" : 356,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T80",
+          "obj" : "enju_T78"
+        }
+      }, {
+        "id" : "enju_R82",
+        "start" : 357,
+        "end" : 359,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T80",
+          "obj" : "enju_T79"
+        }
+      }, {
+        "id" : "enju_R83",
+        "start" : 365,
+        "end" : 368,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T82",
+          "obj" : "enju_T81"
+        }
+      }, {
+        "id" : "enju_R84",
+        "start" : 377,
+        "end" : 381,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T82",
+          "obj" : "enju_T83"
+        }
+      }, {
+        "id" : "enju_R85",
+        "start" : 377,
+        "end" : 381,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T84",
+          "obj" : "enju_T83"
+        }
+      }, {
+        "id" : "enju_R86",
+        "start" : 382,
+        "end" : 393,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T82",
+          "obj" : "enju_T84"
+        }
+      }, {
+        "id" : "enju_R87",
+        "start" : 394,
+        "end" : 396,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T84",
+          "obj" : "enju_T85"
+        }
+      }, {
+        "id" : "enju_R88",
+        "start" : 394,
+        "end" : 396,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T88",
+          "obj" : "enju_T85"
+        }
+      }, {
+        "id" : "enju_R89",
+        "start" : 397,
+        "end" : 403,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T88",
+          "obj" : "enju_T86"
+        }
+      }, {
+        "id" : "enju_R9",
+        "start" : 70,
+        "end" : 72,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T8",
+          "obj" : "enju_T9"
+        }
+      }, {
+        "id" : "enju_R90",
+        "start" : 404,
+        "end" : 405,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T88",
+          "obj" : "enju_T87"
+        }
+      }, {
+        "id" : "enju_R91",
+        "start" : 408,
+        "end" : 410,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T88",
+          "obj" : "enju_T89"
+        }
+      }, {
+        "id" : "enju_R92",
+        "start" : 408,
+        "end" : 410,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T91",
+          "obj" : "enju_T89"
+        }
+      }, {
+        "id" : "enju_R93",
+        "start" : 411,
+        "end" : 412,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T91",
+          "obj" : "enju_T90"
+        }
+      }, {
+        "id" : "enju_R94",
+        "start" : 416,
+        "end" : 419,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T88",
+          "obj" : "enju_T92"
+        }
+      }, {
+        "id" : "enju_R95",
+        "start" : 416,
+        "end" : 419,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg2Of",
+        "features" : {
+          "pred" : "arg2Of",
+          "subj" : "enju_T94",
+          "obj" : "enju_T92"
+        }
+      }, {
+        "id" : "enju_R96",
+        "start" : 416,
+        "end" : 419,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg3Of",
+        "features" : {
+          "pred" : "arg3Of",
+          "subj" : "enju_T96",
+          "obj" : "enju_T92"
+        }
+      }, {
+        "id" : "enju_R97",
+        "start" : 420,
+        "end" : 422,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T94",
+          "obj" : "enju_T93"
+        }
+      }, {
+        "id" : "enju_R98",
+        "start" : 427,
+        "end" : 429,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T96",
+          "obj" : "enju_T95"
+        }
+      }, {
+        "id" : "enju_R99",
+        "start" : 430,
+        "end" : 436,
+        "@type" : "http://vocab.lappsgrid.org/Relation",
+        "label" : "arg1Of",
+        "features" : {
+          "pred" : "arg1Of",
+          "subj" : "enju_T94",
+          "obj" : "enju_T96"
+        }
+      } ]
+    }, {
+      "id" : "reference",
+      "metadata" : {
+        "contains" : {
+          "http://vocab.lappsgrid.org/NamedEntity" : {
+            "producer" : "edu.vassar.cs.eurolan.factories.ReferenceFactory",
+            "type" : "bionlp"
+          },
+          "http://vocab.lappsgrid.org/Relation" : {
+            "producer" : "edu.vassar.cs.eurolan.factories.ReferenceFactory",
+            "type" : "bionlp"
+          },
+          "http://vocab.lappsgrid.org/Event" : {
+            "producer" : "edu.vassar.cs.eurolan.factories.ReferenceFactory",
+            "type" : "bionlp"
+          },
+          "http://vocab.lappsgrid.org/Modification" : {
+            "producer" : "edu.vassar.cs.eurolan.factories.ReferenceFactory",
+            "type" : "bionlp"
+          }
+        }
+      },
+      "annotations" : [ {
+        "id" : "T1",
+        "start" : 1167,
+        "end" : 1174,
+        "@type" : "http://vocab.lappsgrid.org/NamedEntity",
+        "label" : "Protein",
+        "features" : {
+          "category" : "Protein"
+        }
+      } ]
+    } ]
+  },
+  "parameters" : { }
+}

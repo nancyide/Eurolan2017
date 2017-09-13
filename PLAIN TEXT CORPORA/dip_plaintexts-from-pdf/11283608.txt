@@ -1,0 +1,294 @@
+articles
+
+Spatial regulation of the exocyst complex by Rho1 GTPase
+
+Wei Guo*, Fuyuhiko Tamanoi and Peter Novick*§ *Department of Cell Biology, Yale University School of Medicine, New Haven, Connecticut 06520-8002, USA Department of Microbiology and Molecular Genetics, Molecular Biology Institute, University of California, Los Angeles, California 90095-1489, USA Current address: Biology Department, University of Pennsylvania, Philadelphia, Pennsylvania 19104, USA §e-mail: peter.novick@yale.edu
+
+Spatial regulation of membrane traffic is fundamental to many biological processes, including epithelial cell polarization and neuronal synaptogenesis. The multiprotein exocyst complex is localized to sites of polarized exocytosis, and is required for vesicle targeting and docking at specific domains of the plasma membrane. One component of the complex, Sec3, is thought to be a spatial landmark for polarized exocytosis. We have searched for proteins that regulate the polarized localization of the exocyst in the budding yeast Saccharomyces cerevisiae. Here we report that certain rho1 mutant alleles specifically affect the localization of the exocyst proteins. Sec3 interacts directly with Rho1 in its GTP-bound form, and functional Rho1 is needed both to establish and to maintain the polarized localization of Sec3. Sec3 is not the only mediator of the effect of Rho1 on the exocyst, because some members of the complex are correctly targeted independently of the interaction between Rho1 and Sec3. These results reveal the action of parallel pathways for the polarized localization of the exocytic machinery, both of which are under the control of Rho1, a master regulator of cell polarity.
+
+S
+
+patial regulation of exocytosis is central to many biological processes, such as embryogenesis, epithelial cell polarization and neuronal growth cone formation1. The budding yeast S. cerevisiae undergoes polarized growth and provides an excellent model system to study spatial regulation of secretion and cell polarity2­5. These cells grow and reproduce asymmetrically by budding-- a processes that requires a sophisticated system to coordinate several cellular processes such as cell-cycle progression, assembly of the actin cytoskeleton and polarized membrane traffic. Most of the proteins involved in these processes are evolutionarily conserved among eukaryotic organisms. Polarized exocytosis involves at least three stages. First, postGolgi secretory vesicles are transported along cytoskeletal elements towards specific regions of the plasma membrane. In the budding yeast, actin cables direct vesicle movement in the cell and a class V myosin, Myo2, is thought to be important in this process6­9. After the vesicles are transported to the right region, they are then tethered and docked at specific domains of the plasma membrane10,11. Finally, the lipid bilayers of the vesicle membrane and plasma membrane fuse in a reaction catalysed by the interactions of integral membrane proteins (soluble N-ethylmaleimide-sensitive fusion (NSF) attachment protein (`SNAP') receptors, or `SNAREs') that reside in the secretory vesicle membrane (v-SNAREs) and the target membranes (t-SNAREs)12. The last step leads to the release of vesicle contents and the incorporation of membrane proteins at specific domains of the plasma membrane. The Rab family small GTP-binding proteins are important regulators of polarized exocytosis13,14. They cycle between GTP-bound and GDP-bound states. GTP-bound Rab proteins interact with various downstream effectors that are thought to mediate distinct stages of vesicle traffic, including transport along the cytoskeleton, tethering to the target membrane and assembly of the SNARE complex. Studies have indicated that a multiprotein complex, termed the exocyst, is involved in vesicle targeting and docking at the plasma membrane15­20. The exocyst consists of eight components, Sec3, Sec5, Sec6, Sec8, Sec10, Sec15, Exo70 and Exo84. In contrast to the t-SNAREs, which are evenly distributed along the entire plasma membrane21, the exocyst is specifically localized to sites of active exocytosis. In the budding yeast, the exocyst proteins are localized to regions of active cell-surface expansion: the bud tip at the beginning of the cell cycle, and the mother/daughter connection during cytokinesis15,17,20. In developing neurons exocyst components are localized to growth cones and the tips of growing neurites22, whereas in epithelial cells they are concentrated near the tight junction, a region of active basolateral membrane addition23. In addition to the exocyst, many components of the yeast exocytic machinery are localized to sites of exocytosis. For example Sec4, the Rab protein required at this stage of transport, is localized to exocytic sites through its association with the secretory vesicles, which are concentrated there24. Many components, such as Sec8 and Sec1, become localized to exocytic sites in response to the arrival and docking of secretory vesicles17,25, whereas the exocyst subunit Sec3 is localized to sites of exocytosis independently of actin and the continuing flux of membrane through the secretory pathway17. Furthermore, the localization of Sec3 seems to be independent of the other subunits of the exocyst. On the basis of these observations, Sec3 has been proposed to represent a spatial landmark for polarized secretion17. Another exocyst subunit, Sec15, associates with secretory vesicles and interacts with the GTP-bound form of the Rab protein, Sec4 (ref. 19). Therefore, the assembly of the exocyst complex would link secretory vesicles, through a series of protein­protein interactions among the exocyst proteins, to the specific exocytic sites on the plasma membrane19. Proper localization of the exocyst complex is thought to be important for spatial regulation of secretion5. To identify proteins that regulate the polarized localization of the exocyst, we have examined the localization of green fluorescent protein (GFP)tagged exocyst proteins in various classes of mutants. Here we report that the polarized localization of the exocyst is controlled by Rho1, a member of the Rho family small GTP-binding proteins, which are master regulators of many cellular activities including polarization, morphogenesis, cell growth and development in the budding yeast26­28. By analysing different rho1 alleles, we have resolved the role of Rho1 in the vesicle tethering/docking system (the exocyst) from its role in the vesicle delivery system (actin, Myo2 and Sec4). Furthermore, we found that Sec3 interacts with Rho1 in its GTP-bound form and is a direct downstream effector of Rho1. We have also found that Sec3 is not the only mediator of the
+
+NATURE CELL BIOLOGY VOL 3 APRIL 2001 http://cellbio.nature.com 353
+
+© 2001 Macmillan Magazines Ltd
+
+
+articles
+
+Sec3­GFP Exo70­GFP
+
+Table 1 Protein localization in various rho1 alleles
+
+Strain Protein Sec3 Sec4 Myo2 Actin Wild type 64% 51% 48% 49%
+
+rho1-2 rho1-3 rho1-5
+
+RH01
+
+rho1-104
+
+49% 5% 7% 6% 68% 53% 55% 54% 15% 7% 3% 7% 11% 54% 49% 55%
+
+rho1-5
+
+rho1-5 + RH01
+
+rho1-104
+
+rho1-104 + RH01
+
+Figure 1 A screen for mutants that affect the polarized localization of the exocyst protein in the budding yeast S. cerevisiae. GFP-tagged Sec3 (left) and Exo70 (right) were mislocalized in rho1-5 and rho1-104 mutants after the cells were shifted to the restrictive temperature (37 °C) for 1.5 h. Introducing wild-type Rho1 (rho1-5 + RHO1 and rho1-104 + RHO1) restored the polarity of Sec3­GFP and Exo70­GFP in the mutant cells.
+
+effect of Rho1 on the localization of the exocyst, because certain other exocyst proteins can be targeted correctly even when the interaction between Rho1 and Sec3 is abolished. This result implies that several pathways exist for targeting the exocytic machinery. These studies help us understand the molecular mechanism for polarized localization of the exocytic machinery and spatial regulation of secretion.
+
+Results Sec3 is mislocalized in rho1 mutants. To identify proteins that regulate the polarized localization of the exocyst, we examined the localization of GFP-tagged exocyst components in mutants that are defective in different aspects of yeast budding, such as bud-site selection, bud-site establishment, cell polarization, actin cytoskeleton organization, cell-cycle regulation and septin assembly. The mutants that we examined include axl2, bud3, cdc42-1, cdc24-4, bem3-1, spa2, rho1-104, rho1-2, rho1-3, rho1-5, rho3-5/rho4, pkc1-1, bni1, bnr1, act1-1, myo2-66, pfy1-111, cdc28-1, cdc3-1, cdc10-10, cdc11-1, cdc12-1 and cdc12-6. The GFP-tagged exocyst proteins were expressed under the control of their own promoters and were fully functional; yeast cells expressing the tagged alleles as the sole source of exocyst protein grew as well as wild-type cells in
+
+both rich and synthetic media, and at temperatures ranging from 25 to 38 °C. Among the mutants screened, we found that the exocyst proteins (Sec3, -5, -6, -8 and -10, and Exo70 and -84) are specifically mislocalized in two of the rho1 mutant alleles, rho1-5 and rho1-104, at the restrictive temperature. Figure 1 shows the localization of two GFPtagged exocyst proteins, Sec3 and Exo70, after a shift to 37 °C for 1.5 h. In wild-type cells (Fig. 1, top), these proteins are localized to emerging bud sites, the tips of small daughter cells (`bud tip'), or mother/daughter connections (`necks'). In the rho1-5 and rho1-104 mutant cells, however, Sec3­GFP and Exo70­GFP are either diffuse in the cell or form several punctuate spots. Some of these spots are close to the bud but not as polarized as those in the wild-type cells. In the wild-type strain, most of the cells have polarized Sec3­GFP (64%) and Exo70­GFP (60%) localization (n = 200). In rho1-5, however, only 15 and 17% of the cells have polarized Sec3­GFP and Exo70­GFP localization, respectively. In rho1-104, 11 and 9% of the cells have polarized Sec3­GFP and Exo70­GFP localization, respectively. Both mutant strains were found to express the same levels of Sec3­GFP and Exo70­GFP as the wild-type strain at 37 °C (data not shown). We also tested whether introducing wild-type Rho1 into rho1-5 and rho1-104 cells could restore the polarized localization of Sec3­GFP and Exo70­GFP. As shown in Fig. 1, wild-type Rho1 totally restored the polarity of Sec3­GFP (66% in rho1-5 and 61% in rho1-104) and Exo70­GFP (71% in rho1-5 and 56% in rho1-104). These data indicate that these two mutant rho1 alleles are recessive for their effects on both exocyst localization and growth at the restrictive temperatures. The Rho family small GTP-binding proteins are regulators of many cellular activities including polarization, morphogenesis, cell growth and development26­28. A principal function of Rho1 is to regulate the actin cytoskeleton26­28. Therefore, in several rho1 mutant alleles, we compared the localization of Sec3­GFP with the localization of actin, Myo2, a class V unconventional myosin involved in polarized vesicle transport in yeast, and Sec4, the Rab protein residing on the secretory vesicles that functions in postGolgi secretion (Fig. 2). After a shift to 37 °C for 1.5 h, most of the Sec3­GFP remained localized to the bud tips or mother/daughter connections in rho1-2 cells. In contrast, actin, Myo2 and Sec4 were all mislocalized in these cells. In rho1-104 cells, actin, Myo2 and Sec4 were well localized, whereas Sec3 was mislocalized. In rho1-5 cells, all of the proteins examined were mislocalized. In rho1-3 cells, all of the proteins were polarized. The results of these experiments are summarized in Table 1. Our results concerning the effects of different rho1 alleles on actin are consistent with those of a previous study29. It has been shown that Sec3 localization is independent of actin17, and that the polarized localization of Sec4 is dependent on actin, probably because Sec4 resides on secretory vesicles that are delivered to sites of secretion through the actin cytoskeleton24,30. Although Rho1 is required for the localization of all of these proteins, here we have resolved, by analysing different alleles, the role of Rho1 in the vesicle delivery system (actin, Myo2 and Sec4) from its role in the vesicle tethering/docking system (the exocyst).
+
+354 NATURE CELL BIOLOGY VOL 3 APRIL 2001 http://cellbio.nature.com
+
+© 2001 Macmillan Magazines Ltd
+
+
+articles
+
+RH01 rho1-2 rho1-3 rho1-5 rho1-104
+
+Sec3
+
+Sec4
+
+Actin
+
+Myo2
+
+Figure 2 Comparison of the localization of Sec3, Sec4, actin and Myo2 in wild-type and various alleles of rho1 mutants. Cells were shifted to 37 °C for 1.5 h, and then processed for indirect immunofluorescence or direct GFP fluorescence detection. Alleles are labelled at the top; proteins are labelled on the left. The percentages of cells that have polarized protein localization in various strains are summarized in Table 1.
+
+Because Rho1 is involved in the establishment of cell polarity, by starting with a population of cells in G0 phase one might expect to see an effect on the establishment of Sec3­GFP localization in rho1 mutants that do not strongly affect the maintenance of Sec3 localization in an asynchronous population30. The rho1-2 mutant strain has a point mutation (E45I), which leads to loss of cell polarity31, .
+
+32
+
+We therefore examined the localization of Sec3­GFP in rho1-2 mutant cells released from G0 arrest for 3 h. At a permissive temperature (25 °C), the cells generated buds and Sec3­GFP was localized to the bud tip. At the non-permissive temperature (37 °C), however, Sec3­GFP was randomly localized in the cells (Fig. 3). In these mutant cells, the DNA is slowly duplicated and the cell-cycle progresses more slowly than in wild-type cells32. We have also examined Sec3 localization in rho1-5 cells starting from G0. As shown in Fig. 3, Sec3­GFP was randomly distributed in the cells, suggesting that the initial targeting of Sec3 is also affected in this mutant allele. In contrast to these observations, it has been reported that Sec3 can be targeted correctly in actin mutant cells or in cells treated with latrunculin A from the G0 phase17, indicating that the polarized localization of Sec3 can be established in an actin-independent fashion. These results suggest that both the initial targeting and the maintenance of Sec3 to the bud tip require functional Rho1. Sec3 interacts with Rho1. The effect of rho1 mutants on Sec3­GFP localization might reflect either a direct interaction of Sec3 with Rho1, or an indirect effect mediated by one of the Rho effectors. To understand the molecular basis of this observation, we examined whether Sec3 can interact with Rho1 using the yeast two-hybrid assay. Sec3 was fused with the DNA activation domain in the vector pACTII. This construct was used to test the interaction of Sec3 with Rho proteins expressed in the DNA-binding domain vector, pBTM116 (gifts from Y. Takai). To avoid possible complications arising from membrane attachment in the two-hybrid assay, the carboxy-terminal cysteine residues (C)were deleted in all of the Rho alleles to prevent lipid modification.
+
+As shown in Fig. 4a, a positive interaction was found between Sec3 and Rho1C (Q68L). This mutant has reduced GTPase activity and is therefore predominantly in its GTP-bound form. Sec3 does not bind Rho1C (T24N), a mutant thought to represent Rho1's GDP-bound conformation. A similar binding pattern was found between Sec3 and the other Rho proteins, with stronger interactions observed with the GTPase-deficient alleles. These results suggest that Sec3 interacts with Rho proteins in their GTP-bound forms. To define the domain of Sec3 that mediates its interactions with Rho1, we fused various regions of Sec3 to the DNA activation
+
+rho1-2 rho1-5
+
+25 °C
+
+37 °C
+
+Figure 3 Sec3­GFP is mislocalized in rho1-2 and rho1-5 mutant cells recovering from G0 arrest at 37 °C. Cells arrested at G0 phase were generated as described in Methods. Aliquots of the cells were then transferred to YPD liquid media and allowed to grow for 3 h at either 25 °C (top) or 37 °C (bottom). The cells were collected, and Sec3­GFP localization in the cells was examined.
+
+NATURE CELL BIOLOGY VOL 3 APRIL 2001 http://cellbio.nature.com 355
+
+© 2001 Macmillan Magazines Ltd
+
+
+articles
+
+a a GST GST­Rho1
+
+(units)
+
+activity
+
+-galactosidase
+
+50 40 30 20 10 0
+
+MBP­Sec3(1­320)
+
+­nt GDP GTP ­nt GDP GTP
+
+b GDP GTP
+
+GST­Rho1p
+
+C C C C
+
+ectorV (Q68L) (T24N) (Q65L) (Q74L) (Q70L) (T25N)
+
+Rho1
+
+C C Rho2 C Rho3 C Rho4 C C
+
+GST­Rho1(E45I) (rho1-2) GST­Rho1(C164Y) (rho1-104)
+
+Rho1 Rho1 Rho2 Rho3 Rho4 Rho4
+
+b
+
+(units)
+
+activity
+
+-galactosidase
+
+30 25 20 15 10 5 0 Figure 5 In vitro binding between Sec3 and Rho1. The N terminus of Sec3 (1­320) was fused with MBP (MBP­Sec3); Rho1(C) was fused with GST. Recombinant fusion proteins were purified from bacteria lysates, and used in in vitro binding assays either in the absence of nucleotides (­nt) or in the presence of 0.1 mM GTP-S or GDP as described in Methods. Rho­GST fusion proteins in the reaction were recovered using glutathione Sepharose-4B, and MBP­Sec3 binding to Rho­GST was detected by western blot with anti-MBP antibody. b, Interaction of MBP­Sec3 (1­320) with wild-type and mutant GST­Rho1 fusion proteins in the presence of GTP-S or GDP.
+
+ectorV 500) 1336)­ ­ 320)­
+
+(1 (1 1336)­
+
+(1
+
+(500 Sec3 Sec3
+
+Sec3
+
+Sec3
+
+Figure 4 The interaction of Sec3 and Rho GTPase by the yeast two-hybrid assay. a, Sec3 was subcloned into the DNA activation domain vector pACTII; Rho constructs were subcloned into the DNA-binding domain vector pBTM116 (from Y. Takai). The yeast strain L40 was used as the host, and interactions were measured by a -galactosidase assay. b, Yeast two-hybrid assay shows that the N-terminal portion of Sec3 (residues 1­320) binds Rho1.
+
+domain vector pACTII and tested their interactions with Rho1C (Q68L) by the two-hybrid assay. Sequence analysis of Sec3 has revealed a coiled-coil stretch between residues 322 and 465 (ref. 33), dividing Sec3 into three regions: the amino-terminal precoiled-coil region (residues 1­320); the coiled-coil region (320­465); and the C-terminal post-coiled-coil region (500­1,336). As shown in Fig. 4b, the N-terminal portion of Sec3 (1­320) mediates the interaction with Rho1. As two-hybrid interactions can involve intermediary proteins, we tested for the direct binding of Sec3 and Rho1 by using a biochemical assay with the fusion proteins maltose-binding protein (MBP)­Sec3(1­320) and gluthathione S-transferase (GST)­Rho1 purified from bacteria lysates. We used the 1­320 region of Sec3 because this region is responsible for interacting with Rho1 in the yeast two-hybrid assay (Fig. 4b) and is small enough to be expressed efficiently in bacteria. As shown in Fig. 5a, Sec3 preferentially binds Rho1 in the presence of GTP-S. The amount of Sec3 bound to Rho1 in the presence of GTPS constitutes about 5% of the starting material. As a negative control, GST did not bind Sec3 under the same conditions. As Sec3 is mislocalized in rho1 mutants, we examined whether Sec3 can interact with the mutant rho1 proteins. The mutant rho1 complementary DNA was amplified by polymerase chain reaction
+
+(PCR) from rho1-104 and rho1-2 yeast cells. The PCR products were subcloned into pGeX vectors (see Methods). As shown in Fig. 5b, the E45I mutation (rho1-2) blocked detectable interaction between Sec3 and Rho1. For the C164Y mutant (rho1-104), a weak interaction between Sec3 and rho1 was observed in the presence of GDP, and an even weaker interaction was found in the presence of GTP-S. Clearly, the mutations in rho1-2 and rho1-104 strains change the binding affinity between Sec3 and Rho1. Sec5 binds the C-terminal portion of Sec3. To identify the region of Sec3 responsible for its association with other exocyst proteins, we looked for interactions between the individual exocyst proteins and the various fragments of Sec3 by the two-hybrid assay. We found that only Sec5 interacts with Sec3, and that the Sec3 region mediating the interaction is located C-terminal to the coiled-coil region (Fig. 6a). To confirm this interaction biochemically, we tagged this portion of Sec3 with an haemagglutinin A (HA) epitope (Sec3C­HA). Sec3C­HA and Sec5 were subcloned into the expression vector pcDNA3, and the proteins were produced by in vitro translation in the presence of [35S]methionine (Fig. 6b, left). We carried out immunoprecipitation using anti-HA antibody. As shown in Fig. 6b, Sec5 can be co-precipitated with Sec3C­HA using anti-HA antibody, but it does not precipitate with anti-HA antibody in the absence of Sec3C­HA (Fig. 6b, right). This result indicates that the post-coiled-coil C-terminal region of Sec3 directly binds Sec5 in vitro. In combination with the finding that the N-terminal portion of Sec3 binds Rho1, these results indicate that distinct regions of Sec3 mediate its interaction with Rho1 and the exocyst protein Sec5 (Fig. 6c). Deletion of the Rho1-binding domain affects the polarized localization of Sec3. Because Sec3 is mislocalized in rho1 mutants, we tested whether deleting the Rho1-binding region of Sec3 would affect the polarized localization of Sec3. For this experiment, the Nterminal pre-coiled-coil region of Sec3 (1­320) was deleted, and the truncated product was tagged with GFP at its C terminus (Sec3N­GFP). The construct was transformed into wild-type cells, and the localization of Sec3N­GFP was examined. As shown in Fig. 7, this protein was not targeted to the exocytic sites but was located diffusely in the cell (Fig. 7). As a control,
+
+356 NATURE CELL BIOLOGY VOL 3 APRIL 2001 http://cellbio.nature.com
+
+© 2001 Macmillan Magazines Ltd
+
+
+articles
+
+a 80 a GFP
+
+(units) 60
+
+activity 40
+
+20
+
+0
+
+-galactosidase Vector
+
+(1­1336)(1­500) Sec3 Sec3 Sec3
+
+(1­320)
+
+(500­1336)
+
+b Sec3­GFP
+
+Sec3
+
+b In vitro translation Anit-HA IP
+
+c Sec3N­GFP
+
+Sec5 + Sec5 Sec5 + Sec5
+
+Sec3C­HA Sec3C­HA
+
+Sec3C­HA Sec3C­HA
+
+c 1 322 465 1,336
+
+Sec3
+
+Coiled-coil
+
+Sec5
+
+Rho1 Exocyst
+
+Figure 7 Localization of Sec3 with an N-terminal deletion (Sec3N­GFP) in wild-type cells. Sec3N­GFP was subcloned into a CEN vector and transformed into wild-type yeast cells. The localization of control GFP (a), control full-length Sec3­GFP (b) and Sec3N­GFP (c) was examined by fluorescence.
+
+Figure 6 Different domains of Sec3 mediate its interaction with Rho1 and the exocyst proteins. a, Two-hybrid interactions between different portions of Sec3 and Sec5. b, The C-terminal portion of Sec3 binds Sec5 in vitro. The C-terminal portion of Sec3 was HA tagged (Sec3C­HA), and Sec3C­HA and Sec5 were in vitro translated in the presence of [35S]methinione (left). Immunoprecipitation was performed using anti-HA antibody. Sec5 can be co-precipitated with Sec3C­HA (right). c, Diagram of the protein­protein interactions of Sec3.
+
+full-length Sec3­GFP expressed from the same vector was localized correctly to the bud tips or mother/daughter connections. This observation confirms that the interaction between Rho1 and Sec3 is important for Sec3 localization. Parallel pathways control the polarized localization of the exocyst. We next examined the phenotype of cells expressing SEC3N as the sole copy of the gene. As SEC3 deletion strains grow extremely slowly compared with wild-type cells, SEC3N­GFP was transformed into diploid cells in which one chromosomal copy of SEC3 gene had been deleted. Cells expressing SEC3N­GFP as the sole copy were then isolated by tetrad dissection. Unexpectedly, these cells had no discernable growth defects when compared with wildtype cells (data not shown). To understand this observation, we examined the localization of Sec3N­GFP and several other exocyst proteins in these cells. As shown in Fig. 8a, a detectable portion of Sec3N­GFP was targeted correctly, although most of the Sec3N­GFP remained diffuse. In addition, Sec3N­GFP in the bud tip was not as concentrated as the full-length Sec3­GFP. We examined the localization of two other exocyst proteins, Exo70 and Sec5, which were both targeted correctly (Fig. 8a). In addition, the Rab protein, Sec4, was also localized normally in these cells.
+
+Disrupting the interaction of Rho1 with Sec3 is not therefore sufficient to disrupt localization of all exocyst proteins. It is possible that Sec3 is not the only component that directs the assembly of exocyst proteins at exocytic sites. Indeed, Exo70 can be targeted correctly to the bud tips and mother/daughter connections in sec3-2, sec3-4 and sec3-5 temperature-sensitive mutants (W.G. et al., unpublished data), although several other exocyst members are mislocalized in the mutant cells17. Because Exo70 can be targeted to the exocytic sites independently of Sec3, we thought that a portion of Sec3N­GFP might be recruited through its interaction with the exocyst members that are localized to those sites in the SEC3N strains. On the basis of the known protein­protein interactions19, Sec3N­GFP may be recruited to the exocytic sites by binding to Sec5, which in turn binds directly to Exo70. We therefore examined whether Sec3N­GFP can interact with Sec5 and Exo70. As shown in Fig. 8b, both Exo70 and Sec5 can be co-precipitated with Sec3N­GFP from yeast lysates using an anti-GFP antibody. Overall, these results have revealed two parallel pathways for the Rho1-mediated control of the polarized targeting of the exocyst complex, one Sec3 dependent and one Sec3 independent. For Rho1 to control the localization of the entire exocyst complex, Rho1 must interact, directly or indirectly, with components of the Sec3-independent pathway in addition to its direct interaction with Sec3.
+
+Discussion The Rho family of small GTP-binding proteins are regulators of many biological processes including cell polarization, morphogenesis, cell growth and development26­28. Many of the functions carried
+
+NATURE CELL BIOLOGY VOL 3 APRIL 2001 http://cellbio.nature.com 357
+
+© 2001 Macmillan Magazines Ltd
+
+
+articles
+
+a Sec3N­GFP Sec5­HA
+
+Rho1
+
+Fks1,2 PKC1 Bni1 Sec3 ?
+
+Actin Exocyst
+
+Exo70­HA Sec4 Cell wall Exocytosis
+
+Polarized cell growth
+
+b
+
+­
+
+Sec3N­GFP +
+
+Figure 9 Rho1 coordinates various cellular activities through different effectors for polarized cell growth in the budding yeast S. cerevisiae. PKC, protein kinase C. Fks1, 2, glucan synthase; Bni1, formin family protein.
+
+Sec3N­GFP
+
+Sec5­HA
+
+Exo70­HA
+
+Figure 8 Localization and protein binding of Sec3N­GFP as the sole copy in the cell. a, Localization of Sec3N­GFP, Exo70­HA, Sec5­HA and Sec4 in cells with wild-type Sec3 replaced by an N-terminally truncated allele of Sec3 (Sec3N). Sec3N­GFP was examined by direct fluorescence observation. Exo70­HA and Sec5­HA were examined by immunofluorescence using anti-HA monoclonal antibody. Sec4 was detected using anti-Sec4 monoclonal antibody. b, Co-immunoprecipitation of exocyst proteins with Sec3N­GFP from yeast cells. Immunoprecipitation was performed using anti-GFP antibody with a non-transformed yeast strain as a negative control. Exo70­HA and Sec5­HA were detected by western blot using anti-HA monoclonal antibody.
+
+out by Rho proteins are mediated through their effect on the actin cytoskeleton. Like other members of the Ras superfamily, Rho proteins have many downstream effector proteins. Through their different effectors, these small GTP-binding proteins can coordinate various cellular activities to carry out specific biological functions. For example, as major regulators of cell polarization, Rho proteins must coordinate both the cytoskeleton and the membrane trafficking machinery. The budding yeast S. cerevisiae undergoes polarized growth, which requires a sophisticated system to coordinate several cellular processes, including cell-cycle progression, assembly of the actin cytoskeleton, polarized membrane traffic and cell wall remodelling. Rho family proteins are localized to bud tips and mother/daughter connections34, and have important roles in each of these processes. Polarized exocytosis requires a correctly assembled actin cytoskeleton. In actin mutant cells or in cells treated with latrunculin A, secretory vesicles are randomly distributed rather than properly localized to exocytic sites9,24,35. The Rab protein, Sec4, resides on secretory vesicles, and its localization to the bud tip requires polarized actin24,30. Some components of the secretory machinery, however, do not require actin for their localization to exocytic sites. As Sec3 can establish and maintain its localization in
+
+both actin mutant cells and cells treated with latrunculin A (ref. 17), there must be an actin-independent mechanism that controls Sec3 localization. We have reported that Sec3 is a direct downstream target of Rho proteins and that the localization of Sec3 is regulated by Rho1. GFP-tagged Sec3 is mislocalized in rho1-5 and rho1-104 mutants at the restrictive temperature. Notably, actin, Myo2 and Sec4 are still polarized in rho1-104 cells. In rho1-2, although the localization of Sec3 is well maintained, actin, Myo2 and Sec4 are mislocalized. These observations reveal a distinction between the vesicle transport system involving the actin cytoskeleton and Sec4 (ref. 24), and the vesicle tethering/docking system involving Sec3 (refs 17, 19). In addition to the above observations, we also found that Sec3 cannot be localized for bud emergence in rho1-2 and rho1-5 cells released from G0 arrest, indicating that the initial targeting (the establishment) of Sec3 to the bud tip also may require functional Rho1. Rho1 seems to control the concentration of the exocyst complex at exocytic sites, but not plasma membrane association per se, as preliminary subcellular fractionation experiments did not reveal a shift in the distribution of the exocyst between the cytosol and the plasma membrane in rho1 mutants (data not shown). Further experiments are needed to test the role of Rho1 in membrane association of the exocyst. Sec3 directly interacts with Rho1 in its GTP-bound form. The region mediating the interaction with Rho1 has been mapped to the N-terminal pre-coiled-coil region. We have also examined the interaction of Sec3 with the other exocyst proteins and found that the C-terminal post-coiled-coil region of Sec3 binds Sec5. We propose that Sec3, through its N-terminal region, communicates with Rho1 to respond to polarization signals, whereas the C-terminal portion binds to Sec5, allowing assembly of the exocyst complex. We did not detect an interaction between Sec3 and the Rho1-2 mutant protein in our in vitro binding assay (Fig. 5); nevertheless, the localization of Sec3­GFP was not affected significantly in rho12 mutant yeast cells (Fig. 2). This apparent discrepancy may relate to possible differences between in vivo and in vitro experiments. The purified recombinant Rho1-2 fusion protein may have reduced binding affinity as a result of misfolding in bacteria or instability during purification. Furthermore, compensatory mechanisms may exist in yeast cells that help to localize Sec3 even when its binding affinity to Rho1 is reduced. When rho1-2 cells were shifted to the restrictive condition from G0 phase, Sec3­GFP failed to be targeted in a polarized fashion (Fig. 3). The rho1-2 mutation may reduce the interaction with Sec3 to a level that is sufficient to maintain the
+
+358 NATURE CELL BIOLOGY VOL 3 APRIL 2001 http://cellbio.nature.com
+
+© 2001 Macmillan Magazines Ltd
+
+
+articles
+
+Table 2 Yeast strain list NY2275 NY2276 NY2277 NY2278 NY2279 NY2280 NY2281 NY2282 NY2283 NY1537 NY1538 NY2284 NY2285 NY2286 NY2287
+
+MATa, his31, leu20, met150, ura30 (Research Genetics, BY4741) MAT, his31, leu20, lys20, ura30 (Research Genetics, BY4742) MATa/, his31/his31, leu20/leu20, MET15/met150, ura30/ura30, LYS/lys20, SEC3/SEC3::KanM (Research Genetics) MAT, his31, leu20, lys20, ura30, (SEC3::KanM), [Sec3N-GFP, LEU2] MATa, his31, leu20, met150, ura30, [Sec3N-GFP, LEU2] MAT, his31, leu20, lys20, ura30, (SEC3::KanM), [Sec3N-GFP LEU2], [SEC5:SEC5-HA3, URA] MATa, his31, leu20, met150, ura30, [Sec3N-GFP, LEU2], [SEC5:SEC5-HA3, URA] MAT, his31, leu20, lys20, ura30, (SEC3::KanM), [Sec3N-GFP LEU2], [EXO70::EXO70-HA, URA] MATa, his31, leu20, met150, ura30, [Sec3N-GFP, LEU2], [EXO70:EXO70-HA, URA] MATa, ura3, leu2, trp1, his3, ade2 (Y. Takai) MAT, ura3, leu2, trp1, his3, ade2, rho1-104 (Y. Takai) MAT, ura3, leu2, trp1, his3, ade2, lys2, rho1::HIS3, ade3::[pRHO1-RHO1:LEU2] (Y. Ohya, YOC764) MATa, ura3, leu2, trp1, his3, ade2, lys2, rho1::HIS3, ade3::[pRHO1-rho1-2:LEU2] (Y. Ohya, YOC772) MAT, ura3, leu2, trp1, his3, ade2, lys2, rho1::HIS3, ade3::[pRHO1-rho1-3:LEU2] (Y. Ohya, YOC753) MATa, ura3, leu2, trp1, his3, ade2, lys2, rho1::HIS3, ade3::[pRHO1-rho1-5:LEU2] (Y. Ohya, YOC753)
+
+localization of Sec3 in vegetative cells, but is insufficient to establish polarity in cells exiting G0 phase. In support of the N terminus of Sec3 mediating interactions with Rho1, we have found that an N-terminally truncated version of Sec3 (Sec3N), missing the Rho1-binding site, was mislocalized in cells expressing endogenous Sec3. A different result was found in a strain expressing Sec3N as the sole version of Sec3 (Fig. 7). In the absence of wild-type Sec3, a portion of Sec3N­GFP was targeted correctly to the bud tips and mother/daughter connections, although it was not as concentrated as the full-length Sec3­GFP in these regions. Furthermore, two other exocyst proteins, Sec5 and Exo70, were localized normally in SEC3N cells (Fig. 8a). This result implies that Sec3 is not the only recruiter of exocyst proteins to exocytic sites. As Exo70 is polarized in sec3N as well as in sec3-2 mutant cells (our unpublished data), there must be a parallel pathway for targeting the exocyst complex. Exo70 is a candidate protein in such a pathway. Sec3N­GFP may be recruited inefficiently to the bud tip through its interaction with Sec5, which in turn binds Exo70 (ref. 19). Indeed, Exo70 and Sec5 were co-precipitated with Sec3N­GFP from these cells (Fig. 8b). When Sec3N is expressed in a wild-type background, the full-length Sec3 protein may saturate this pathway, leading to a more complete loss of SEC3N ­GFP localization. On the basis of these observations, we propose that there are two mechanisms for Sec3 targeting, one through a direct interaction with Rho1, and the other through its interaction with other exocyst proteins. We have found that all exocyst proteins, including Exo70, are mislocalized in certain rho1 mutants. On the basis of the results discussed above, however, it is unlikely that this effect is mediated solely through Sec3. We therefore propose that Rho1 interacts with a component of a parallel pathway to control the localization of the exocyst complex. It will be interesting and important to explore the molecular mechanisms underlying this regulation. It has been reported that Exo70 binds Rho3 in a GTP-dependent manner36; we have not observed mislocalization of Exo70, or any other exocyst subunit, in rho3 mutants. Possibly, mislocalization of the exocyst might only be revealed in certain alleles of rho3 mutants that have yet to be identified. It is also possible that Rho3 may control aspects of secretion other than protein localization, as a cold-sensitive rho3 mutant accumulates secretory vesicles in the cell37.
+
+In addition to Sec3, several other proteins have been identified as downstream effectors for Rho1 in yeast27, (Fig. 9). They include
+
+28
+
+the yeast protein kinase C homologue, PKC1; a yeast formin family protein, Bni1; and the cell wall (13) glucan synthases, Fks1 and Fks2. Rho1 signalling to actin is probably through Bni1 and/or Pkc1, and hence a Pkc1-associated MAP kinase cascade. Rho1 also controls cell-wall synthesis by stimulating the (13) glucan synthase activity. The MAP kinase cascade also contributes to the cell wall construction by upregulating the production of cell-wall materials. We have shown here that functional Rho1 is required for polarized localization of the exocyst complex, which is important for vesicle targeting and docking at specific exocytic sites. Combining these results, we propose that Rho1 coordinates the actin cytoskeleton, polarized exocytosis and cell-wall construction/modification to ensure polarized growth of yeast (Fig. 9). As both the exocyst and the Rho family proteins are conserved from yeast to mammals, it will be interesting to investigate the relationship of these proteins in higher eukaryotic cells. For example, in epithelial cells Rho family proteins mediate the establishment and maintenance of polarity38­42, which is fundamental for the proper physiological functions of these cells. We speculate that Rho proteins may use similar mechanisms to regulate polarized membrane traffic in higher eukaryotic cells.
+
+Methods
+
+Yeast strains and media. Yeast cells were grown in YP medium (1% Bacto-yeast extract, 2% Bacto-peptone) supplemented with 2% dextrose (YPD), or SCD medium (synthetic complete plus 2% dextrose) lacking certain supplements. To construct the Sec3N strain, we transformed the diploid SEC3 strain (Research Genetics) with Sec3N­GFP subcloned in the p415GPD vector (ATCC). Cells in which SEC3 was replaced with Sec3N­GFP were isolated by tetrad dissection. The principal strains used in this study are listed in Table 2. Fluorescence microscopy. We performed fluorescence microscopy with a Zeiss Axiophot2 microscope fitted with a 63× oil immersion objective and standard filter sets. The fluorescence image was recorded with a Quantix HCCD camera (Photometrics, Tuscon, Arizona), digitized and stored using IPLab Imaging Software (Scanalytics, Fairfax,Virginia). Localization of GFP-tagged exocyst components. The exocyst­GFP plasmids were transformed into wild-type and various mutant yeast strains by integration into the chromosomal loci of the exocyst genes. To localize exocyst­GFP, cells from an early log phase culture grown in SC media lacking uracil were transferred to 37 °C for 1.5 h. Cells were then
+
+NATURE CELL BIOLOGY VOL 3 APRIL 2001 http://cellbio.nature.com 359
+
+© 2001 Macmillan Magazines Ltd
+
+
+articles
+
+pelleted in ice-cold PBS at 4 °C, fixed for 10 min in methanol at ­20 °C, pelleted and washed with acetone at ­20 °C. We subsequently re-hydrated the cells by washing them three times with PBS at 4 °C, and examined them by microscopy. For Sec3­GFP localization in rho1-2 and rho1-5 cells recovering from G0 arrest, we first grew the cells overnight in liquid culture, and then spread 0.2 ml of the culture onto YPD agar plates. After the yeast cells formed a lawn (2­3 d at 25 °C), they were scraped from the plates and transferred into YPD liquid medium. The cells were resuspended in 20 ml of 1 M sorbitol/50% YPD and then spun for 1 min at 500g to pellet budded cells. The supernatant containing unbudded cells was collected and examined by microscopy. If necessary, we span the cells again to ensure that they were uniformly unbudded. Aliquots of the unbudded cells were transferred to YPD liquid media and allowed to grow for 3 h at either 25 or 37 °C. The cells were then gathered, and Sec3­GFP localization was examined as above.
+
+Immunofluorescence and actin staining. Immunofluorescence staining using anti-HA monoclonal antibody, anti-Sec4 monoclonal antibody and anti-Myo2 polyclonal antibody was done as described43,44. We stained actin using Texas-Red-conjugated phalloidin (Molecular Probes) at 20 units ml-1 as described17.
+
+Yeast two-hybrid assay. The yeast two-hybrid assay was done as described19,45. The exocyst constructs were made in either pAS1-CYH2 or pACTII as described19. The Rho two-hybrid constructs were generous gifts from Y. Takai. We used the yeast strain L40 as the host. The interactions were measured using a -galactosidase assay. In vitro binding between Sec3 and Rho1. Sec3 (amino acids 1­320) was fused with MBP (MBP­Sec3). Rho1(C) was fused to GST (a gift from Y. Takai). To construct mutant Rho1 GST fusion proteins, we amplified the mutated Rho1 cDNAs by PCR from the rho1-104 and rho1-2 yeast cells, and subcloned them into the pGEX vector. The plasmids were sequenced. For rho1-2, the GA to AT mutation is located at nucleotides 133 and 134, and changes amino acid 45 from E to I (E45I). For rho1-104, the G to A mutation is located at nucleotide 491, and changes amino acid 164 from C to Y (C164Y). It has been reported that a D to N mutation is also present in residue 72 (ref. 33); however, we could not identify this mutation in the strain. Recombinant fusion proteins were purified from bacterial lysates and used in in vitro binding assays. Rho1­GST fusion proteins were incubated with 0.05 mM GTP-S or GDP for 15 min at 37 °C in a buffer containing 20 mM Tris-HCl pH 7.4, 100 mM NaCl, 5 mM EDTA, 1 mM dithiothreitol (DTT). We then added 10 mM MgCl2 and incubated the mixture for 30 min at room temperature. After pre-loading, 5 µg of GST fusion proteins was incubated with equal amounts of purified MBP­Sec3 for 2 h at room temperature in binding buffer (50 mM Tris-HCl pH 7.4, 150 mM NaCl, 1 mM EDTA, 1 mM DTT, 10 mM MgCl2, 1% Triton X-100 and 2 mg ml-1 bovine serum albumin (BSA)). Rho­GST fusion proteins were recovered using glutathione Sepharose-4B (Pharmacia), and MBP­Sec3 bound to Rho­GST fusion protein was detected by western blot with anti-MBP antibody. Analysis of protein­protein interactions. Sec5 and HA-tagged Sec3 (residues 500­1,336) were inserted into the pcDNA3 expression vector (Invitrogen) for in vitro translation using the TnT system (Promega) in the presence of [35S]methinione. To examine the interaction between them, we synthesized the two proteins in reticulocyte lysates and then diluted them 1:100 in binding buffer (20 mM PIPES pH 6.8, 0.5% Tween-20, 150 mM NaCl, 1 mM EDTA, 1 mM DTT). Immunoprecipitations were carried out using antisera (BabCO) against the HA epitopes, and interactions were detected by co-immunoprecipitation of Sec5 with the HA-tagged Sec3 (500­1,336). As a control, we evaluated the precipitation of Sec5 by the antibody in the absence of HA­Sec3 (500­1,336).
+
+Immunoprecipitation of Sec3N­GFP. Sec5­HA and Exo70­HA were expressed by chromosomal integration in cells with Sec3N­GFP as the sole source of Sec3. We carried out immunoprecipitation of Sec3N­GFP from yeast lysates as described20. Immunoprecipitated proteins were resolved by SDS­PAGE and transferred to nitrocellulose. To detect Sec5­HA and Exo70­HA co-immunoprecipitated with Sec3N­GFP, anti-HA monoclonal antibody was used on the western blots. We used cells without an Sec3N­GFP plasmid as negative controls. RECEIVED 25 SEPTEMBER 2000; REVISED 4 DECEMBER 2000; ACCEPTED 3 JANUARY 2001; PUBLISHED 6 MARCH 2001 1. Drubin, D. G. & Nelson, W. J. Origins of cell polarity. Cell 84, 335­344 (1996). 2. Lew, D. J. & Reed, S. I. Cell cycle control of morphogenesis in budding yeast. Curr. Opin. Genet. Dev. 5, 17­23 (1995). 3. Madden, K. & Snyder, M. Cell polarity and morphogenesis in budding yeast. Annu. Rev. Microbiol. 52, 687­744 (1998). 4. Chant, J. Cell polarity in yeast. Annu. Rev. Cell. Dev. Biol. 15, 365­391 (1999). 5. Finger, F. P. & Novick, P. J. Spatial regulation of exocytosis: lessons from yeast. J. Cell Biol. 142, 609­612 (1998). 6. Pruyne, D. W., Schott, D. H. & Bretscher, A. Tropomyosin-containing actin cables direct the Myo2p-dependent polarized delivery of secretory vesicles in budding yeast. J. Cell Biol. 143, 1931­1945 (1998). 7. Schott, D., Ho, J., Pruyne, D. & Bretscher, A. The COOH-terminal domain of Myo2p, a yeast myosin V, has a direct role in secretory vesicle targeting. J. Cell Biol. 147, 791­808 (1999). 8. Govindin, B., Bowser, R. & Novick, P. The role of Myo2, a yeast class V myosin, in vesicular transport. J. Cell Biol. 128, 1055­1068 (1995). 9. Karpova, T. S. et al. Role of actin and Myo2p in polarized secretion and growth of Saccharomyces
+
+cerevisiae. Mol. Biol. Cell 11, 1727­1737 (2000). 10. Pfeffer, S. R. Transport-vesicle targeting: tethers before SNAREs. Nature Cell Biol. 1, E17­E22 (1999). 11. Guo, W., Sacher, M., Barrowman, J., Ferro-Novick, S. & Novick, P. Protein complexes in transport vesicle targeting. Trends Cell Biol. 10, 251­255 (2000). 12. Rothman, J. E. Mechanisms of intracellular protein transport. Nature 372, 55­63 (1994). 13. Novick, P. & Zerial, M. The diversity of Rab proteins in vesicle transport. Curr. Opin. Cell Biol. 9, 496­504 (1997). 14. Lazar, T., Gotte, M. & Gallwitz, D. Vesicular transport: how many Ypt/Rab-GTPases make a eukaryotic cell? Trends Biochem. Sci. 22, 468­472 (1997). 15. TerBush, D. R. & Novick, P. Sec6, Sec8, and Sec15 are components of a multisubunit complex which localizes to small bud tips in Saccharomyces cerevisiae. J. Cell Biol. 130, 299­312 (1995). 16. TerBush, D. R., Maurice, T. M., Roth, D. & Novick, P. The Exocyst is a multiprotein complex required for exocytosis in Saccharomyces cerevisiae. EMBO J. 15, 6483­6494 (1996). 17. Finger, F. P., Hughes, T. E. & Novick, P. Sec3p is a spatial landmark for polarized secretion in budding yeast. Cell 92, 559­571 (1998). 18. Hsu, S.-C. et al. The mammalian brain rsec6/8 complex. Neuron 17, 1209­1219 (1996). 19. Guo, W., Roth, D., Walch-Solimena, C. & Novick, P. The exocyst is an effector for Sec4p, targeting secretory vesicles to sites of exocytosis. EMBO J. 18, 1071­1080 (1999). 20. Guo, W., Grant, A. & Novick, P. Exo84p is an exocyst protein essential for secretion. J. Biol. Chem. 274, 23558­23564 (1999). 21. Brennwald, P. et al. Sec9 is a SNAP-25-like component of a yeast SNARE complex that may be the effector of Sec4 function in exocytosis. Cell 79, 245­258 (1994). 22. Hazuka, C. D. et al. The sec6/8 complex is located at neurite outgrowth and axonal synapse-assembly domains. J. Neurosci. 19, 1324­1334 (1999). 23. Grindstaff, K. K. et al. Sec6/8 complex is recruited to cell-cell contacts and specifies transport vesicle delivery to the basal-lateral membrane in epithelial cells. Cell 93, 731­740 (1998). 24. Walch-Solimena, C., Collins, R. N. & Novick, P. J. Sec2p mediates nucleotide exchange on Sec4p and is involved in polarized delivery of post-Golgi vesicles. J. Cell. Biol. 137, 1495­1509 (1997). 25. Carr, C. M., Grote, E., Munson, M., Hughson, F. M. & Novick, P. J. Sec1p binds to SNARE complexes and concentrates at sites of secretion. J. Cell Biol. 146, 333­344 (1999). 26. Hall, A. Rho GTPases and the actin cytoskeleton. Science 279, 509­514 (1998). 27. Cabib, E., Drgonova, J. & Drgon, T. Role of small G proteins in yeast cell polarization and wall biosynthesis. Annu. Rev. Biochem. 67, 307­333 (1998). 28. Schmidt, A. & Hall, M. N. Signaling to the actin cytoskeleton. Annu. Rev. Cell Dev. Biol. 14, 305­338 (1998). 29. Helliwell, S. B., Schmidt, A., Ohya, Y. & Hall, M. N. The Rho1 effector Pkc1, but not Bni1, mediates signalling from Tor2 to the actin cytoskeleton. Curr. Biol. 8, 1211­1214 (1998). 30. Ayscough, K. R. et al. High rates of actin filament turnover in budding yeast and roles for actin in establishment and maintenance of cell polarity revealed using the actin inhibitor latrunculin-A. J. Cell Biol. 137, 399­416 (1997); erratum ibid. 146, 1201 (1999). 31. Nonaka, H. et al. A downstream target of RHO1 small GTP-binding protein is PKC1, a homolog of protein kinase C, which leads to activation of the MAP kinase cascade in Saccharomyces cerevisiae. EMBO J. 14, 5931­5938 (1995). 32. Drgonova, J., Drgon, T., Roh, D. H. & Cabib, E. The GTP-binding protein Rho1p is required for cell cycle progression and polarization of the yeast cell. J. Cell Biol. 146, 373­387 (1999). 33. Haarer, B. K. et al. SEC3 mutations are synthetically lethal with profilin mutations and cause defects in diploid-specific bud-site selection. Genetics 144, 495­510 (1996). 34. Yamochi, W. et al. Growth site localization of Rho1 small GTP-binding protein and its involvement in bud formation in Saccharomyces cerevisiae. J. Cell Biol. 125, 1077­1093 (1994). 35. Novick, P. & Botstein, D. Phenotypic analysis of temperature-sensitive yeast actin mutants. Cell 40, 405­416 (1985). 36. Robinson, N. G. G. et al. Rho3 of Saccharomyces cerevisiae, which regulates the actin cytoskeleton and exocytosis, is a GTPase which interacts with Myo2 and Exo70. Mol. Cell. Biol. 19, 3580­3587 (1999). 37. Adamo, J. E., Rossi, G. & Brennwald, P. The Rho GTPase Rho3 has a direct role in exocytosis that is distinct from its role in actin polarity. Mol. Biol. Cell 10, 4121­4133 (1999). 38. Kim, S. K. Cell polarity: new PARtners for Cdc42 and Rac. Nature Cell Biol. 2, E143­E145 (2000). 39. Kroschewski, R., Hall, A. & Mellman, I. Cdc42 controls secretory and endocytic transport to the basolateral plasma membrane of MDCK cells. Nature Cell Biol. 1, 8­13 (1999). 40. Lin, D. et al. A mammalian PAR-3-PAR-6 complex implicated in Cdc42/Rac1 and aPKC signalling and cell polarity. Nature Cell Biol. 2, 540­547 (2000). 41. Joberty, G., Petersen, C., Gao, L. & Macara, I. G. The cell-polarity protein Par6 links Par3 and atypical protein kinase C to Cdc42. Nature Cell Biol. 2, 531­539 (2000). 42. Braga, V. M., Machesky, L. M., Hall, A. & Hotchin, N. A. The small GTPases Rho and Rac are required for the establishment of cadherin-dependent cell-cell contacts. J. Cell Biol. 137, 1421­1431 (1997). 43. Reck-Peterson, S. L., Novick, P. J. & Mooseker, M. S. The tail of a yeast class V myosin, myo2p, functions as a localization domain. Mol. Biol. Cell 10, 1001­1017 (1999). 44. Roth, D., Guo, W. & Novick, P. Dominant negative alleles of SEC10 reveal distinct domains involved in secretion and morphogenesis in yeast. Mol. Biol. Cell 9, 1725­1739 (1998). 45. Kohno, H. et al. Bni1p implicated in cytoskeletal control is a putative target of Rho1p small GTP binding protein in Saccharomyces cerevisiae. EMBO J. 15, 6060­6068 (1996).
+
+ACKNOWLEDGEMENTS We thank N. Robinson for sharing preliminary results; Y. Takai, Y. Ohya, M. Hall, M. Snyder and E. Cabib for providing us with reagents; and P. De Camilli, I. Mellman, L. Du, E. Grote and C. Carr for constructive discussions. W.G. was supported by Brown­Cox and NIH postdoctoral fellowships. This study was supported by a grant to P.N. from the NIH and in part to a grant to F. T. from the NIH. Correspondence and requests for materials should be addressed to P.N.
+
+360 NATURE CELL BIOLOGY VOL 3 APRIL 2001 http://cellbio.nature.com
+
+© 2001 Macmillan Magazines Ltd
+
+

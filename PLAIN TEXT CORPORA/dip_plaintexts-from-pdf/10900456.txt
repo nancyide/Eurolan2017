@@ -1,0 +1,276 @@
+Yeast Yeast 2000; 17: 95±110. Research Article
+
+Genome-wide protein interaction screens reveal functional networks involving Sm-like proteins
+
+Micheline Fromont-Racine1 , Andrew E. Mayes2 , Adeline Brunet-Simon1, Jean-Christophe Rain1, Alan Colley2, Ian Dix2, Laurence Decourty1, Nicolas Joly3, Florence Ricard1, Jean D. Beggs2 and Pierre Legrain1*
+
+1 2 3
+
+GeÂneÂtique des Interactions MacromoleÂculaires, CNRS (URA 1300), Institut Pasteur, 25±28 rue du Dr Roux, 75724 Paris Cedex 15, France Institute of Cell and Molecular Biology, University of Edinburgh, King's Buildings, May®eld Road, Edinburgh EH9 3JR, UK Service d'Informatique Scienti®que, Institut Pasteur, 25±28 rue du Dr Roux, 75724 Paris Cedex 15, France
+
+{ {
+
+*Correspondence to: P. Legrain, GeÂneÂtique des Interactions MacromoleÂculaires, CNRS (URA 1300), Institut Pasteur, 25±28 rue du Dr Roux, 75724 Paris Cedex 15, France. E-mail: plegrain@pasteur.fr {M. F.-R. and A. E. M. contributed equally to this work.
+
+Abstract
+
+A set of seven structurally related Sm proteins forms the core of the snRNP particles containing the spliceosomal U1, U2, U4 and U5 snRNAs. A search of the genomic sequence of Saccharomyces cerevisiae has identi®ed a number of open reading frames that potentially encode structurally similar proteins termed Lsm (Like Sm) proteins. With the aim of analysing all possible interactions between the Lsm proteins and any protein encoded in the yeast genome, we performed exhaustive and iterative genomic two-hybrid screens, starting with the Lsm proteins as baits. Indeed, extensive interactions amongst eight Lsm proteins were found that suggest the existence of a Lsm complex or complexes. These Lsm interactions apparently involve the conserved Sm domain that also mediates interactions between the Sm proteins. The screens also reveal functionally signi®cant interactions with splicing factors, in particular with Prp4 and Prp24, compatible with genetic studies and with the reported association of Lsm proteins with spliceosomal U6 and U4/U6 particles. In addition, interactions with proteins involved in mRNA turnover, such as Mrt1, Dcp1, Dcp2 and Xrn1, point to roles for Lsm complexes in distinct RNA metabolic processes, that are con®rmed in independent functional studies. These results provide compelling evidence that two-hybrid screens yield functionally meaningful information about protein±protein interactions and can suggest functions for uncharacterized proteins, especially when they are performed on a genome-wide scale. Copyright # 2000 John Wiley & Sons, Ltd. Keywords: two-hybrid; splicing; mRNA degradation; yeast; proteome; snRNP
+
+Received: 13 March 2000 Accepted: 17 April 2000
+
+Introduction Splicing of nuclear pre-mRNA occurs within a large ribonucleoprotein complex called the spliceosome. Spliceosome assembly involves snRNP particles constituted of snRNAs (the U1, U2, U4, U5 and U6 snRNAs) which are associated with proteins. Human U1, U2, U4 and U5 snRNPs contain two classes of proteins: seven small proteins, collectively called the Sm proteins (B or Bk, D1, D2, D3, E, F, G) that constitute a core particle common to these snRNP, and other proteins associated speci®cally
+
+Copyright # 2000 John Wiley & Sons, Ltd.
+
+with one particular snRNP (Burge et al., 1998; Will and LuÈhrmann, 1997). These snRNP particles are evolutionary highly conserved and Sm proteins were also identi®ed in the yeast Saccharomyces cerevisiae (BordonneÂ and Tarassov, 1996; Gottschalk et al., 1998; Roy et al., 1995; Rymond et al., 1993). All Sm proteins contain two conserved regions, called the Sm motifs 1 and 2 (Cooper et al., 1995; Hermann et al., 1995; Seraphin 1995). The U1, U2, U4 and U5 snRNAs are transcribed by RNA polymerase II and exported to the cytoplasm, where they associate with a complex of Sm proteins
+
+
+96 M. Fromont-Racine et al.
+
+to form core snRNP particles. These U snRNAs contain a conserved structural motif, a singlestranded uridylic acid-rich region ¯anked by two stem-loop structures (Branlant et al., 1982), which is recognized by the Sm protein complex. When the Sm core particle is assembled, the 5k cap of the snRNA becomes hypermethylated and 3k-end processing occurs (Jacobson et al., 1993). At least in higher eukaryotes, binding of the Sm core proteins is essential for the hypermethylation of the cap (Mattaj, 1986) and both the 5k trimethylguanosine cap and the Sm proteins are required for the nuclear import of the snRNP (Fischer et al., 1993). Finally, with the addition of snRNP-speci®c proteins, a functional snRNP is produced. Thus, in higher eukaryotes the biogenesis of snRNPs is a complex process involving both nuclear and cytoplasmic compartments. The U6 snRNA is different; it is transcribed by RNA polymerase III and has a c-monomethyl triphosphate cap. U6 snRNA lacks the Sm binding site and does not itself assemble with the canonical Sm proteins (Luhrmann et al., 1990). However, the U4 and U6 snRNAs have extensive sequence complementarity to one another and most or all of the U4 snRNA is found complexed with U6 snRNA in a U4/U6 di-snRNP, while a free form of U6 also exists. There have been con¯icting reports about the localization of the U6 snRNA. For example, it was reported that in Xenopus oocytes U6 snRNA does not leave the nucleus (Vankan et al., 1990), whereas work on mouse ®broblast cells indicated that newly synthesised U6 snRNA is present transiently in the cytoplasm (Fury and Zieve, 1996). Searches in the Saccharomyces cerevisiae genome database allowed the identi®cation of another set of Sm-like proteins (Fromont-Racine et al., 1997). One of them, Lsm8, was identi®ed in a two-hybrid screen using the splicing factor Hsh49p as bait (Fromont-Racine et al., 1997), indicating a possible link with the splicing machinery. Indeed, seven out of these nine Sm-like proteins, renamed Lsm 2±8, were found to associate with U6 snRNA (Cooper et al., 1995; Mayes et al., 1999; Pannone et al., 1998; Seraphin, 1995), suggesting the possible existence in budding yeast of a heptameric U6associated Lsm particle that may be similar to the Sm core particle. Indeed, most of these Lsm proteins were found associated with the U4/U6.U5 tri-snRNP (Gottschalk et al., 1999; Stevens and Copyright # 2000 John Wiley & Sons, Ltd.
+
+Abelson, 1999). In contrast, Lsm1 displays only a weak, highly salt-sensitive association with U6 (Mayes et al., 1999) and yeast genetic studies have implicated Lsm1 (previously Spb8) in mRNA decapping (Boeck et al., 1998). Thus, Lsm 1 protein could be involved in a distinct pathway. The last Lsm protein, SmX1 or Lsm9, does not bind to U6 snRNA and was recently found in a protein complex unrelated to splicing (Rigaut et al., 1999). Little is known on the biogenesis of the U6 snRNP particle, apart from a proposed chaperone function for La protein, handing the newly synthesized U6 snRNA from RNA polymerase III to Lsm proteins (Pannone et al., 1998). Also, in humans, seven Lsm orthologous proteins were found associated with U6 snRNA (Achsel et al., 1999). In order to understand what could be the various role of Lsm proteins, we used exhaustive and iterative two-hybrid screens, starting with Lsm proteins as baits. Interactions amongst the Lsm proteins themselves strongly suggest the existence of a Lsm complex or complexes. These interactions require both Sm motifs. The screens also reveal several interactions with splicing factors that may be functionally signi®cant. In particular, the interactions with Prp4 and Prp24 are compatible with the observed association of Lsm proteins with U6 and U4/U6 particles, and with genetic studies. Interactions with SmD2, Prp11 and Hsh49 suggest that Lsm proteins may also play a key role in assembling spliceosomes through snRNP±snRNP interactions. In addition, the screens reveal interactions with proteins which are involved in mRNA turnover, hinting that Lsm1 may not be the only Lsm protein associated with such a function. Altogether, the Lsm screens and the iterative screens point to roles for Lsm proteins in distinct processes.
+
+Materials and methods Strains and plasmids Y187, CG1945 and L40 strains were used to perform the two-hybrid screens (Fromont-Racine et al., 1997). We derived the L40DG from the L40 strain by deleting the GAL4 gene in this strain and replacing it by a KANAR cassette (see below). Gap
+
+Yeast 2000; 17: 95±110.
+
+
+Genome-wide protein interaction maps in mRNA metabolism pathways 97
+
+repair experiments were performed in the yeast strain BMA64 (F. Lacroute). The Escherichia coli strain MC1066 was used for prey plasmid recovery, selecting on plates lacking leucine. The pBTM116 plasmid (Vojtek et al., 1993) was used to clone LexA fusions and pAS2DD was used to clone the Gal4 bait fusions (Fromont-Racine et al., 1997).
+
+L40DG strain construction and two-hybrid mating Two-hybrid screens were performed by a mating strategy, using the FRYL library introduced in Y187 cells and either CG1945 cells producing Gal4derived bait proteins or L40 and L40DG cells producing LexA-derived bait proteins (FromontRacine et al., 1997). For the LexA±Lsm6 and LexA±Lsm8 screens, only the HIS3 reporter was used to select interactors (diploid cells derived with L40 cells express endogenous Gal4 gene, which spontaneously activates the LacZ reporter gene from the Y187 background). To permit use of the LacZ reporter with other LexA baits, we generated the strain L40DG by replacing the entire GAL4 coding sequence in L40 by the kanamycin-resistance marker from plasmid pkana-X2 (Wach et al., 1994). The gene replacement was con®rmed by Southern blotting, and an X-gal overlay on diploid cells (Y187rL40DG) veri®ed that endogenous activation of the LacZ reporter did not occur (data not shown). Selection of positive clones Positive clones were selected as previously described (Fromont-Racine et al., 1997). Prey inserts were ampli®ed from library plasmids by PCR on colonies (Wang et al., 1996a), the length of each insert was determined by gel electrophoresis and the 5k junction was sequenced. Identi®cation of each candidate in the yeast database was performed by a dedicated software (DOGEL) that gives the chromosomal coordinates (chromosome number, strand and position), ORF and gene name and the exact location of the beginning of the insert relative to the initiation codon. Alternatively, the BLAST program can be used against the Saccharomyces Genome Database (SGD; http://genome-www. stanford.edu). The biological information on the ORF was extracted from the Yeast Protein Database (YPD; http://www.proteome.com). Classi®cation of the candidates Prey fusions were classi®ed according to four different categories of different heuristic values (A1>A2=A3>A4) (Fromont-Racine et al., 1997). B fusions express non-biological peptides, i.e antisense or intergenic regions, and are excluded from the tables of results. Yeast 2000; 17: 95±110.
+
+Plasmid bait constructions The full-length ORFs were always used. For LSM1 (YJL124C) a BamH1 fragment taken from a prey plasmid fused at nucleotide -52 relative to the initiation codon was cloned in-frame into a modi®ed pBTM116 plasmid. For LSM2 (YBL026W without the intron) a BamHI±PstI fragment produced by reverse transcription followed by PCR ampli®cation (Sambrook et al., 1989) was cloned into pAS2DD and pBTM116 plasmids. For LSM3 (YLR438CA) a Nco1±BamH1 PCR fragment was cloned into pAS2DD. For LSM4 (YER112W), a Nco1±BamH1 PCR fragment was cloned into pAS2DD. For LSM5 (YER146W), a BamH1 fragment taken from a prey plasmid fused at nucleotide -2 respective to the start codon was cloned in-frame into pBTM116 plasmid. For LSM6 (YDR378C) a EcoR1±BamH1 PCR fragment was cloned in pBTM116 plasmid. For LSM7 (YNL147W without the intron) a PCR fragment was cloned into pBTM116 plasmid at the Sma1 site. For LSM8 (YJR022W) a NcoI±XhoI fragment from a prey plasmid fused at nucleotide -2 with respect to the initiation codon was cloned into pAS2DD between the NcoI and Sal1 sites, then subcloned as a BamH1 fragment into pBTM116. For YEL015W a EcoR1± Sal1 PCR fragment was cloned into pAS2DD. All sequences derived by PCR cloning were veri®ed. PSU1 was cloned in pAS2DD by gap repair, using two PCR fragments with about 200 nucleotides of homology to the 5k and 3k ends of the gene cloned in pAS2DD. After gap repair, the plasmid was recovered and the gene was checked by restriction mapping and sequencing of the 5k end. PAT1 fulllength sequence as bait had very high autoactivating activity, so a pGBT9 derivative bait plasmid lacking the highly acidic N-terminal 51 amino acids was used for the screen (a generous gift from F. Lacroute).
+
+Copyright # 2000 John Wiley & Sons, Ltd.
+
+
+98 M. Fromont-Racine et al.
+
+Results Characteristics of genomic interaction screens with Lsm proteins With the aim of identifying as many as possible of the proteins that interact with Lsm proteins we performed exhaustive and iterative two-hybrid screens using the FRYL S. cerevisiae genomic library (Fromont-Racine et al., 1997) (Table 1; see Materials and methods). For each screen, results are analysed in order to evaluate the heuristic value of each prey protein (Fromont-Racine et al., 1997) (see also Materials and methods). In addition, the domain of interaction selected for each prey protein is identi®ed (Table 1). Figure 1 presents the characteristics of the screens, showing for each bait protein the number of ORFs selected in each category, and the number of clones of each ORF. Comparing the pro®les for different bait proteins, it is apparent that, despite the similarity of structure between Lsm proteins, they behave differently in the screens. Some, such as Lsm7, have few partners, whereas others, such as Lsm1, have many partners.
+
+Figure 1. Distribution pro®les of prey proteins found in two-hybrid screens. Each histogram represents one given screen with a Gal4 (G) or a LexA (L) fusion-bait cloned into pAS2x and pBTM116 plasmids, respectively. Each box corresponds to one ORF prey and is drawn according to categories (Fromont-Racine et al., 1997) (see insert and Materials and methods). The size of the box represents the number of clones related to one particular ORF. The number of interactions tested in each screen is indicated on the top of the histogram (in millions)
+
+Copyright # 2000 John Wiley & Sons, Ltd. Yeast 2000; 17: 95±110.
+
+
+Genome-wide protein interaction maps in mRNA metabolism pathways 99
+
+Table 1. Results of genomic protein interaction screens
+
+Bait Lsm1-Gal4
+
+Prey gene name (b) FUN30 LSM2 SDS24 CHK1 PAT1 HEX3 YRB1 LSM6 SIP1 PRB1 SPT16 MTR3 NEO1 PMT4 SNU114 GCN3 STE11 LSM3 AAC1 SIW14 EF4 INP53
+
+Lsm2-Gal4
+
+Prey ORF name (a) YAL019W YBL026W YBR214W YBR274W YCR024C YCR077C YDL013W YDL175C YDR002W YDR378C YDR422C YEL060C YER028C YGL207W YGR158C YIL042C YIL048W YJR143C YKL173W YKR026C YLR003C YLR362W YLR438C-A YML088W YMR056C YMR250W YNL032W YNL163C YNL276C YOR109W YOR147W YOR320C YOR375C YPL016W YPL084W YPL152W YAR003W YBL066C YCR020C-A YCR066W YCR077C YDL175C YDR440W YEL015W YER025W YGL173C YGL185C YGR077C YIL048W YIL066C YIL132C YLR039C YLR120C YLR126C
+
+GDH1 SWI1 BRO1 RRD2 Ty2-1 FUN16 SEF1 SMX1 RAD18 PAT1 DOT1 GCD11 XRN1 PEX8 NEO1 RNR3 RIC1 YPS1
+
+Start domain (c) 432 2 282 355 271 95;353(g) 6 1 39 54 473 58 308 813 44 14 1048 661 441 62 214 172 1 165 108 418 46 97 128 167 88 424 42 558 1 329 ND 46 446 1 155 353 81 121 232 10 890 273 366 1048 383 134 994 10 165 End domain (d) 950 end end end end 350;end(g) 350 end end end end 300 end end end end end end 600 200 end 350 end end end end end 250 end 300 400 end end 900 200 end ND 150 700 end end end 150 450 end 300 end end end end 600 end end 200 end
+
+Cat (e) A3 A1 A4 A4 A4 A1 A2 A2/A3 A2 A1 A4* A1 A4* A1* A2 A2/A3 A4* A4* A4 A1 A1 A4 A2* A1 A4* A4 A4 A4 A4 A4 A4 A4 A2/A3 A1 A2 A4* A1 A4* A4 A2 A3 A1 A1 A4 A1 A2* A3 A4* A4 A4* A4 A4 A4 A1 A1
+
+Clones number (f) 1 8(3) 1 4 1 17(5) 1 1 1 2(2) 1 3(3) 2 4(2) 1 1 5 2 1 3(2) 6(3) 2 1 2(2) 1 1 1 1 1 1 2 1 1 2(2) 1 1 3(2) 1 1 1 1 3(2) 5(2) 1 11(5) 1 1 1 1 4 3 1 1 3(2) 2(2)
+
+Copyright # 2000 John Wiley & Sons, Ltd. Yeast 2000; 17: 95±110.
+
+
+100 M. Fromont-Racine et al.
+
+Table 1. continued Bait
+
+Lsm2-LexA
+
+Lsm3-Gal4
+
+Lsm4-Gal4
+
+Prey ORF name (a) YMR066W YMR207C YMR237W YMR268C YNL118C YOL102C YOL163W YOR017W YOR043W YOR191W YPL042C YPL115C YPL119C YPL249C YPR184W YDR166C YJL124C YJL157C YJR022W YLR120C YLR128W YLR275W YLR438C-A YNL264C YNL287W YOR017W YPL249C YPR032W YBR108W YCR066W YCR077C YDL013W YDL240W YJR022W YJR138W YKR099W YLR067C YLR281C YMR142C YOR096W YPL084W YBR289W YCR077C YDL043C YDL145C YDR082W YDR289C YDR386W YDR452W YDR485C YER124C YGL173C YIL029C YJL110C
+
+Prey gene name (b) SOV1 HFA1 PRP24 DCP2 TPT1 PET127 WHI2 RIS1 SSN3 BEM3 DBP1
+
+SEC5 LSM1 FAR1 LSM8 YPS1 SmD2 LSM3 PDR17 SEC21 PET127 SRO7 RAD18 PAT1 HEX3 LRG1 LSM8 BAS1 PET309 RPL13B RP30 BR01 SNF5 PAT1 PRP11 COP1 STN1 MUS81
+
+XRN1 GZF3
+
+Start domain (c) 93 733 234 57 ND 167 106 51 240 506 403 606 291 293 1371 895 1 209 23 6 157 12 1 266 222 6 258 15 706 126 168;353(g) 4 543 22 1135 57 41 50 1 1 1 360 353 66 85 441 72 112 61 664 468 863 132 397 End domain (d) 350 950 400 end ND end end 300 end 900 end 850 500 550 end end end 600 end 250 end end end end 500 300 550 300 end end 350;end(g) 400 750 end 1500 750 450 end 100 end 200 650 end end 350 end 250 500 350 end end 1500 end end
+
+Cat (e) A4 A4 A1 A3 A1 A4 A4 A4 A4* A4* A4 A4 A4 A4 A4 A4 A2 A4 A1 A2 A4* A1 A2* A1 A4 A2 A1 A2 A4 A4 A1 A2 A4 A1 A1 A3 A1 A2 A2 A2 A2 A4 A4 A4 A4 A1 A4 A4 A1 A1 A4 A3 A4 A1
+
+Clones number (f) 1 1 2(2) 2 23(8) 1 1 1 2 1 1 1 1 1 1 1 3 1 8(3) 1 1 2(2) 1 5(3) 1 1 3(2) 1 1 1 10(5) 1 1 6(4) 3(2) 3 8(3) 2 1 1 2 1 1 5 1 6(3) 1 1 2(2) 2(2) 1 1 3 2(2)
+
+Copyright # 2000 John Wiley & Sons, Ltd. Yeast 2000; 17: 95±110.
+
+
+Genome-wide protein interaction maps in mRNA metabolism pathways 101
+
+Table 1. continued Bait
+
+Lsm5-LexA
+
+Lsm6-LexA
+
+Prey ORF name (a) YJL155C YJR022W YJR138W YKL209C YLL032C YLR275W YLR386W YNL091W YNL118C YNL199C YOL004W YOL149W YOR195W YOR219C YBL026W YCR024C YCR077C YDL112W YDR110W YDR378C YER025W YER112W YER131W YFL066C YGR210C YHL008C YIL038C YIL048W YJL084C YJL124C YJR138W YKL209C YKR026C YLR058C YLR275W YLR438C-A YMR268C YNL147W YOR201C YOR320C YPL090C YPL152W YPR010C YPR184W YBL026W YCR077C YER112W YGL251C YJL139C YJR022W YLR053C YLR275W YLR438C-A YMR221C YMR268C
+
+Prey gene name (b) FBP26 LSM8 STE6 SmD2
+
+DCP2 GCR2 SIN3 DCP1 SLK19 STE13 LSM2 PAT1 TRM3 FOB1 LSM6 GCD11 LSM4 RPS26b
+
+NOT3 NEO1 LSM1 STE6 GCN3 SHM2 SmD2 LSM3 PRP24 LSM7 PET56 RPS6A RRD2 RPA135 LSM2 PAT1 LSM4 HFM1 YUR1 LSM8 SmD2 LSM3 PRP24
+
+Start domain (c) 145 1 1004 1012 566 54 378 1160 ND 272 492 1 268 366 1 271 132;353(g) 889 456 1 10 1 37 1 321 260 609 1048 494 1 57 1012 39 383 9 1 280 46 26 440 336 329 656 697 1 353 1 759 197 23 45 47 1 380 114 End domain (d) end ND 1150 1250 800 end 800 end ND 500 650 end 500 500 end end 350;end(g) 1100 end end 350 end end end end 550 end end 850 end 250 1250 end end end end end end 300 end end end 1150 1035 end end end end ND end end end end end end
+
+Cat (e) A1 A2 A4 A4 A4 A4 A1 A4 A1 A4 A3 A2 A4 A4 A1 A4 A1 A1* A4 A2* A2* A2 A2* A4 A1 A1* A4 A4* A4 A2 A4 A4 A2 A4 A2 A2* A1 A4 A2 A1 A4* A4* A3 A4 A2 A1 A1 A4 A4 A1 A2 A1 A2 A3 A4
+
+Clones number (f) 9(4) 1 1 1 1 1 23(9) 1 17(4) 1 1 1 1 1 6(2) 1 13(5) 4(2) 1 10 1 2 1 1 6(3) 8(2) 2 4 1 1 1 1 1 1 1 1 3(2) 1 1 11(5) 1 3 1 1 1 22(2) 2(2) 2 1 22(7) 1 5(3) 1 1 2
+
+Copyright # 2000 John Wiley & Sons, Ltd. Yeast 2000; 17: 95±110.
+
+
+102 M. Fromont-Racine et al.
+
+Table 1. continued Bait
+
+Lsm7-LexA
+
+Lsm8-Gal4
+
+Lsm8-LexA
+
+Prey ORF name (a) YNL147W YOR320C YCR077C YDL077C YFL066C YIL112W YLR438C-A YMR268C YPR178W YBL026W YBR003W YCR077C YDR228C YDR277C YEL015W YER112W YGL096W YGL173C YGR158C YHR034C YHR035W YIL173W YNL050C YNL118C YNR050C YNR053C YOR076C YOR319W YBL026W YBR034C YBR044C YCR020C-A YCR077C YCR107W YDR127W YDR135C YDR184C YDR228C YDR378C YEL023C YER146W YGL028C YGL096W YGR158C YHR035W YJL004C YJL021C YKR021W YKR104W YLL015W YLR133W YLR143W YLR430W
+
+Prey gene name (b) LSM7 PAT1 VAM6
+
+LSM3 PRP24 PRP4 Ty2-1 LSM2 COQ1 PAT1 PCF11 MTH1 LSM4 XRN1 MTR3
+
+VTH1 DCP2 LYS9
+
+HSH49 LSM2 HMT1 SMX1 PAT1 AAD3 ARO1 YCF1 ATC1 PCF11 LSM6 LSM5 SCW11 MTR3 SYS1
+
+CKI1 SEN1
+
+Start domain (c) 1 404 153 402 1 1043 1 354 109 ND 2 251 426 272 22 232 12 73 1123 3 272 18 437 1 ND 264 1 196 16 2 15 492 1 353 49 1 1445 62 289 1 1 9 129 73 3 18 136 129 1 219 1495 63 614 971 End domain (d) end end 350 600 end end end end end ND end end end 550 end end end end 1500 end end 200 650 200 ND end end end end end 200 end end end end 150 end end 500 end 200 end 300 end end 200 end end 200 end end 250 end 1200
+
+Cat (e) A2 A4 A1 A4* A4 A1 A2 A4 A3 A1 A1 A4 A4* A1 A2/A3 A1 A2 A1 A4 A2 A4 A2 A4 A4* A1 A4 A2/A3 A3 A2 A2* A2 A1 A2 A1 A4* A2 A4 A4 A4 A2* A2* A1 A4* A4 A2 A2 A4* A4 A2 A4 A4 A4 A1 A4*
+
+Clones number (f) 1 2 14(7) 8 1 44(14) 2 1 1 6(4) 4(3) 1 1 2(2) 1 5(3) 1 2(2) 1 1 1 1 1 3 10(5) 1 7 1 1 1 1 2(2) 2 6(2) 1 1 1 1 2 4 1 2(2) 1 1 1 1 2 1 2 1 1 1 5(4) 4
+
+Copyright # 2000 John Wiley & Sons, Ltd. Yeast 2000; 17: 95±110.
+
+
+Genome-wide protein interaction maps in mRNA metabolism pathways 103
+
+Table 1. continued Bait
+
+Pat1(Ycr077c)
+
+Ye1015w
+
+Psu1(Yn1118c)
+
+Prey ORF name (a) YLR438C-A YMR205C YMR268C YNL227C YNL242W YNL329C YOL031C YOL140W YOR076C YOR319W YPR178W YDR141C YDR389W YER115C YGL143C YML109W YMR002W YMR288W YNL118C YNR027W YNR053C YBL061C YBL066C YEL015W YER032W YER124C YGL173C YGR116W YJR140C YLR082C YNL118C YAR009C YBL034C YBL037W YBL045C YBL054W YCR076C YDL116W YDR472W YEL015W YGL014W YGL049C YGL173C YGR116W YHR186C YIR014W YIR024C YJR023C YKL133C YKR031C YKR054C YLL001W YLR451W YML099C
+
+Prey gene name (b) LSM3 PFK2 PRP24
+
+PEX6 ARG8 HSH49 PRP4 SAC7 SPR6 MRF1 ZDS2
+
+PSU1
+
+SKT5 SEF1 FIR1 XRN1 SPT6 HIR3 SRL2 PSU1 STU1 APL3 COR1
+
+NUP84
+
+TIF4632 XRN1 SPT6
+
+GIF1
+
+SPO14 DYN1 DNM1 LEU3 ARG81
+
+Start domain (c) 1 2 114 214 1273 677 55 165 196 16 53 454 466 157 336 615 1 472 ND 34 ND 254 446 238 710 468 864 1103 1574 91 ND 966 1 517 335 161 232 12 102 232 653 663 890 1103 680 81 31 3 230 1372 201 535 413 659 End domain (d) end 350 end 450 end end 400 400 end end end 800 end end end end end 700 ND end ND 500 700 end end end end end end 350 ND 1150 350 800 end 450 end 300 end end end 900 1450 end 1350 250 end end end end 550 end 750 end
+
+Cat (e) A2* A2 A3 A4 A4 A3 A4* A4* A3 A1 A3 A4 A4 A4 A4 A4 A4 A4 A1 A2 A4 A4 A4* A1 A1 A4 A3 A3 A1* A4 A1 A1 A2 A4 A4 A4* A4* A2 A4 A1 A4* A4 A1 A3 A3 A4 A1 A2 A4 A1 A4 A4 A4 A4
+
+Clones number (f) 4 1 1 1 2 2 1 1 1 5(2) 1 1 1 1 1 1 1 1 3(3) 1 1 3 2 16(5) 3(2) 3 1 1 3(2) 8 38(10) 2(2) 1 1 1 2 1 1 1 11(5) 1 1 4(2) 1 1 1 10(3) 1 2 12(2) 3 1 1 1
+
+Copyright # 2000 John Wiley & Sons, Ltd. Yeast 2000; 17: 95±110.
+
+
+104 M. Fromont-Racine et al.
+
+Table 1. continued Bait
+
+Prey ORF name (a) YML112W YOL151W YOR023C YOR093C YOR124C YPR160W
+
+Prey gene name (b) CTK3 GRE2
+
+UBP2 GPH1
+
+Start domain (c) 1 101 31 932 567 545 End domain (d) 200 end 250 1400 850 750
+
+Cat (e) A2 A1 A4 A3 A4 A4
+
+Clones number (f) 2 5(2) 8 1 1 1
+
+(a) All the ORFs found in each screen are listed. (b) A gene name is given when available. (c) The N-Terminal residue of the smallest overlapping fragment is precisely located by sequencing. (d) The C-Terminal extremity of the smallest overlapping fragment is roughly located according to PCR fragment sizes. (e) The out-of-frame fusions are noted by an asterisk. For A1 candidates, an asterisk indicates those for which all fusions were in the same alternative frame. (f) The total number of clones is indicated as well as the number of different fusions (in brackets) for A1 candidates. (g) In those cases, two different non-overlapping domains are identi®ed. A2/A3: stands for candidates having both A2 and A3 characteristics (Fromont-Racine et al., 1997). ND, not determined.
+
+Two Lsm proteins (Lsm2 and Lsm8) were used as both Gal4 and LexA fusion proteins (Table 1). Some of the prey proteins were found in common and represent a subset of highly speci®c interactors. In addition, for both Lsm2 and Lsm8 proteins, highly signi®cant prey proteins (A1 category) were found with either the Gal4 or the LexA bait but not with both. As Lsm proteins are relatively small, the construction of fusions may be more likely to cause folding problems or steric interference with protein±protein interactions, as interacting domains may be masked in the fusion protein. In theory, saturating two-hybrid screens should identify multiple samples of the same partner. According to this criterion, the larger the screen the greater is the probability that single clones will be non-speci®c because their occurrence most probably re¯ects sporadic selection. For example, in the Lsm7 screen (60 million interactions tested, only eight distinct genetic loci as prey ORFs, out of them three found as single clones) or in the Lsm8±Gal4 screen (96 million interactions, 19 distinct genetic loci, 12 single clones) single clones might be considered likely to be non-speci®c, whereas in the rather small-scale Lsm1 screen (22 million interactions, 37 different genetic loci, 21 single clones) single clones may be more signi®cant. When the data from several functionally related screens are pooled, prey found as single clones in several screens become more signi®cant. For example, Prp24 arose as single isolates with Lsm7 and Lsm8 and became Copyright # 2000 John Wiley & Sons, Ltd.
+
+more signi®cant when the data were combined, especially because this protein had never been selected in more than 100 previous screens (data not shown; see Discussion). Xrn1 was found only as single clones in three screens, which might suggest indirect or transient interactions that would be statistically less likely to be observed, but are still meaningful. The 8 Lsm baits produced 229 interactions with 161 different prey (Table 1). Among all these interactions, 25 are connections between Lsm proteins. Thus it is noticeable that more than 15% of the ORFs found in the screens performed with Lsm proteins correspond to these eight small Lsm genes (less than 600 nucleotides) selected out of a collection of more than 6000 genes covering more than 15 megabases. These results reveal very likely interactions between these proteins.
+
+Connections of Lsm proteins with each other Connections between the Lsm proteins are shown in Figure 2A. All eight Lsm proteins interacted with at least three other Lsm proteins, although not all interactions were found reciprocally. All these 25 pairings involved highly signi®cant interactions (A1 or A2 categories; Fromont-Racine et al., 1997). It is particularly striking that all selected prey fragments start near the natural N-terminus and all contain both Sm motifs. These results strongly suggest that the interactions between the Lsm proteins require the Sm motifs, and deletion analysis demonstrated
+
+Yeast 2000; 17: 95±110.
+
+
+Genome-wide protein interaction maps in mRNA metabolism pathways 105
+
+Figure 2. Lsm proteins and splicing. (A) Lsm proteins interact together. Each line corresponds to one screen. Grey squares correspond to directional interactions, black squares to bidirectional interactions. For each prey the number of clones is indicated above the category. (B) Links between Lsm proteins and known mRNA splicing factors. Interactions found between Lsm proteins and known mRNA splicing factors are representated by arrows. For each interaction the number of clones is indicated
+
+this to be the case for Lsm4 (Mayes et al., 1999). The multiple connections shown in Figure 2A might suggest that the Lsm proteins interact promiscuously with each other. However, no homotypic interactions were found for the Lsm proteins, indicating that these interactions did not occur spuriously between any protein-bearing Sm motifs. Interactions with other splicing factors With the exception of Lsm3, all the Lsm proteins made connections with known pre-mRNA splicing factors in these screens, with a total of six splicing factors being selected as prey (Figure 2B). Lsm1 found only one, Snu114, a U5 snRNP-speci®c protein, while each of the others interacted with at least two. This interaction has a low predictive value, because the Snu114 prey protein has been selected only once as an A4 candidate (see Materials and methods). Lsm8, which was the most interactive amongst the Lsm proteins, is also the most connected with splicing factors. Two splicing factors speci®cally associated with the U2 snRNP were selected with the Lsm proteins; Prp11 was found with Lsm4, and Hsh49 with Lsm8. Signi®cantly, in a previous screen the reciprocal interaction of Lsm8 with Hsh49 as bait was found (Fromont-Racine et al., 1997). Another splicing factor that arose Copyright # 2000 John Wiley & Sons, Ltd. frequently in these screens is one of the canonical Sm proteins, SmD2, being found with Lsm2, Lsm4, Lsm5 and Lsm6. Lsm7 and Lsm8 both selected the splicing factor Prp4, which is also a component of U4±U6 snRNPs and U4±U6±U5 tri-snRNPs (Banroques and Abelson, 1989; Bjorn et al., 1989). Links between Lsm proteins and SmD2 and Prp4 are in agreement with the identi®cation of the proteins of the yeast tri-snRNP (Gottschalk et al., 1999). Prp24 arose most frequently in the screens, interacting with Lsm2, Lsm5, Lsm6, Lsm7 and Lsm8 (Figure 2B). Prp24 is an RNA-binding protein that associates with U6 snRNA in free U6 snRNP and U4±U6 disnRNP particles (Ghetti et al., 1995; Jandrositz and Guthrie, 1995). The high occurrence of Prp24 in these screens could be therefore indicative of a functional interaction of the Lsm proteins with the U6 and/or U4±U6 particles, which is further supported by genetic tests. Overproduction of the Prp24 protein partially complements the growth defect of cells metabolically depleted of Lsm4, whereas overexpression of Lsm4 exacerbates the temperature sensitivity of prp24-1 cells (AEM, M. Cooper and JDB unpublished results). It is noteworthy that Prp24, Prp4 and SmD2 have not been selected as prey in exhaustive screens that have been performed with dozens of splicing factors in our Yeast 2000; 17: 95±110.
+
+
+106 M. Fromont-Racine et al.
+
+laboratories (Fromont-Racine et al., 1997; unpublished results), thus supporting the likely functional signi®cance of their interactions with the Lsm proteins. Connections with other factors Additional prey proteins, which are neither Lsm proteins nor known splicing factors, arose multiple times in Lsm screens (Figure 3A). Three prey proteins, Pat1, Psu1 and Yel015w, show the most frequent as well as signi®cant links with the Lsm proteins. Yel015w was found interacting with Lsm2 and Lsm8 as many independent fusions (Table 1). Similarly, Psu1 was found interacting with Lsm2, Lsm4 and Lsm8, whereas Pat1 was found as prey by each of the Lsm proteins (Figure 3A). Additional prey proteins with a high predictive value were found that might have a biological signi®cance (see Discussion): Xrn1, a 5k>3k exonuclease that represents the major nuclease activity for the degradation of decapped mRNAs (Jacobs et al., 1998; Johnson, 1997); Gcn 3 and Gcd11, two translational initiation factors (Erickson et al., 1997; Pavitt et al., 1998) and Mtr3, a component of the exosome (Allmang et al., 1999). All these interactions with the Lsm proteins seem very speci®c, since prey proteins were all A1, A2 or A3 candidates that were speci®cally selected by at least two Lsm bait proteins and were otherwise not found in more than 100 genomic screens done in our laboratories (Fromont-Racine et al., 1997); unpublished results). The three proteins Yel015w, Pat1 and Psu1 were used in turn as bait proteins to screen the yeast proteome for potential interacting partners (Table 1, Figure 1). Curiously, none of the Lsm proteins was found in these second-round screens. Nevertheless, the complete set of connections identi®ed through exhaustive two-hybrid screens performed with those novel proteins associate the Lsm proteins with a group of proteins that are related to the mRNA degradation pathway (Figure 3B; see Discussion). Discussion The multiple interactions among the eight Lsm proteins strongly suggest the existence of a complex or complexes of Lsm proteins. The interactions of Lsm1 with Lsm2, Lsm3, Lsm5 and Lsm6 seemed surprising initially, in view of the evidence that Copyright # 2000 John Wiley & Sons, Ltd.
+
+Figure 3. Lsm proteins and the mRNA degradation pathway. (A) Proteins connected to Lsm proteins. The most signi®cant proteins found as prey, with at least two different Lsm proteins and which are neither Lsm proteins nor known mRNA splicing factors, are classi®ed from right to left according to their increasing heuristic value (Fromont-Racine et al., 1997). For each interaction the number of clones is indicated above the category. (B) Interaction network of proteins involved in mRNA degradation pathway. All direct and indirect (via another protein) connections between Lsm proteins and mRNA degration factors are indicated. Thick lines with arrowheads represent links of high heuristic value (A1). Other links are represented by thin lines. The category, the number of clones and the number of different Lsm bait proteins that selected a given prey are indicated
+
+Lsm2, Lsm3, Lsm4, Lsm5, Lsm6, Lsm7 and Lsm8 associate with, and stabilize, the spliceosomal U6 snRNA (Mayes et al., 1999; Salgado-Garrido et al., 1999), whereas Lsm1 appears to be involved in a distinct process, mRNA decapping (Boeck et al., 1998). Also, a seven- (rather than eight)-component complex of U6-associated Lsm proteins is attractive in view of the heptameric complex predicted for the human Sm proteins. Indeed, Lsm2±Lsm8 proteins have recently been identi®ed in yeast and human Yeast 2000; 17: 95±110.
+
+
+Genome-wide protein interaction maps in mRNA metabolism pathways 107
+
+cells spliceosomes (Achsel et al., 1999; Gottschalk et al., 1999; Stevens and Abelson, 1999). It is not yet established how similar the canonical Sm and the Lsm2±Lsm8 complexes are. It should be noticed that we found Lsm proteins highly connected to each other while more speci®c interactions were observed between the canonical Sm proteins (Camasses et al., 1998; Fury et al., 1997) (M. Fromont-Racine, A. Brunet-Simon and P. Legrain, unpublished data). Since two-hybrid interactions do not necessarily represent direct protein interactions between the two partners, the observed connections could be mediated by another (Lsm) protein or even by an RNA. Thus, it seems most likely that some of the observed interactions may be mediated by the formation of complexes containing more than two Lsm proteins. In summary, these data support the ability of the Lsm proteins to form a complex or complexes, as also indicated by the ®nding that Lsm4 can be co-immunoprecipitated with each of the seven other Lsm proteins (Mayes et al., 1999). As both Sm protein and Lsm protein interactions involve the conserved Sm domain, it remains to be determined how these proteins distinguish between each other to form separate complexes. Lsm proteins are also strongly connected to proteins involved in splicing: SmD2, Prp11, Hsh49, Prp4 and Prp24. A close functional relationship between Prp4 and the U6 snRNP is suggested by genetic studies showing that at non-permissive temperature, mutant prp4-1 cells exhibit a speci®c decrease in the level of U6 snRNA (Galisson and Legrain, 1993). Genetic and in vitro experiments have led to a model in which Prp24 promotes the annealing/dissociation reactions of U4±U6 dimer during successive rounds of splicing (Ghetti et al., 1995; Raghunathan and Guthrie, 1998; Shannon and Guthrie, 1991). In the U4±U6 snRNP and in the U4±U6±U5 triple snRNP, SmD2 might be part of an interface between the canonical snRNPs and the U6/Lsm particle. In this respect it may be relevant that a two-hybrid screen with the SmE protein selected Lsm3 (SmX4), the paralogue of SmD2, as a prey protein (Camasses et al., 1998). Interactions between the U2 and U6 snRNAs within spliceosomes are well established (Madhani and Guthrie, 1994). The ®nding of connections between Lsm proteins and U2 snRNA-associated proteins might therefore represent protein interactions at a U2±U6 interface in spliceosomes or during spliceosome formation, as already suggested Copyright # 2000 John Wiley & Sons, Ltd. by the genetic interactions between Prp21 and Prp24, which are U2- and U6-associated, respectively (Vaidya et al., 1996). More surprisingly, in these genomic screens, we identi®ed a small group of proteins connected to the Lsm proteins and unrelated to pre-mRNA splicing, among them, Psu1, Pat1 and Yel015w. YEL015W encodes a protein of unknown function. PSU1 was initially identi®ed through suppression of the respiratory de®ciency of a pet mutant (A.A. Tzagoloff, unpublished results), and more recently has been demonstrated to have a role in transcription (Gaudon et al., 1999). Pat1 was previously identi®ed (Rodriguez-Cousino et al., 1995; Wang et al., 1996b) as a topoisomerase II-associated protein. Disruption of the PAT1 gene causes slow growth and apparently affects the ®delity of chromosome transmission. No role for Pat1 in pre-mRNA splicing has been detected, nor an association with any of the spliceosomal RNAs, although Pat1 coimmunoprecipitates with Lsm proteins (S. Tharun, W. He, A.E. Mayes, P. Lennertz, J.D. Beggs and R. Parker, 2000). This network of interactions revealed an additional strongly connected protein, Xrn1 (Figure 3B). This result suggests an implication of Lsm proteins in the metabolic degradation pathway of mRNAs and is further supported by additional ®ndings: PAT1 turns out to be equivalent to MRT1, in which conditional mutations that inhibit mRNA decapping have been isolated (Hat®eld et al., 1996; S. Tharun, W. He, A.E. Mayes, P. Lennertz, J.D. Beggs and R. Parker, 2000). Psu1/Nmd1 was identi®ed as an interacting protein with Upf1, a major player in the non sensemediated mRNA decay pathway (He and Jacobson, 1995). More signi®cantly, the Psu1 protein has also been implicated in mRNA decapping, and renamed Dcp2 (Dunckley and Parker, 1999). Dcp2 is required for the production of active Dcp1 decapping enzyme, which co-puri®es with it. Although it is not a major player in the Lsm screens, Dcp1 was found as prey in a screen with Lsm4 (Table 1, Figure 3B), and Lsm proteins have been found to co-immunoprecipitate along with Dcp1 protein (S. Tharun, W. He, A.E. Mayes, P. Lennertz, J.D. Beggs and R. Parker, 2000). Following the report (Boeck et al., 1998) that Lsm1±Spb8 itself plays a role in mRNA decapping, recent work has shown that mutations affecting several of the Lsm proteins lead to partial inhibition of mRNA decay (S. Tharun, W. He, A.E. Mayes, P. Lennertz, Yeast 2000; 17: 95±110.
+
+
+108 M. Fromont-Racine et al.
+
+J.D. Beggs and R. Parker, 2000). Thus, a network of interactions was found between the Lsm proteins and four proteins that are implicated directly in mRNA turnover: Dcp2/Psu1, Dcp1, Mrt1/Pat1 and Xrn1. Altogether, these data strongly suggest a novel role for an Lsm protein complex in mRNA degradation. This complex could be directly involved in the regulation of mRNA turnover, which is known to be linked to translational initiation (Schwartz and Parker, 1999). Indeed, we found two translational initiation factors, Gcn3 and Gcd11, among the highly speci®c prey proteins selected by Lsm proteins (Figure 3A). The existence of eight instead of seven Lsm proteins, and the ®nding of multiple interactions between Lsm proteins and factors involved in mRNA turnover, as well as factors involved in mRNA splicing, raises the possibility that two or more Lsm complexes may exist. Conceivably, alternative Lsm subunit compositions might confer different functional speci®city on distinct complexes. In view of these connections, the precise role of Yel015w is currently being investigated. From the results presented here, it appears that performing multiple genomic screens with functionally related bait proteins and in an iterative manner leads to results whose signi®cance is much greater than the data from the component screens considered separately. Obviously, the frequency with which prey proteins are found also depends on the level of production and stability of the fusion proteins; therefore, while statistical analyses are essential for interpretation of the data, all results should be considered as potentially signi®cant, including single clones, otherwise meaningful interactions may be missed. These questions were also addressed in very recently published studies aiming at a genome-wide description of protein±protein interactions for the yeast proteome (Ito et al., 2000; Uetz et al., 2000) and Caenorhabditis elegans (Walhout et al., 2000). However, as opposed to these studies, the strategy used in the present study (see also Flores et al., 1999; Fromont-Racine et al., 1997) aims at the selection of interacting domains instead of checking for interaction between fulllength proteins. This leads to a more complete description of the set of interactions and provides in addition information on functional domains. A similar approach has also been successfully performed for the study on the hepatitis C virus proteome (Flajolet et al., 2000). Overall, the results Copyright # 2000 John Wiley & Sons, Ltd.
+
+presented here provide a striking illustration that exhaustive and iterative two-hybrid screens can be used on a genome-wide scale to yield functionally meaningful information about protein±protein interactions, and thereby can suggest functions for uncharacterized or partially characterized proteins. Acknowledgements We thank J. Chua, N. Gromak and J. McCormack, who contributed to some of these experiments; C. Marck, for providing DNA Strider; A. Jacquier; and M-L. Ferri, for critically reading the manuscript and F. Lacroute, for the generous gift of Pat1 bait construct and the yeast BMA64 strain. This work was supported in part by the European Union (Biotech 95007Ðthe TAPIR network), by a grant from GIP-HMR and by grant 047685 to JDB from the Wellcome Trust. JDB is supported by a Royal Society Cephalosporin Fund Senior Research Fellowship and AEM was recipient of a Wellcome Trust Prize Studentship.
+
+References
+
+Achsel T, Brahms H, Kastner B, Bachi A, Wilm M, LuÈhrmann R. 1999. A doughnut-shaped heteromer of human Sm-like proteins binds to the 3k-end of U6 snRNA, thereby facilitating U4/U6 duplex formation in vitro. EMBO J 18: 5789±5802. Allmang C, Petfalski E, Podtelejnikov A, Mann M, Tollervey D, Mitchell P. 1999. The yeast exosome and human PM-Scl are related complexes of 3k -->5k exonucleases. Genes Dev 13: 2148±2158. Banroques J, Abelson JN. 1989. PRP4: a protein of the yeast U4/ U6 small nuclear ribonucleoprotein particle. Mol Cell Biol 9: 3710±3719. Bjorn SP, Soltyk A, Beggs JD, Friesen JD. 1989. PRP4 (RNA4) from Saccharomyces cerevisiae: its gene product is associated with the U4/U6 small nuclear ribonucleoprotein particle. Mol Cell Biol 9: 3698±3709. Boeck R, Lapeyre B, Brown CE, Sach AB. 1998. Capped mRNA degradation intermediates accumulate in the yeast spb8-2 mutant. Mol Cell Biol 18: 5062±5072. BordonneÂ R, Tarassov I. 1996. The yeast SME1 gene encodes the homologue of the human E core protein. Gene 176: 111±117. Branlant C, Krol A, Ebel JP, Lazar E, Haendler B, Jacob M. 1982. U2 RNA shares a structural domain with U1, U4, and U5 RNAs. EMBO J 1: 1259±1265. Burge CB, Tuschl TH, Sharp PA. 1998. Splicing of Precursors to mRNA by the Spliceosomes. Cold Spring Harbor Laboratory Press: New York. Camasses A, Bragado-Nilsson E, Martin R, Seraphin B, Bordonne R. 1998. Interactions within the yeast Sm core complex: from proteins to amino acids. Mol Cell Biol 18: 1956±1966. Cooper M, Johnston LH, Beggs JD. 1995. Identi®cation and characterization of Uss1p (Sdb23p): a novel U6 snRNA-
+
+Yeast 2000; 17: 95±110.
+
+
+Genome-wide protein interaction maps in mRNA metabolism pathways 109
+
+associated protein with signi®cant similarity to core proteins of small nuclear ribonucleoproteins. EMBO J 14: 2066±2075. Dunckley T, Parker R. 1999. The DCP2 protein is required for mRNA decapping in Saccharomyces cerevisiae and contains a functional MutT motif. EMBO J 18: 5411±5422. Erickson FL, Harding LD, Dorris DR, Hannig EM. 1997. Functional analysis of homologs of translation initiation factor 2c in yeast. Mol Gen Genet 253: 711±719. Fischer U, Sumpter V, Sekine M, Satoh T, Luhrmann R. 1993. Nucleo-cytoplasmic transport of U snRNPs: de®nition of a nuclear location signal in the Sm core domain that binds a transport receptor independently of the m3G cap. EMBO J 12: 573±583. Flajolet M, Rotondo G, Daviet L, Bergametti F, InshauspeÂ G, Tiollais P, Transy C, Legrain P. 2000. A genomic approach of the hepatitis C virus generates a protein interaction map. Gene 242: 369±379. Flores A, Briand JF, Gadal O, Andrau JC, Rubbi L, Van Mullem V, Boschiero C, Goussot M, Marck C, Carles C, Thuriaux P, Sentenac A, Werner M. 1999. A protein±protein interaction map of yeast RNA polymerase III. Proc Natl Acad Sci U S A 96: 7815±7820. Fromont-Racine M, Rain JC, Legrain P. 1997. Toward a functional analysis of the yeast genome through exhaustive two-hybrid screens. Nature Genet 16: 277±282. Fury MG, Zhang W, Christodoulopoulos I, Zieve GW. 1997. Multiple protein: protein interactions between the snRNP common core proteins. Exp Cell Res 237: 63±69. Fury MG, Zieve GW. 1996. U6 snRNA maturation and stability. Exp Cell Res 228: 160±163. Galisson F, Legrain P. 1993. The biochemical defects of prp4-1 and prp6-1 yeast splicing mutants reveal that the PRP6 protein is required for the accumulation of the [U4/U6.U5] tri-snRNP. Nucleic Acids Res 21: 1555±1562. Gaudon C, Chambon P, Losson R. 1999. Role of the essential yeast protein PSU1 in the transcriptional enhancement by the ligand-dependent activation function AF-2 of nuclear receptors. EMBO J 18: 2229±2240. Ghetti A, Company M, Abelson J. 1995. Speci®city of Prp24 binding to RNA: a role for Prp24 in the dynamic interaction of U4 and U6 snRNAs. RNA 1: 132±245. Gottschalk A, Neubauer G, Banroques J, Mann M, LuÈhrmann R, Fabrizio P. 1999. Identi®cation by mass spectrometry and functional analysis of novel proteins of the yeast [U4/U6.U5] tri-snRNP. EMBO J 18: 4535±4548. Gottschalk A, Tang J, Puig O, Salgado J, Neubauer G, Colot HV, Mann M, Seraphin B, Rosbash M, Luhrmann R, Fabrizio P. 1998. A comprehensive biochemical and genetic analysis of the yeast U1 snRNP reveals ®ve novel proteins. RNA 4: 374±393. Hat®eld L, Beelman CA, Stevens A, Parker R. 1996. Mutations in trans-acting factors affecting mRNA decapping in Saccharomyces cerevisiae. Mol Cell Biol 16: 5830±5838. He F, Jacobson A. 1995. Identi®cation of a novel component of the nonsense-mediated mRNA decay pathway by use of an interacting protein screen. Genes Dev 9: 437±454. Hermann H, Fabrizio P, Raker VA, Foulaki K, Hornig H, Brahms H, Luhrmann R. 1995. snRNP Sm proteins share two evolutionarily conserved sequence motifs which are involved in Sm protein±protein interactions. EMBO J 14: 2076±2088. Ito T, Tashiro K, Muta S, Ozawa R, Chiba T, Nishizawa M, Yamamoto K, Kuhara S, Sakaki Y. 2000. Toward a protein±protein interaction map of the budding yeast: a comprehensive system to examine two-hybrid interactions in all possible combinations between the yeast proteins. Proc Natl Acad Sci U S A 97: 1143±1147. Jacobs JS, Anderson AR, Parker RP. 1998. The 3k to 5k degradation of yeast mRNAs is a general mechanism for mRNA turnover that requires the SKI2 DEVH box protein and 3k to 5k exonucleases of the exosome complex. EMBO J 17: 1497±1506. Jacobson MR, Rhoadhouse M, Pederson T. 1993. U2 small nuclear RNA 3k end formation is directed by a critical internal structure distinct from the processing site. Mol Cell Biol 13: 1119±1129. Jandrositz A, Guthrie C. 1995. Evidence for a Prp24 binding site in U6 snRNA and in a putative intermediate in the annealing of U6 and U4 snRNAs. EMBO J 14: 820±832. Johnson AW. 1997. Rat1p and Xrn1p are functionally interchangeable exoribonucleases that are restricted to and required in the nucleus and cytoplasm, respectively. Mol Cell Biol 17: 6122±6130. Luhrmann R, Kastner B, Bach M. 1990. Structure of spliceosomal snRNPs and their role in pre-mRNA splicing. Biochim Biophys Acta 1087: 265±292. Madhani HD, Guthrie C. 1994. Dynamic RNA-RNA interactions in the spliceosome. Ann Rev Genet 28: 1±26. Mattaj IW. 1986. Cap trimethylation of U snRNA is cytoplasmic and dependent on U snRNP protein binding. Cell 46: 905±911. Mayes AE, Verdone L, Legrain P, Beggs JD. 1999. Characterisation of Sm-like proteins in yeast and their association with U6 snRNA. EMBO J 18: 4321±4331. Pannone BK, Xue D, Wolin SL. 1998. A role for the yeast La protein in U6 snRNP assembly: evidence that the La protein is a molecular chaperone for RNA polymerase III transcripts. EMBO J 17: 7442±7453. Pavitt GD, Ramaiah KV, Kimball SR, Hinnebusch AG. 1998. eIF2 independently binds two distinct eIF2B subcomplexes that catalyze and regulate guanine-nucleotide exchange. Genes Dev 12: 514±526. Raghunathan PL, Guthrie C. 1998. A spliceosomal recycling factor that reanneals U4 and U6 small nuclear ribonucleoprotein particles. Science 279: 857±860. Rigaut G, Shevchenko A, Rutz B, Wilm M, Mann M, SeÂraphin B. 1999. A generic protein puri®cation method for protein complex characterization and proteome exploration. Nature Biotechnol 17: 1030±1032. Rodriguez-Cousino N, Lill R, Neupert W, Court DA. 1995. Identi®cation and initial characterization of the cytosolic protein Ycr77p. Yeast 11: 581±585. Roy J, Zheng B, Rymond BC, Woolford JL Jr. 1995. Structurally related but functionally distinct yeast Sm D core small nuclear ribonucleoprotein particle proteins. Mol Cell Biol 15: 445±455. Rymond BC, Rokeach LA, Hoch SO. 1993. Human snRNP polypeptide D1 promotes pre-mRNA binding in yeast and de®nes non-essential yeast Smd1p sequences. Nucleic Acids Res 21: 3501±3505. Salgado-Garrido J, Bragado-Nilsson E, Kandels-Lewis S, Seraphin B. 1999. Sm and Sm-like proteins assemble in two
+
+Copyright # 2000 John Wiley & Sons, Ltd. Yeast 2000; 17: 95±110.
+
+
+110 M. Fromont-Racine et al.
+
+related complexes of deep evolutionary origin. EMBO J 18: 3451±3462. Sambrook J, Fritsch EF, Maniatis T. 1989. Molecular Cloning: A Laboratory Manual, 2nd edn. Cold Spring Harbor Laboratory Press: New York. Schwartz DC, Parker R. 1999. Mutations in translation initiation factors lead to increased rates of deadenylation and decapping of mRNAs in Saccharomyces cerevisiae. Mol Cell Biol 19: 5247±5256. Seraphin B. 1995. Sm and Sm-like proteins belong to a large family: identi®cation of proteins of the U6 as well as the U1, U2, U4 and U5 snRNPs. EMBO J 14: 2089±2098. Shannon KW, Guthrie C. 1991. Suppressors of a U4 snRNA mutation de®ne a novel U6 snRNP protein with RNA-binding motifs. Genes Dev 5: 773±785. Stevens S, Abelson J. 1999. Puri®cation of the yeast U4/U6.U5 small nuclear ribonucleoprotein particle and identi®cation of its proteins. Proc Natl Acad Sci U S A 96: 7226±7231. Tharun S, He WH, Mayes AE, Lennertz P, Beggs JD, Parker R. 2000. Yeast Sm-like proteins function in MRNA decapping and decay. Nature 404: 515±518. Uetz P, Giot L, Cagney G, Mans®eld TA, Judson RS, Knight JR, Lockshon D, Narayan V, Srinivasan M, Pochart P, Qureshi-Emili A, Li Y, Godwin B, Conover D, Kalb¯eisch T, Vijayadamodar G, Yang MJ, Johnston M, Fields S, Rothberg JM. 2000. A comprehensive analysis of protein±protein interactions in Saccharomyces cerevisiae. Nature 403: 623±627. Vaidya VC, Seshadri V, Vijayraghavan U. 1996. An extragenic suppressor of prp24-1 de®nes genetic interaction between PRP24 and PRP21 gene products of Saccharomyces cerevisiae. Mol Gen Genet 250: 267±276. Vankan P, McGuigan C, Mattaj IW. 1990. Domains of U4 and U6 snRNAs required for snRNP assembly and splicing complementation in Xenopus oocytes. EMBO J 9: 3397±3404. Vojtek AB, Hollenberg SM, Cooper JA. 1993. Mammalian Ras interacts directly with the serine/threonine kinase Raf. Cell 74: 205±214. Wach A, Brachat A, Pohlmann R, Philippsen P. 1994. New heterologous modules for classical or PCR-based gene disruptions in Saccharomyces cerevisiae. Yeast 10: 1793±1808. Walhout AJM, Sordella R, Lu XW, Hartley JL, Temple GF, Brasch MA, Thierry-Mieg N, Vidal M. 2000. Protein interaction mapping in Caenorhabditis elegans using proteins involved in vulval development. Science 287: 116±122. Wang H, Kohalmi SE, Cutler AJ. 1996a. An improved method for polymerase chain reaction using whole yeast cells. Anal Biochem 237: 145±146. Wang X, Watt PM, Louis EJ, Borts RH, Hickson ID. 1996b. Pat1: a topoisomerase II-associated protein required for faithful chromosome transmission in Saccharomyces cerevisiae. Nucleic Acids Res 24: 4791±4797. Will C, LuÈhrmann R. 1997. snRNP structure and function, Eukaryotic mRNA Processing. IRL Press: Carol Stream, IL; 130±173.
+
+Copyright # 2000 John Wiley & Sons, Ltd. Yeast 2000; 17: 95±110.
+
+

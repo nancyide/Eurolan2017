@@ -1,0 +1,356 @@
+Mlc1p Is a Light Chain for the Unconventional Myosin Myo2p in Saccharomyces cerevisiae
+
+Richard C. Stevens and Trisha N. Davis Department of Biochemistry, University of Washington, Seattle, Washington 98195-7350
+
+Abstract. In Saccharomyces cerevisiae, the unconventional myosin Myo2p is of fundamental importance in polarized growth. We explore the role of the neck region and its associated light chains in regulating Myo2p function. Surprisingly, we find that precise deletion of the six IQ sites in the neck region results in a myosin, Myo2- 6IQp, that can support the growth of a yeast strain at 90% the rate of a wild-type isogenic strain. We exploit this mutant in a characterization of the light chains of Myo2p. First, we demonstrate that the localization of calmodulin to sites of polarized growth largely depends on the IQ sites in the neck of Myo2p. Second, we demonstrate that a previously uncharacterized protein, Mlc1p, is a myosin light chain of Myo2p. MLC1 (YGL106w) is an essential gene that exhibits haploinsufficiency. Reduced levels of MYO2 overcome the haploinsufficiency of MLC1. The mutant MYO26IQ is able to suppress haploinsufficiency but not deletion of MLC1. We used a modified gel overlay assay to demonstrate a direct interaction between Mlc1p and the neck of Myo2p. Overexpression of MYO2 is toxic, causing a severe decrease in growth rate. When MYO2 is overexpressed, Myo2p is fourfold less stable than in a wild-type strain. High copies of MLC1 completely overcome the growth defects and increase the stability of Myo2p. Our results suggest that Mlc1p is responsible for stabilizing this myosin by binding to the neck region. Key words: myosin · polarized · stability · Myo4 · cytokinesis
+
+Downloaded
+
+from
+
+www.jcb.org
+
+on
+
+March
+
+T
+
+he Saccharomyces cerevisiae unconventional myosin Myo2p is a member of the class V myosins and has been implicated in vesicle movement and polar-
+
+Mooseker, 1992; Rayment et al., 1993). IQ sites are 25­
+
+ized growth (Johnston et al., 1991; Govindan et al., 1995). Homologues of Myo2p include mouse dilute, which plays a role in melanosome transport (Provance et al., 1996; Nascimento et al., 1997), and chicken myosin V, which has a role in neuron filopodial extension (Wang et al., 1996). Myo2p is essential for growth of S. cerevisiae, and it localizes to the bud tip during bud formation and to the bud neck during cytokinesis (Brockerhoff et al., 1994; Lillie and Brown, 1994). A temperature-sensitive mutation in MYO2 confers defects in polarized growth and in vacuole inheritance but not in general secretion (Johnston et al., 1991; Govindan et al., 1995; Hill et al., 1996). All myosins have at least one light chain that binds to the myosin heavy chain via a light chain binding motif called an IQ site (Cheney and Mooseker, 1992; Xie et al., 1994). IQ sites are often found in tandem repeats between the head-motor domain and the tail domain (Cheney and
+
+Address all correspondence to Trisha N. Davis, Department of Biochemistry, Box 357350, University of Washington, Seattle, WA 98195-7350. Tel.: (206) 543-5345. Fax: (206) 685-1792. E-mail: tdavis@u.washington.edu
+
+amino acid residue motifs that bind calmodulin or myosin light chains. In many cases, the binding of these small EF-hand proteins activates the Mg2 ATPase activity of myosins. For example, calmodulin is required for the Mg2 ATPase activity of chicken myosin V (Espindola et al., 1992). Furthermore, light chains perform structural roles by affecting myosin head orientation as well as orientation of light chains to each other. As an example, the light chains of scallop myosin II are required to stabilize Ca2 binding by the myosin head domain and alter the myosin head orientation (Fromherz and Szent-Gyorgyi, 1995). Myo2p has six tandem IQ sites (Johnston et al., 1991). We have previously shown that calmodulin binds to Myo2p to perform an essential function in polarized growth (Brockerhoff et al., 1994). Not only is calmodulin present at sites of polarized growth (Brockerhoff and Davis, 1992), but calmodulin and Myo2p have direct physical contact through the IQ sites in the neck of Myo2p (Brockerhoff et al., 1994). CMD1 mutants show allele-specific synthetic lethality with the mutant myo2-66, thus suggesting that calmodulin and Myo2p share an essential function. Interestingly, both class V myosins in S. cerevisiae, Myo2p and Myo4p, confer deleterious effects on cell
+
+19,
+
+2004
+
+© The Rockefeller University Press, 0021-9525/98/08/711/12 $2.00 The Journal of Cell Biology, Volume 142, Number 3, August 10, 1998 711­722 http://www.jcb.org
+
+711
+
+
+Table I. Plasmids Used in This Study
+
+Plasmid pBluescriptII KS ( ) pGEX-2T pQE30 pRS306 pRS315 pRS316 pGF27 pGF29 pJG28 pJP10-2B pLI831 myo4 ::URA3 pRS23 pRS28 pRS29 pRS31 pRS43 pRS50 pRS72 pRS172 pRS174 pRS221 pRS276 pRS286 pRS289 pRS290 pRS296 pRS321 pSB6 pSB20 pSB21 pSB24 pSB25 pSB27 pTD28 pTD29
+
+Parent vector
+
+pRS304 pRS306 pSB5 YCp50 pBluescriptII SK ( ) pBluescriptII KS ( ) pBluescriptII SK ( ) pRS27 pRS25 pGF29 pRS29 pRS37 pRS43 pRS43 pRS306 pGF29 pBluescriptII KS ( ) pRS285 pRS316 pGF27 pQE30 pRS315 pACYC177 pGEX-3X pGEX-3X pGEX-3X pGEX-3X pGEX-3X pTD17 YEp24
+
+Relevant markers and construction* ampr f1 origin Ptac with gene encoding GST Ptac with 6XHis polylinker URA3 f1 origin CEN6 ARSH4 LEU2 f1 origin CEN6 ARSH4 URA3 f1 origin 2- m origin (YEp24 fragment) inserted at AatII site 2- m origin (YEp24 fragment) inserted at AatII site ampr trc promoter, CMD1 URA3 MYO2 CEN4 ARS1 ADE3 myo4 ::URA3 5.6-kb ClaI fragment of MYO2 myo2 ::TRP1 5.6-kb ClaI fragment of MYO2 5.6-kb ClaI fragment of MYO2 NheI site removed 2- m origin (YEp24 fragment) inserted at NotI site NcoI site added at codon 1 of MYO2 Internal deletion of MYO2 (S787G aa788­927) also known as MYO2-D6IQ 5.4-kb ClaI fragment of MYO2-D6IQ 5.4-kb ClaI fragment of MYO2-D6IQ 3.3-kb BamHI fragment carrying MLC1 mlc1 ::TRP1 1.4-kb BamHI-SacI fragment of MLC1 1.4-kb BamHI-SacI fragment of MLC1 ampr promoter 6XHis-MLC1 1.4-kb BamHI-SacI fragment of MLC1 kanr lysis genes of lambda MYO2 (aa740­1457) fused to GST MYO2 (aa740­1116) fused to GST MYO2 (aa790­924) fused to GST MYO2 (aa740­833) fused to GST MYO2 (aa247­740) fused to GST 2- m origin LYS2 CMD1 2- m origin LYS2 Reference or source Stratagene Pharmacia Qiagen (Sikorski and Hieter, 1989) (Sikorski and Hieter, 1989) (Sikorski and Hieter, 1989) G. Zhu G. Zhu J. Geiser (Johnston et al., 1991) E. Muller S. Brown This study This study This study This study This study This study This study This study This study This study This study This study This study This study This study This study (Brockerhoff et al., 1994) (Brockerhoff et al., 1994) (Brockerhoff et al., 1994) (Brockerhoff et al., 1994) (Brockerhoff et al., 1994) (Brockerhoff et al., 1994) (Davis and Thorner, 1989) (Geiser et al., 1993)
+
+Downloaded
+
+from
+
+www.jcb.org
+
+on
+
+March
+
+*Unless otherwise stated, all markers from the parent plasmid are present in the new construct. MYO2- 6IQ encodes an internal deletion in Myo2p with the mutation S787G and missing amino acids 787­927. MLC1 is identical to the Saccharomyces cerevisiae open reading frame YGL106w. 19,
+
+2004
+
+growth when overexpressed (Haarer et al., 1994). Myo4p localizes to the bud and is essential for the polarized distribution of the asymmetry determinant, Ash1p (Bobola et al., 1996; Jansen et al., 1996). MYO4 is not essential for growth (Haarer et al., 1994). The cause of growth defects when either MYO2 or MYO4 is overexpressed is unknown. Here we investigate the role of light chains in the function of Myo2p. Localization of calmodulin to sites of cell growth depends on the neck region of Myo2p. The S. cerevisiae genome sequencing project revealed a small protein with similarities to calmodulin and myosin light chains. We show that this protein, which we name Mlc1p (myosin light chain), binds to the myosin neck and regulates the stability of Myo2p. Materials and Methods Plasmids The plasmids used in this study are listed in Table I. Plasmid pRS28, used to precisely delete MYO2, was made in several steps. The 5.6-kb ClaI fragment of pJP10-2B, containing MYO2, was cloned into the ClaI site of pBluescriptII KS (Stratagene, La Jolla, CA) to make pRS23. In pRS24, the 4.1-kb NdeI-AflII fragment of MYO2 was removed. Plasmid pRS24 was digested with EcoRI, the ends were filled in with the Klenow fragment of DNA polymerase to destroy the EcoRI site, and the ends were ligated with T4 DNA ligase to make pRS26. The remaining coding sequence of MYO2 in pRS26 was replaced with an EcoRI site by oligonucleotide-directed mutagenesis (Kunkel et al., 1987) using the primer MYO2D (5 -CTCGCGCCATCAGTTGAATTCTATACGCTGTAATATCTGCTG-3 ), creating plasmid pRS27. In the plasmid pRS28, a 0.8-kb EcoRI fragment containing TRP1 (Davis et al., 1986) was cloned into the EcoRI site of pRS27. The plasmid shuffle used in this study required a plasmid encoding ADE3 and MYO2. A 5.6-kb ClaI fragment of MYO2 was cloned into the SmaI site of pLI831 (Geiser et al., 1993) to make pRS37. The shuttle vector pRS50 contains a 2- m origin from a 2.1-kb EcoRI fragment of YEp24 ligated into the NotI site of pRS37. In both plasmids, the 5 overhangs were filled in by treatment with the Klenow fragment of DNA polymerase. Additional plasmids containing MYO2 were made carrying the URA3 selectable marker. Plasmid pRS25 is a derivative of pRS316 (Sikorski and Hieter, 1989) in which the HindIII-NotI fragment of the polylinker was removed, the 5 overhangs were filled in with Klenow, and the plasmid was recircularized with T4 DNA ligase. The plasmid pRS29 contains the 5.6-kb ClaI fragment of MYO2 from plasmid pJP10-2B cloned into the ClaI site of pRS25. In pRS29, the coding sequence of MYO2 runs in
+
+The Journal of Cell Biology, Volume 142, 1998 712
+
+
+the same direction as the f1 origin. For later studies, the NheI site of pRS29 was removed by digestion with NheI, filling in with Klenow, and reclosing with T4 DNA ligase to create pRS43. The high-copy number plasmid pRS31 was created by cloning the 5.6-kb ClaI fragment of MYO2 into the ClaI site of pGF29, a 2- m plasmid. Deletion of the region encoding the neck of MYO2 was made by oligonucleotide-directed mutagenesis (Kunkel et al., 1987). Because of the large size of MYO2, a cassette was created containing the middle onethird of the gene. The 2.6-kb BamHI-EcoRI fragment of MYO2 was cloned into the BamHI and EcoRI sites of pBluescriptII KS to make pRS78. The first step towards deleting the six IQ sites was to introduce NarI restriction endonuclease cleavage sites into the coding sequence of MYO2 at either end of the region encoding the IQ sites. The oligonucleotide NAR1 (5 -GCAATAAGATGCATAATGGCGCCATTGTTATGATCCAGAAG-3 ) results in the addition of a glycine between amino acid residues 786 and 787 as well as the mutation S787A. The oligonucleotide NAR4 (5 -GAAATTGAAACAATTGAAGGGCGCCGACGCTAAATCAGTTAATC-3 ) results in the addition of a glycine between amino acids 927 and 928. After mutating pRS78 using NAR1 and NAR4, the resulting plasmid was digested with NarI and reclosed using T4 DNA ligase. This mutant cassette was then ligated to BamHI- and EcoRI-cut pRS43 to create the plasmid pRS172, which encodes a Myo2p with an S787G mutation and lacks only amino acids 788­927. This mutant was named MYO26IQ. Plasmid pRS221 has the 5.4-kb Asp718-SacI fragment containing MYO2- 6IQ cloned into pGF29. The plasmid pRS174 was created to integrate MYO2- 6IQ into the genome of S. cerevisiae. pRS174 was made by ligating the 5.4-kb ClaI fragment of pRS172 containing MYO2- 6IQ into the ClaI site of pRS306. The gene YGL106w encodes a 149­amino acid protein with similarities to calmodulin. Based on the work described in this paper, we have renamed YGL106w as MLC1. The 3.3-kb BamHI fragment of lambda PM3353 (American Type Culture Collection, Rockville, MD) was cloned into the BamHI site of pBluescriptII KS , creating plasmid pRS276. Plasmid pRS287 is a derivative of pRS276, in which the 2.0-kb NdeI-NotI fragment was removed, 5 overhangs were filled in with Klenow, and plasmid was recircularized with T4 DNA ligase. In plasmid pRS287, MLC1 is the only open reading frame remaining in the pBluescript polylinker. The plasmid to delete MLC1 precisely was made in a similar way to the myo2 construct. Plasmid pRS284 was made by digesting pRS276 with EcoRI, filling in the 5 overhangs with Klenow, and recircularizing the plasmid with T4 DNA ligase. The coding sequence of MLC1 was replaced with an EcoRI site by oligonucleotide-directed mutagenesis (Kunkel et al., 1987) using primer MLC1D (5 -CTAAATTTGCAGTTCCGCACTCTCAGAATTCTGTTATTCTATGTATGTGCG-3 ), creating pRS285. A 0.8-kb EcoRI fragment containing TRP1 (Davis et al., 1986) was cloned into the EcoRI site of pRS285 to make pRS286. In pRS286, the TRP1 gene is in the same orientation as the original MLC1. Plasmid pRS296, designed to express 6XHis-tagged MLC1 in Escherichia coli, was made in several steps. An NcoI site was placed at the first codon of MLC1 by oligonucleotide-directed mutagenesis using primer MLC1-NCOI (5 -GGCTCTGGTGGCTGCCATGGTTATTCTATGTATGTGC-3 ) (Kunkel et al., 1987) to make pRS291. This mutagenesis also created the mutation S2A. The MLC1 fragment was made by digesting pRS291 with NcoI, filling in using the Klenow fragment of DNA polymerase, digesting with SacI, and purifying the 0.8-kb fragment. Plasmid pRS296 was then made by digesting pQE30 (Qiagen, Inc., Chatsworth, CA) with BamHI, filling in using the Klenow fragment of DNA polymerase, digesting with SacI, and ligating in the 0.8-kb MLC1 fragment.
+
+MMY28 carrying an integrated form of GFP­CMD1 (Moser et al., 1997) to make the diploid strain RSY33. A myo4 ::URA3 construct (a gift from Susan Brown, University of Michigan, Ann Arbor, MI) was transformed into RSY33 to create strain RSY38, heterozygous for GFP­CMD1, MYO2- 6IQ, and myo4 . Strain RSY105 carrying a deletion of MLC1 was difficult to create because MLC1 displays haploinsufficiency. To create the disruption, we first transformed JGY46 with plasmid pRS289, carrying the MLC1 gene. The resulting strain had three functioning copies of MLC1. If one copy of MLC1 were removed by one-step gene replacement, then the resulting strain would still have two copies of the gene. The 1.7-kb BamHI-NdeI fragment of plasmid pRS286 encoding mlc1 ::TRP1 was transformed into JGY46(pRS289). Of the 42 colonies obtained, four were unable to lose the URA3-marked MLC1 plasmid pRS289 when streaked onto minimal medium containing 5 -fluoro orotic acid (5 -FOA).1 These four colonies were the likely candidates for heterozygous mlc1 strains. To test this hypothesis, the four strains were transformed with the LEU2-marked MLC1 plasmid pRS321 and streaked onto minimal medium containing 5 -FOA. Three of the four strains were able to lose pRS289 when given an alternative source of MLC1 from pRS321. RSY105 was shown to be heterozygous MLC1/mlc1 ::TRP1 by Southern blot analysis. RSY105 must carry a plasmid source of MLC1 to survive. To study the null phenotype of mlc1 , strains RSY105(pRS289) and JGY46 were sporulated on SpoIII medium, and 50 tetrads were dissected from each strain. After 24 h, spores were examined for germination and colony growth. Images of spores and colonies were obtained as described below using a fluorescent microscope (model Axioplan; Carl Zeiss, Inc., Thornwood, NY) with 0.3-s, low-light exposures. Germinating spores were transferred to 20 l minimal medium containing 3.7% formaldehyde. After 60 min at room temperature, 4,6 -diamidino-2-phenylindole (DAPI) was added to a final concentration of 50 g/ml, and nuclei were examined as described below.
+
+Downloaded
+
+Immunoblot Analysis
+
+SDS-PAGE and immunoblot analysis were performed as described (Geiser et al., 1991) with the following exceptions. Strains to be analyzed were grown to 50 Klett units in the appropriate medium. After centrifugation, cells were washed in lysis buffer (50 mM Tris, pH 8.0, 1 proteinase inhibitor cocktail [Drubin et al., 1988]). Cells were lysed by mixing equal volumes of cells, glass beads (Sigma Chemical Co., St. Louis, MO), and lysis buffer and vortexing five times for 1 min alternating with 1-min incubations on ice. After centrifugation for 15 min in a microcentrifuge at 4 C, pellets were washed once in lysis buffer and solubilized using cracking buffer (10 mM sodium phosphate, pH 7.2, 1% -mercaptoethanol, 1% SDS, and 6 M urea). For detection of Myo2p, 30 g of protein was loaded into each lane of a 6% SDS­polyacrylamide gel. Proteins were transferred to nitrocellulose membranes using a wet-transfer apparatus (Bio-Rad Laboratories, Hercules, CA) following the instructions provided by the manufacturer. The membranes were incubated with a 1:400 dilution of affinity-purified anti-Myo2p antibody (Lillie and Brown, 1994). Secondary antibody was blotting grade goat anti­rabbit IgG horseradish peroxidase conjugate (Bio-Rad Laboratories) at a 1:5,000 dilution. Signal was detected using Renaissance luminol reagent (DuPont/NEN, Boston, MA) and Hyperfilm-MP (Amersham Corp., Arlington Heights, IL).
+
+from
+
+www.jcb.org
+
+on
+
+March
+
+19,
+
+2004
+
+Gel Overlays
+
+Production of S-labeled 6XHis-Mlc1p was as follows. The E. coli strain GM1 (Coulondre and Miller, 1977) containing the plasmids pRS296 and pSB6 was grown in 30 ml of M9 medium (Miller, 1972) with 1.0 mM MgCl2 (instead of MgSO4), 0.4% glucose, 1 g/ml thiamine, 50 g/ml ampicillin, 15 g/ml kanamycin, and 8 mCi carrier-free Na35SO4 (DuPont/ NEN) to 20 Klett units and then induced by adding isopropyl- -d-thiogalactopyranoside to a final concentration of 2 mM. After 5 h at 37 C, the cells were collected by centrifugation and resuspended in 400 l lysis buffer (50 mM Tris, pH 7.5, 1 mM MgCl2, and 1 mM phenylmethylsulfonyl fluoride). The sample was frozen and thawed several times, alternating 35
+
+Media and Strains
+
+Media for growth of S. cerevisiae and E. coli were described previously (Zhu et al., 1993). The yeast strains used in this study are listed in Table II. Genetic manipulations and transformations were performed essentially as described previously (Sherman et al., 1986). RSY2 carrying the deletion of MYO2 was created by one-step gene replacement (Rothstein, 1991) using the plasmid pRS28 digested with BglII and ClaI transformed into RSY1. Because strains containing ade3 -100 are histidine auxotrophs, ADE3 on a plasmid can be selected by histidine prototrophy (Jones and Fink, 1982). RSY2 was transformed with pRS50 carrying ADE3 and MYO2. The strain RSY2-60B has MYO2 deleted from the genome and carries pRS50. The mutant MYO2- 6IQ was integrated into yeast by two-step gene replacement (Rothstein, 1991) using plasmid pRS174 digested with BamHI. Strains RSY21 and RSY22 were shown to contain MYO2- 6IQ by PCR and by Southern blot analysis. RSY22 was mated to strain
+
+1. Abbreviations used in this paper: 5 -FOA, 5 -fluoro orotic acid; DAPI, 4 ,6-diamidino-2-phenylindole; GFP, green fluorescent protein; GST, glutathione-S-transferase.
+
+Stevens and Davis M1c1p Is a Myosin Light Chain for Myo2p 713
+
+
+Table II. Yeast Strains
+
+Strain CRY1 JGY46 EMY55-5D EMY55-6B MMY28 RSY1 RSY2
+
+RSY2-60B RSY21 RSY22 RSY38
+
+RSY38-9D RSY38-16A RSY38-16C RSY38-17C RSY105
+
+RSY105-6A RSY107 RSY112
+
+Genotype* MATa ade2-1oc can1-100 his3-11,15 leu2-3,112 trp1-1 ura3-1 MATa/MAT ade2-1oc/ade2-1oc can1-100/can1-100 his311,15/his3-11,15 leu2-3,112/leu2-3,112 trp1-1/trp1-1 ura3-1/ura3-1 MATa ade2-1oc ade3 -100 can1-100 cyh2r his3-11,15 leu2-3,112 lys2 ::HIS3 trp1-1 ura3-1 MAT ade2-1oc ade3 -100 can1-100 cyh2S his3-11,15 leu2-3,112 lys2 ::HIS3 trp1-1 ura3-1 MATa ade2-1oc ade3 -100 can1-100 (S65T-GFP)­CMD1 his311,15 leu2-3,112 lys2 ::HIS3 trp1-1 ura3-1 EMY55-5D X EMY55-6B MATa/MAT ade2-1oc/ade2-1oc ade3 -100/ade3 -100 can1-100/can1-100 cyh2r/cyh2S his3-11,15/his3-11,15 leu2-3,112/leu2-3,112 lys2 ::HIS3/lys2 ::HIS3 MYO2/myo2 ::TRP1 trp1-1/-trp1-1 ura3-1/ura3-1 MATa ade2-1oc ade3 -100 can1-100 his3-11,15 leu2-3,112 lys2 ::HIS3 myo2 ::TRP1 trp1-1 ura3-1 carrying plasmid pRS50 MATa ade2-1oc can1-100 his3-11,15 leu2-3,112 MYO2-D6IQ trp1-1 ura3-1 MAT ade2-1oc can1-100 his3-11,15 leu2-3,112 MYO2-D6IQ trp1-1 ura3-1 MATa/MAT ade2-1oc/ade2-1oc ADE3/ade3 -100 can1-100/can1-100 CMD1/GFP­CMD1 his3-11,15/his3-11,15 leu2-3,112/leu2-3,112 MYO2/MYO2- 6IQ MYO4/myo4 ::URA3 trp1-1/trp1-1 ura3-1/ura3-1 MATa ade2-1oc ade3 -100 can1-100 GFP­CMD1 his3-11,15 leu2-3112 lys2 ::HIS3 MYO2- 6IQ trp1-1 ura3-1 MATa ade2-1oc ade3 -100 can1-100 GFP­CMD1 his3-11,15 leu2-3,112 lys2 ::HIS3 myo4 ::URA3 trp1-1 ura3-1 MAT ade2-1oc ade3 -100 can1-100 his3-11,15 leu2-3,112 lys2 ::HIS3 MYO2- 6IQ myo4 ::URA3 trp1-1 ura3-1 MAT ade2-1oc ade3 -100 can1-100 GFP­CMD1 his3-11,15 leu2-3,112 lys2 ::HIS3 trp1-1 ura3-1 MATa/MAT ade2-1 oc/ade2-1 oc can1-100/can1-100 his311,15/his3-11,15 leu2-3,112/leu2-3,112 MLC1/mcl1D::TRP1 trp1-1/trp1-1 ura3-1/ura3-1 carrying plasmid pRS289 MAT ade2-1oc can1-100 his3-11,15 leu2-3,112 mcl1 ::TRP1 trp1-1 ura3-1 carrying plasmid pRS289 RSY21 X RSY105-6A carrying plasmid pRS289 MATa/MAT ade2-1oc/ade2-1oc ade3 -100/ade3 -100 can1-100/can1-100 his3-11,15/his3-11,15 leu2-3,112/leu2-3,112 lys2 ::HIS3/lys2 ::HIS3 MLC1/mcl1 ::TRP1 MYO2/myo2 ::TRP1 trp1-1/trp1-1 ura3-1/ura3-1 carrying plasmid pRS289
+
+Reference R. Fuller (Stanford University, CA) (Geiser et al., 1991) E. Muller (University of Washington, Seattle, WA) E. Muller (University of Washington) (Moser et al., 1997) This study This study
+
+This study This study This study This study
+
+This study This study This study This study This study
+
+Downloaded
+
+from
+
+www.jcb.org
+
+This study This study This study
+
+on
+
+March
+
+*GFP­CMD1 encodes a fusion protein of green fluorescent protein and calmodulin. 19,
+
+2004
+
+between 20 and 20 C to lyse the cells, and then centrifuged at 10,000 g branes were probed for 16 h at 21 C with either 140 mM 35 S-labeled
+
+for 30 min in a 4 C microcentrifuge. The supernatant fraction was batch mixed for 10 min with 700 l preequilibrated Ni-NTA beads (Qiagen, Inc.). The beads were poured to form a column and washed with 10 ml lysis buffer containing 25 mM imidazole. Purified 6XHis-Mlc1p was eluted from the column using lysis buffer containing 500 mM imidazole. The imidazole buffer was exchanged with 100 mM ammonium bicarbonate with a PD-10 G25 column (Pharmacia Biotech, Piscataway, NJ). Protein was stored at 80 C until needed. Protein concentration was determined using bicinchoninic acid (Sigma Chemical Co.). The purified S-labeled 6XHis-
+
+35
+
+Mlc1p had a specific activity of 27 dpm/fmol. Purified 35S-labeled calmodulin was made as previously described (Brockerhoff et al., 1992), except that only 8 mCi Na35SO4 was used in the labeling. The purified S-labeled calmodulin had a specific activity of 39 dpm/fmol.
+
+35
+
+The gel overlay assays for calmodulin and Mlc1p binding were performed as previously described (Brockerhoff et al., 1994) with slight modifications. In brief, extracts were made from the E. coli strain GM1 (Coulondre and Miller, 1977) containing either plasmid pGEX-2T, pSB20, pSB21, pSB24, pSB25, or pSB27. Approximately 30 g total protein was loaded into each lane for SDS-PAGE. Proteins were transferred to Immobilon membranes (Millipore Corp., Bedford, MA) using a wet-transfer apparatus (Bio-Rad Laboratories) following the instructions provided by the manufacturer. After transfer, the proteins were renatured by washing the Immobilon membranes for a total of 40 min (four changes) in buffer A (20 mM Hepes, pH 7.2, 100 mM NaCl) and blocked for 6 h in buffer A containing 3% bovine serum albumin and 0.05% Tween-20. The mem-
+
+6XHis-Mlc1p or 156 mM S-labeled calmodulin in buffer C (buffer A with 5 mM CaCl2 and 0.05% Tween-20). The membranes were then washed for 40 min (four changes) in buffer C. Next, the membranes were air dried, dipped in 7% 2,5-diphenyloxazole in acetone, air dried, and exposed to Hyperfilm-MP (Amersham Corp.) for 5­8 d.
+
+Northern Analysis of MYO2 Transcript
+
+Total mRNA was purified from strains of CRY1 carrying either pRS43, pRS172, pRS31, or pRS221 using a previously described procedure (Wise, 1991). From 500-ml cultures, 7.0 mg RNA was obtained. Total mRNA was purified from the samples using the Promega PolyA Tract mRNA Isolation System I (Madison, WI) with MagneSphere particles. Approximately 50 g poly A­containing mRNA was purified from each culture. Northern blot analysis was performed using standard procedures (Sambrook et al., 1989) with the following modifications. 10 g mRNA was loaded in each lane of a prerun formaldehyde gel. After removing the formaldehyde by washing 2 in DEPC dH2O, mRNA was transferred to a nitrocellulose membrane using capillary transfer (Sambrook et al., 1989). The membrane was baked at 65 C for 1 h. Probes were made using the 3.4-kb NcoI-EcoRI fragment of MYO2 from pRS72 and a PCR product containing a 0.5-kb fragment of TRX2. After incubating the membrane with 1 107 cpm of each probe (pooled) for 48 h, the membrane was washed and analyzed using a Molecular Dynamics PhosphorImager (model 400S; Sunnyvale, CA) using 176-micron pixel size.
+
+35
+
+The Journal of Cell Biology, Volume 142, 1998 714
+
+
+Indirect Immunofluorescence and Green Fluorescent Protein Fusions
+
+The immunolocalization of Myo2p in strains CRY1 and RSY21 was performed as previously described (Brockerhoff et al., 1994; Lillie and Brown, 1994). The localization of GFP­Cmd1p in strains RSY38-9D, RSY38-16A, RSY38-16C, and RSY38-17C was performed using a fluorescent microscope (model Axioplan; Carl Zeiss, Inc.) (Moser et al., 1997). 200 cells from each strain were scored for the presence of polarized calmodulin. Calmodulin was judged to be polarized if the fluorescent signal was stronger in the bud than in the mother portion of each cell. Images were captured using an Imagepoint-cooled CCD video camera (Photometrics, Tucson, AZ) fitted to the microscope in conjunction with IP Lab software (Signal Analytics, Vienna, VA). Images for GFP­calmodulin are 5-s exposures. Previous studies have shown that expression of GFP alone in yeast resulted in a uniform distribution of fluorescence throughout the cell, excluding the vacuole (Niedenthal et al., 1996).
+
+Results Myo2p Functions without a Neck Domain The neck of Myo2p contains six IQ sites in a tandem array spanning amino acids 790­921 (Johnston et al., 1991). Myo2p is essential for growth, but the six IQ sites are not. The mutant MYO2- 6IQ, lacking the sequence encoding amino acids 787­927, supports nearly normal growth as the only source of Myo2p, causing only a 10% reduction in growth rate (Fig. 1). An immunoblot confirmed that neck-
+
+less Myo2- 6IQp is stably produced and that no wild-type Myo2p is present in the strain (Fig. 1 C). The mutant cells have a normal budding index but on average are 10% larger in size. The distribution of bud sizes was similar to that seen in wild-type cultures. The mutant cultures contained about 5% large unbudded cells not found in the wild-type cultures. A strain carrying MYO2- 6IQ does not grow at 38.5 C, whereas an isogenic wild-type strain grows poorly. A strain carrying MYO2- 6IQ grows well on medium with or without 1 M sorbitol (data not shown). The neckless mutant protein localizes indistinguishably from that of wild-type Myo2p (Fig. 2). In both cases, unbudded cells have either no localization or a small patch of Myo2p. In small- and medium-budded cells, the Myo2p is present in a concentrated region at the bud tip. In largebudded cells, the Myo2p is either at the bud tip or at the bud neck (Fig. 2). These results are consistent with previous analysis of Myo2p localization (Brockerhoff et al., 1994; Lillie and Brown, 1994). Neckless MYO2- 6IQ Affects Calmodulin Localization Our previous results strongly suggest calmodulin is a light chain of Myo2p. Calmodulin localizes to the sites of cell
+
+Downloaded
+
+from
+
+www.jcb.org
+
+on
+
+March
+
+19,
+
+2004
+
+Figure 1. The mutant MYO2- 6IQ allows growth. Strains carrying wild-type MYO2 (CRY1) or MYO2- 6IQ (RSY21) were plated on YPD medium and incubated for 3 d at 30 and 37 C (A). Log-phase cultures were diluted to 10,000 cells/ l in YPD medium, and growth was monitored over 4 h. Cell number was determined on a Coulter counter (Coulter Corporation, Hialeah, FL). (B) , wild-type MYO2 strain, CRY1; , MYO2- 6IQ strain, RSY21. An immunoblot of extracts made from log-phase cultures of strains CRY1 and RSY21 (C). The antibody was antiMyo2p (Lillie and Brown, 1994).
+
+Figure 2. Comparison of the localization of Myo2p and Myo26IQp. Cells were stained with affinity-purified anti-Myo2p antibody as described in Materials and Methods. Cells were simultaneously stained with DAPI to stain DNA. Bar, 5 m.
+
+Stevens and Davis M1c1p Is a Myosin Light Chain for Myo2p 715
+
+
+Downloaded
+
+from
+
+www.jcb.org
+
+Figure 3. Localization of GFP­calmodulin in myo4 strains. Cultures of RSY38-17c (WT), RSY38-16A (myo4 MYO2), RSY38-9D (MYO4 MYO2- 6IQ), and RSY38-16C (myo4 MYO2- 6IQ) were grown to log phase. Samples were collected, mixed with equal volumes of 1% agarose dissolved in SDC, and mounted on microscope slides for image collection as described in the Materials and Methods. Bar, 5 m.
+
+on
+
+March
+
+growth, and calmodulin mutants display defects in polarized growth (Brockerhoff and Davis, 1992; Davis, 1992; Ohya and Botstein, 1994). Mutations in CMD1 exacerbate defects caused by myo2-66 in an allele-specific manner. The viability of the MYO2- 6IQ strain allows us to test if the localization of calmodulin at sites of cell growth depends on the six IQ sites of Myo2p. Localization of a fusion of GFP to calmodulin was examined in wild-type and neckless mutant strains. GFP­calmodulin functionally replaces calmodulin and localizes properly (Moser et al., 1997). In a strain carrying wild-type MYO2, GFP­calmodulin is found at sites of cell growth in 84% of the cells (Fig. 3 and Table III). This number is equivalent to values obtained by immunolocalization (Brockerhoff and Davis, 1992). The cells without polarized calmodulin are either large-budded cells in the process of moving calmodulin from the bud tip to the bud neck or unbudded cells that have not yet started bud formation. In a strain carrying MYO2- 6IQ, only 15% of the cells have polarized calmodulin with greatly reduced and more diffuse signal even in these cells. Myo4p localizes diffusely in the yeast bud (Jansen et al., 1996). We tested whether the remaining GFP­calmodulin in the bud of the MYO2- 6IQ strain was dependent on Myo4p, which is not essential for growth. Strains deleted for MYO4 and containing wild-type
+
+MYO2 show the same localization of GFP­calmodulin as a wild-type strain containing both MYO4 and MYO2. However, in a strain carrying MYO2- 6IQ and myo4 , GFP­calmodulin is polarized in only 4% of the cells (Fig. 3 and Table III). Thus, calmodulin localization to sites of polarized growth is largely dependent on the six IQ sites of Myo2p, although Myo4p contributes to a small extent. MLC1, a New Light Chain The newly completed genome sequence for S. cerevisiae identified a potential myosin light chain. YGL106w encodes a 149­amino acid polypeptide with significant homology to calmodulin and myosin light chains. Based on the results described below, we have renamed this gene MLC1. An alignment with vertebrate calmodulin and the most similar light chain reveals homology throughout the 19,
+
+2004
+
+Table III. Calmodulin Localization in Myosin Mutants
+
+Genotype Wild type myo2- 6IQ myo4 myo4 myo2- 6IQ Polarized calmodulin (%) 84 15 80 4
+
+The Journal of Cell Biology, Volume 142, 1998 716
+
+
+Figure 4. Alignment of the predicted amino acid sequence of MLC1 with three other small EF-hand proteins. Vertebrate calmodulin (Homo sapiens) amino acids 7­149, a chicken light chain (Gallus gallus, MLE1) amino acids 45­190, and Acanthamoeba myosin IC light chain (A. castellanii, MICLC) amino acids 7­149 are compared with the complete amino acid sequence of Mlc1p. Amino acid residues sharing identity between Mlc1p and at least one of the other sequences are shaded. Amino acids within potential Ca2 -binding loops are labeled with a solid line.
+
+sequences (Fig. 4). Mlc1p shares 35% identity with vertebrate calmodulin, second to only yeast calmodulin among yeast proteins (Davis and Thorner, 1986). Mlc1p is 35% identical to a chicken light chain (MLE1) (Matsuda et al., 1981). Mlc1p is 31% identical to Acanthamoeba myosin 1C light chain, another unconventional myosin light chain (Wang et al., 1997). MLC1 Is Essential and Displays Haploinsufficiency Initial attempts to make a diploid hemizygous for MLC1 were unsuccessful. Southern blot analysis revealed that one-step gene replacement (Rothstein, 1991) resulted in strains containing at least two wild-type copies of MLC1 for every one copy of the deletion construct. One possible explanation for this effect is that one copy of MLC1 per diploid genome is insufficient for viability. This phenomenon is called haploinsufficiency (Wilkie, 1994). We tested if MLC1 is haploinsufficient by repeating the gene disruption in a strain carrying two copies of MLC1 in the genome plus one copy of MLC1 on a plasmid. In this case, we were able to delete one copy of MLC1 from the genome as described in the Materials and Methods. The hemizygous diploid requires a plasmid carrying MLC1 for viability (Fig. 5). Haploid spores that contain the mlc1 gene disruption require MLC1 on a plasmid (data not shown). Therefore, MLC1 is haploinsufficient and essential. To begin characterizing the phenotype of mlc1 cells, we examined spores from a hemizygous diploid strain. The diploid requires a plasmid copy of MLC1 to survive. Any spores receiving the plasmid would grow into colonies even if they carried the genomic copy of mlc1 . The mlc1 spores that did not inherit the plasmid were identified as the 20% of the spores that germinated but did not form colonies. The mlc1 cells grew elongated buds (Fig. 6). Cytokinesis was not complete because removal of the cell wall by treatment with zymolyase did not result in separation of the buds from the mother cells. DAPI staining revealed that the elongated cells have multiple nuclei (Fig. 6 C). Less than 1% of the spores from the control strain formed elongated cells. Mlc1p Interacts with the Neck of Myo2p Two lines of evidence suggest Mlc1p is a light chain of Myo2p. First, the haploinsufficiency exhibited by MLC1 is suppressed by reduced copies of MYO2 (Fig. 5). A diploid strain hemizygous for both MYO2 and MLC1 is viable.
+
+Downloaded
+
+from
+
+www.jcb.org
+
+on
+
+March
+
+19,
+
+2004
+
+Figure 5. MLC1
+
+haploinsufficiency.
+
+displays Strains
+
+JGY46, RSY105, RSY107, and RSY112, each carrying the MLC1 plasmid pRS289, were streaked onto both minimal medium lacking uracil and minimal medium containing 5 -FOA (which will kill any cells that require the plasmid pRS289). The plates were incubated at 30 C for 3 d.
+
+Stevens and Davis M1c1p Is a Myosin Light Chain for Myo2p 717
+
+
+Figure 7. Glutathione-S-transferase (GST)­Myo2p fusion proteins.
+
+Downloaded
+
+Figure 6. mlc1 spores have defects in cell separation. Strains
+
+JGY46 and RSY105(pRS289) were sporulated and tetrads were dissected. After 24 h, spores were characterized into classes: (1) germinated and formed colonies, (2) germinated and did not form colonies, or (3) did not germinate. Examples of each class are shown (A). 200 spores from each strain were classified (B). Germinated spores from RSY105(pRS289) were stained with DAPI. Elongated spores with DAPI staining are shown (C). Bars, 10 m.
+
+Suppression of the haploinsufficiency by hemizygous MYO2 demonstrates that Mlc1p must ordinarily be present at the minimum level necessary for cell growth. MYO2- 6IQ can also suppress the haploinsufficiency of MLC1 (Fig. 5). However, MYO2- 6IQ cannot bypass the requirement for Mlc1p in a haploid strain (data not shown), so there must be at least one other essential function of Mlc1p in yeast.
+
+Second, Mlc1p binds directly to the IQ sites of Myo2p as assayed by a gel overlay protocol. The constructs used in this experiment are presented in Fig. 7. 6XHis-Mlc1p binds specifically to the fusion proteins that contain IQ sites (Fig. 8 B). As a control, we show calmodulin also binds specifically to fusion proteins that contain IQ sites (Fig. 8 C). Both calmodulin and 6XHis-Mlc1p bind equally well in the presence of Ca2 or EGTA (data not shown). These data demonstrate that Mlc1p has a direct interaction with the IQ sites of Myo2p. The Toxicity of Overexpressed MYO2 Is Suppressed by MLC1 but Not CMD1 We looked for a functional interaction between Mlc1p and Myo2p. A yeast strain carrying a high-copy number plasmid of MYO2 grows 40% slower than strains with normal levels of MYO2 (data not shown). Microscopy has revealed that 5% of cells in the MYO2 overexpression strain have abnormal bud necks or multiple buds (data not shown). A similar defect in high-copy number MYO4 strains may be caused by the neck region of Myo4p, and overexpression of calmodulin does not suppress this effect (Haarer et al., 1994). One possibility is that high copies of myosin light chains will overcome defects associated with MYO2 overexpression. A strain overexpressing MYO2 shows a noticeable reduction in growth rate (Fig. 9 A). The same strain overexpressing MYO2- 6IQ grows normally. Northern blot analysis reveals that both MYO2 and MYO2- 6IQ are transcribed to similar steady-state levels in these two strains and at least fivefold over normal levels (Fig. 9 B). Surprisingly, the immunoblot for a strain overexpressing MYO2 does not show higher levels of Myo2p (Fig. 9, C and D). In fact, Myo2p seems to actually decrease in the strain overexpressing MYO2. Overexpressing MYO26IQ results in high levels of Myo2- 6IQp (Fig. 9, C and D).
+
+from
+
+www.jcb.org
+
+on
+
+March
+
+19,
+
+2004
+
+The Journal of Cell Biology, Volume 142, 1998 718
+
+
+Figure 8. Gel-overlay assays show in vitro binding of Mlc1p and calmodulin to the IQ sites of Myo2p. Myo2p fusion proteins were expressed and subjected to SDS-PAGE as described in Materials and Methods. Polyacrylamide gel stained with Coomassie blue. The fulllength fusion protein in each extract is marked by an arrow (A). Autoradiographs of membranes incubated with S-labeled 6XHis-
+
+35
+
+Mlc1p (B) and S-labeled calmodulin (C). The gel overlay assays were performed as described in Materials and Methods. Lanes 1­6 contain extracts of IPTG-induced E. coli strain GM1 containing plasmids pGEX-2T, pSB20, pSB27, pSB21, pSB24, and pSB25, respectively. See Fig. 7 and Table I for a description of the fusion proteins. 35
+
+Downloaded
+
+We hypothesized that high levels of calmodulin or Mlc1p would counteract the toxicity of overexpressed MYO2. Overexpressing CMD1 is unable to overcome the decreased growth rate (Fig. 9 A) or the low levels of Myo2p (Fig. 9 D) caused by overexpressed MYO2. In contrast, a high-copy number plasmid carrying MLC1 is able to fully suppress the overexpression MYO2 defects and results in a strain that has high levels of Myo2p (Fig. 9, A and C). These results indicate that the neck region of MYO2 is indeed responsible for an overexpression growth defect and that this toxicity is overcome by high levels of Mlc1p. Mlc1p Stabilizes Myo2p Because high copies of MLC1 are able to overcome defects caused by overexpression of MYO2, we tested the hypothesis that Mlc1p stabilizes Myo2p. Yeast cultures were analyzed for the stability of Myo2p by following Myo2p breakdown by immunoblot analysis (Fig. 10). In a wild-type strain, Myo2p has a half-life of greater than 8 h. In a strain carrying MYO2- 6IQ, the Myo2- 6IQp has a half-life of greater than 8 h. The neckless Myo2- 6IQp is at least as stable as wild-type Myo2p. When overexpressed, the half-life of Myo2p is only 2­3 h. These data explain why the Myo2p levels in the overexpression strain are not increased. In a strain overexpressing MYO2 and carrying high copies of MLC1, the half-life of Myo2p is 4 h. High copies of MLC1 are able to stabilize Myo2p, thus suggesting Mlc1p is a light chain responsible for stabilizing the neck region of Myo2p.
+
+mal end of each head is a 20-nm neck that likely corresponds to the six IQ sites (Cheney et al., 1993). This region is predicted to be an -helix as is the neck of class II myosins. In class II myosins, the neck region is stabilized by the binding of the myosin light chains (Rayment et al., 1993; Houdusse and Cohen, 1996). Calmodulin is the previously identified light chain for both the chicken and the yeast myosin V (Cheney et al., 1993; Brockerhoff et al., 1994). However, calmodulin does not stabilize the yeast myosin. Here, we present evidence that MLC1 (YGL106w) encodes a new light chain for the yeast class V myosin Myo2p. Our results argue that Mlc1p binds to the neck region and stabilizes Myo2p. When overexpressed, Myo2p has a decreased half-life and is toxic to yeast cells. Overproduction of calmodulin does not affect the stability of Myo2p, but overproduction of Mlc1p stabilizes Myo2p and ameliorates the toxicity. The requirement for Mlc1p to stabilize Myo2p is bypassed by deleting the six IQ sites in Myo2p. Thus, the presence of the IQ sites destabilizes Myo2p unless sufficient Mlc1p is present. Removal of the IQ sites in Myo2p causes a slightly slower growth rate and slightly larger cells. A mutant Dictyostelium myosin II heavy chain BLCBS, which lacks the two IQ sites, maintains 20% wild-type motor activity when measured in the sliding filament assay (Uyeda et al., 1996). The BLCBS myosin allows cell division in vivo but demonstrates slightly slowed furrow formation during cytokinesis (Zang et al., 1997). Thus, both Myo2- 6IQp and the BLCBS myosin confer relatively minor defects. These results indicate that the full efficiency of the myosin is not essential for myosin function in vivo. MLC1 is essential and haploinsufficient. Haploinsufficiency is rarely observed in yeast genes. There are several reasons reduction in the number of gene copies may have from
+
+www.jcb.org
+
+on
+
+March
+
+19,
+
+2004
+
+Discussion Electron micrographs of the chicken myosin V molecule show two heads connected to a 30-nm stalk. At the proxi-
+
+Stevens and Davis M1c1p Is a Myosin Light Chain for Myo2p 719
+
+
+Figure 9. High copies of MLC1, but not high copies of CMD1, overcome the toxic effects of overexpressed MYO2. Plasmids used in these experiments are listed in Table I. EMY55-5D was transformed with plasmids encoding high copies of MYO2, MYO2- 6IQ, CMD1, or MLC1. Plates were incubated for 3 d at 30 C (A). CRY1 was transformed with pRS43, pRS172, pRS31, or pRS221, and mRNA was collected from log-phase cultures. 10 g of polyA-containing RNA samples were analyzed as described in Materials and Methods. Blots were simultaneously hybridized with MYO2 and TRX2 P-labeled probes (B). CRY1 was transformed with the indicated constructs to study the effects of high copies of MLC1 (pRS290) on strains with one extra copy of MYO2 (pRS43) or one extra copy of MYO2- 6IQ (pRS172), or overexpressing MYO2 (pRS31) or MYO26IQ (pRS221) (C). CRY1 was transformed with the indicated constructs to study the effects of high copies of CMD1 (pTD28) on strains overexpressing MYO2 (pRS31) or MYO2- 6IQ (pRS221) (D). Log-phase extracts were made as described in Materials and Methods. Samples were assayed by immunoblot analysis using anti-Myo2p antibody (Lillie and Brown, 1994) to detect steady-state levels of Myo2p.
+
+32
+
+Downloaded
+
+from
+
+www.jcb.org
+
+on
+
+March
+
+19,
+
+2004
+
+deleterious effects. In some cases, reduced gene copy number affects regulatory genes working at a threshold level (Wilkie, 1994). An example of this form of regulation is dosage-dependent sex determination in Drosophila. Alternately, some proteins may be produced at the minimum level to give proper function. The ACT1 gene displays temperature-sensitive growth defects and increased osmosensitivity when present at low levels (Shortle et al., 1984). Finally, the stoichiometry of various protein components may be important. Several lines of evidence suggest that a fixed ratio between Mlc1p and Myo2p is required to confer normal growth. First, a diploid yeast strain carrying one copy of MLC1 can only grow if there is no more than one copy of wild-type MYO2. Second, the growth defects associated with a yeast strain overexpressing MYO2 are eliminated by adding extra copies of MLC1. Finally, removal of the IQ binding sites from Myo2p rescues the haploinsufficiency exhibited by MLC1. Myo2- 6IQp does not overcome a requirement of Mlc1p for cell viability. This observation does not address the essential nature of the interaction between Mlc1p and Myo2p. It merely demonstrates that Mlc1p must have at least one essential function that does not involve binding to the neck of Myo2p. None of the other four myosins in yeast are essential for growth (Brown, 1997), suggesting that Mlc1p has an essential function unrelated to myosins. Inviable mlc1 cells show a striking defect in cytokinesis, resulting in enlarged, multinucleate cells. This phenotype is identical to defects detected in cells deleted for IQG1, which encodes a newly discovered IQGAP family member
+
+The Journal of Cell Biology, Volume 142, 1998 720
+
+
+Figure 10. Degradation of Myo2p. Cycloheximide was added to a final concentration of 100 g/ml to log-phase cultures. Cultures were allowed to continue shaking, and samples were collected for immunoblot analysis as described in Materials and Methods. CRY1 containing either no plasmids ( ), plasmids pRS31 (high copies of MYO2) and pRS290 (high copies of MLC1) ( ), or pRS31 (high copies of MYO2) and pGF27 (vector alone) ( ) was examined. Bands from immunoblots probed with anti-Myo2p antibody were quantified, and values were normalized for loading using a Coomassie blue­stained band that demonstrated high stability (A). The error bars represent standard deviation between two (wild type), two (with high copies of MYO2 and high copies of MLC1), or three (with high copies of MYO2) independent experiments. The immunoblots probed with anti-Myo2p antibody demonstrate Myo2p stability in CRY1 carrying either pRS31 and pRS290 (B) or pRS31 and pGF27 (C), and in CRY1 (MYO2 strain) alone (D) or in RSY21 (MYO2- 6IQ strain) alone (E). Numbers represent hours after cycloheximide addition.
+
+Downloaded
+
+in yeast (Epp and Chant, 1997; Lippincott and Li, 1998). Iqg1p contains five IQ sites that could act as binding sites for Mlc1p. We propose that one essential function of Mlc1p is to act as a light chain for IQGAP. Calmodulin is an additional light chain for Myo2p. We have previously shown that calmodulin and Myo2p coimmunoprecipitate from yeast cell extracts and interact in vitro. A mutation that is in the actin-binding site of Myo2p and interferes with Myo2p function dramatically worsens the phenotype conferred by mutations in calmodulin (Brockerhoff et al., 1994). Here we show that the localization of calmodulin to sites of cell growth is predominately dependent on the IQ sites of Myo2p with only a small contribution by the other yeast class V myosin Myo4p. In a MYO2- 6IQ strain lacking MYO4, calmodulin localizes to the spindle pole body and to fast moving patches on the cell surface. The protein target that binds calmodulin in these fast moving patches has yet to be identified. The IQGAP protein in yeast localizes to the actin ring at the bud neck during cytokinesis (Epp and Chant, 1997; Lippincott and Li, 1998). Because calmodulin localization to the bud neck during cytokinesis depends on Myo2p, either calmodulin does not bind to yeast IQGAP or calmodulin binds IQGAP at levels below detection. Only one other noncalmodulin unconventional myosin light chain has been characterized. Biochemical studies identified MICLC as a light chain for Acanthamoeba myosin IC (Wang et al., 1997). Mlc1p and MICLC share 31% sequence identity, and both proteins share significant identity with other calmodulin/EF-hand superfamily members. The chicken class V myosin has at least three light chains, calmodulin and two additional uncharacterized small proteins that copurify with the myosin (Cheney et al., 1993). These two small proteins have yet to be identified. In conclusion, we presented several lines of evidence that Myo2p has at least two light chains, calmodulin and a newly characterized protein, Mlc1p. Mlc1p regulates the stability of Myo2p by binding to the neck region. Our characterization of Mlc1p may aid in the identification of the additional light chains of the chicken class V myosins. We thank Susan Brown for plasmid myo4 ::URA3. This work was supported by National Institutes of Health grant GM40506 (T.N. Davis). R.C. Stevens was supported by Public Health Services National Research Service Award T32 GM07270. Received for publication 18 September 1997 and in revised form 15 June 1998. References Bobola, N., R.P. Jansen, T.H. Shin, and K. Nasmyth. 1996. Asymmetric accumulation of Ash1p in postanaphase nuclei depends on a myosin and restricts yeast mating-type switching to mother cells. Cell. 84:699­709. Brockerhoff, S.E., and T.N. Davis. 1992. Calmodulin concentrates at regions of cell growth in Saccharomyces cerevisiae. J. Cell Biol. 118:619­629. Brockerhoff, S.E., C.G. Edmonds, and T.N. Davis. 1992. Structural analysis of wild-type and mutant yeast calmodulins by limited proteolysis and electrospray ionization mass spectrometry. Protein Sci. 1:504­516. Brockerhoff, S.E., R.C. Stevens, and T.N. Davis. 1994. The unconventional myosin, Myo2p, is a calmodulin target at sites of cell growth in Saccharomyces cerevisiae. J. Cell Biol. 124:315­323. Brown, S.S. 1997. Myosins in yeast. Curr. Opin. Cell Biol. 9:44­48. Cheney, R.E., and M.S. Mooseker. 1992. Unconventional myosins. Curr. Opin. Cell Biol. 4:27­35. Cheney, R.E., M.K. O'Shea, J.E. Heuser, M.V. Coelho, J.S. Wolenski, E.M. Espreafico, P. Forscher, R.E. Larson, and M.S. Mooseker. 1993. Brain myosin-V is a two-headed unconventional myosin with motor activity. Cell. 75: 13­23. Coulondre, C., and J.H. Miller. 1977. Genetic studies of the lac repressor: IV. Mutagenic specificity in the lacI gene of Escherichia coli. J. Mol. Biol. 117: 577­606. Davis, T.N. 1992. A temperature-sensitive calmodulin mutant loses viability during mitosis. J. Cell Biol. 118:607­617. Davis, T.N., and J. Thorner. 1986. Calmodulin and other calcium-binding proteins in yeast. In Yeast Cell Biology. Vol. 33. J.B. Hicks, editor. Alan R. Liss, Inc., New York. 477­503. from
+
+www.jcb.org
+
+on
+
+March
+
+19,
+
+2004
+
+Stevens and Davis M1c1p Is a Myosin Light Chain for Myo2p 721
+
+
+Davis, T.N., and J. Thorner. 1989. Vertebrate and yeast calmodulin, despite significant sequence divergence, are functionally interchangeable. Proc. Natl. Acad. Sci. USA. 86:7909­7913. Davis, T.N., M.S. Urdea, F.R. Masiarz, and J. Thorner. 1986. Isolation of the yeast calmodulin gene: calmodulin is an essential protein. Cell. 47:423­431. Drubin, D.G., K.G. Miller, and D. Botstein. 1988. Yeast actin-binding proteins: evidence for a role in morphogenesis. J. Cell Biol. 107:2551­2561. Epp, J.A., and J. Chant. 1997. An IQGAP-related protein controls actin-ring formation and cytokinesis in yeast. Curr. Biol. 7:921­929. Espindola, F.S., E.M. Espreafico, M.V. Coelho, A.R. Martins, F.R.C. Costa, M.S. Mooseker, and R.E. Larson. 1992. Biochemical and immunological characterization of p190-calmodulin complex from vertebrate brain: a novel calmodulin-binding myosin. J. Cell Biol. 118:359­368. Fromherz, S., and A.G. Szent-Gyorgyi. 1995. Role of essential light chain EF hand domains in calcium binding and regulation of scallop myosin. Proc. Natl. Acad. Sci. USA. 92:7652­7656. Geiser, J.R., D. van-Tuinen, S.E. Brockerhoff, M.M. Neff, and T.N. Davis. 1991. Can calmodulin function without binding calcium? Cell. 65:949­959. Geiser, J.R., H.A. Sundberg, B.H. Chang, E.G.D. Muller, and T.N. Davis. 1993. The essential mitotic target of calmodulin is the 110-kilodalton component of the spindle pole body in Saccharomyces cerevisiae. Mol. Cell. Biol. 13: 7913­7924. Govindan, B., R. Bowser, and P. Novick. 1995. The role of Myo2, a yeast class V myosin, in vesicular transport. J. Cell Biol. 128:1055­1068. Haarer, B.K., A. Petzold, S.H. Lillie, and S.S. Brown. 1994. Identification of MYO4, a second class V myosin gene in yeast. J. Cell Sci. 107:1055­1064. Hill, K.L., N.L. Catlett, and L.S. Weisman. 1996. Actin and myosin function in directed vacuole movement during cell division in Saccharomyces cerevisiae. J. Cell Biol. 135:1535­1549. Houdusse, A., and C. Cohen. 1996. Structure of the regulatory domain of scallop myosin at 2Å resolution: implications for regulation. Structure. 4:21­32. Jansen, R.P., C. Dowzer, C. Michaelis, M. Galova, and K. Nasmyth. 1996. Mother cell-specific HO expression in budding yeast depends on the unconventional myosin Myo4p and other cytoplasmic proteins. Cell. 84:687­697. Johnston, G.C., J.A. Prendergast, and R.A. Singer. 1991. The Saccharomyces cerevisiae MYO2 gene encodes an essential myosin for vectorial transport of vesicles. J. Cell Biol. 113:539­551. Jones, E.W., and G.R. Fink. 1982. Regulation of amino acid and nucleotide biosynthesis in yeast. In The Molecular Biology of the Yeast Saccharomyces: Metabolism and Gene Expression. Cold Spring Harbor Laboratory Press, Cold Spring Harbor, NY. 181­299. Kunkel, T.A., J.D. Roberts, and R.A. Zakour. 1987. Rapid and efficient sitespecific mutagenesis without phenotypic selection. Methods Enzymol. 154: 367­382. Lillie, S.H., and S.S. Brown. 1994. Immunofluorescence localization of the unconventional myosin, Myo2p, and the putative kinesin-related protein, Smy1p, to the same regions of polarized growth in Saccharomyces cerevisiae. J. Cell Biol. 125:825­842. Lippincott, J., and R. Li. 1998. Sequential assembly of myosin II, an IQGAPlike protein, and filamentous actin to a ring structure involved in budding yeast cytokinesis. J. Cell Biol. 140:355­366. Matsuda, G., T. Maita, Y. Kato, J.I.U. Chen, and T. Umegane. 1981. Amino acid sequences of the cardiac L-2A, L-2B and gizzard 17000-Mr light chains of chicken muscle myosin. FEBS Lett. 135:232­236. Miller, J.H. 1972. Experiments in Molecular Genetics. Cold Spring Harbor Laboratory, Cold Spring Harbor Laboratory Press, NY. 466 pp. Moser, M.J., M.R. Flory, and T.N. Davis. 1997. Calmodulin localizes to the spindle pole body of Schizosaccharomyces pombe and performs an essential function in chromosome segregation. J. Cell Sci. 110:1805­1812. Nascimento, A.A.C., R.G. Amaral, J.C.S. Bizario, R.E. Larson, and E.M. Espreafico. 1997. Subcellular localization of myosin-V in the B16 melanoma cells, a wild-type cell line for the dilute gene. Mol. Biol. Cell. 8:1971­1988. Niedenthal, R.K., L. Riles, M. Johnston, and J.H. Hegemann. 1996. Green fluorescent protein as a marker for gene expression and subcellular localization in budding yeast. Yeast. 12:773­786. Ohya, Y., and D. Botstein. 1994. Diverse essential functions revealed by complementing yeast calmodulin mutants. Science. 263:963­966. Provance, D.W., M. Wei, V. Ipe, and J.A. Mercer. 1996. Cultured melanocytes from dilute mutant mice exhibit dendritic morphology and altered melanosome distribution. Proc. Natl. Acad. Sci. USA. 93:14554­14558. Rayment, I., W.R. Rypniewshi, K. Schmidt-Base, R. Smith, D.R. Tomchick, M.M. Benning, D.A. Winkelmann, G. Wesenberg, and H.M. Holden. 1993. Three-dimensional structure of myosin subfragment-1: a molecular motor. Science. 261:50­58. Rothstein, R. 1991. Targeting, disruption, replacement, and allele rescue: integrative DNA transformation in yeast. Methods Enzymol. 194:281­301. Sambrook, J., E.F. Fritsch, and T. Maniatis. 1989. Molecular Cloning: A Laboratory Manual. Cold Spring Harbor Laboratory Press, Cold Spring Harbor, NY. 1650 pp. Sherman, F., G.R. Fink, and J.B. Hicks. 1986. Methods in Yeast Genetics. Cold Spring Harbor Laboratory Press, Cold Spring Harbor, NY. 186 pp. Shortle, D., P. Novick, and D. Botstein. 1984. Construction and genetic characterization of temperature-sensitive mutant alleles of the yeast actin gene. Proc. Natl. Acad. Sci. USA. 81:4889­4893. Sikorski, R.S., and P. Hieter. 1989. A system of shuttle vectors and yeast host strains designed for efficient manipulation of DNA in Saccharomyces cerevisiae. Genetics. 122:19­27. Uyeda, T.Q.P., P.D. Abramson, and J.A. Spudich. 1996. The neck region of the myosin motor acts as a lever arm to generate movement. Proc. Natl. Acad. Sci. USA. 93:4459­4464. Wang, F.S., J.S. Wolenski, R.E. Cheney, M.S. Mooseker, and D.G. Jay. 1996. Function of myosin-V in filopodial extension of neuronal growth cones. Science. 273:660­663. Wang, Z.-Y., J. Sakai, P.T. Matsudaira, I.C. Baines, J.R. Sellers, J.A. Hammer III, and E.D. Korn. 1997. The amino acid sequence of the light chain of Acanthamoeba myosin 1C. J. Muscle Res. Cell Motil. 18:395­398. Wilkie, A.O. 1994. The molecular basis of genetic dominance. J. Med. Genet. 31:89­98. Wise, J.A. 1991. Preparation and analysis of low molecular weight RNAs and small ribonucleoproteins. Methods Enzymol. 194:405­415. Xie, X., D.H. Harrison, I. Schlichting, R.M. Sweet, V.N. Kalabokis, A.G. SzentGyorgyl, and C. Cohen. 1994. Structure of the regulatory domain of scallop myosin at 2.8 Å resolution. Nature. 368:306­312. Zang, J.H., G. Cavet, J.H. Sabry, P. Wagner, S.L. Moores, and J.A. Spudich. 1997. On the role of myosin-II in cytokinesis division of Dictyostelium cells under adhesive and nonadhesive conditions. Mol. Biol. Cell. 8:2617­2629. Zhu, G., E.G.D. Muller, S.L. Amacher, J.L. Northrop, and T.N. Davis. 1993. A dosage-dependent suppressor of a temperature-sensitive calmodulin mutant encodes a protein related to the fork head family of DNA-binding proteins. Mol. Cell. Biol. 13:1779­1787.
+
+Downloaded
+
+from
+
+www.jcb.org
+
+on
+
+March
+
+19,
+
+2004
+
+The Journal of Cell Biology, Volume 142, 1998 722
+
+

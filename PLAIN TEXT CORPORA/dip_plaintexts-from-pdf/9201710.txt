@@ -1,0 +1,500 @@
+Molecular Biology of the Cell Vol. 8, 987-998, June 1997
+
+Functional Analysis of the Interaction between Afrlp and the Cdcl2p Septin, Two Proteins Involved in Pheromone-induced Morphogenesis
+
+Loic Giot and James B. Konopka* Department of Molecular Genetics and Microbiology, State University of New York, Stony Brook,
+
+New York 11794-5222 Submitted September 16, 1996; Accepted March 25, 1997 Monitoring Editor: Randy Scheckman Saccharomyces cerevisiae mating pheromones induce production of Afrlp, a protein that negatively regulates pheromone receptor signaling and is required for normal formation of the projection of cell growth that becomes the site of cell fusion during conjugation. Afrlp interacts with Cdcl2p, which belongs to a family of filament-forming proteins termed septins that have been studied primarily for their role in bud morphogenesis and cytokinesis. The significance of the interaction between Afrlp and Cdcl2p was tested in this study by examining the effects of AFRI mutations that destroy the Cdcl2p-binding domain. The results demonstrate that sequences in the C-terminal half of Afrlp are required for interaction with Cdcl2p and for proper localization of Afrlp to the base of the mating projection. However, the Cdcl2p-binding domain was not required for regulation of receptor signaling or for mating projection formation. This result was surprising because cells carrying a temperature-sensitive cdc12-6 mutation were defective in projection formation, indicating a role for Cdcl2p in this process. Although the Cdcl2p-binding domain was not essential for Afrlp function, this domain did improve the ability of Afrlp to promote morphogenesis, suggesting that the proper localization of Afrlp is important for its function.
+
+INTRODUCTION The conjugation of the yeast Saccharomyces cerevisiae offers opportunities to use genetic approaches to help determine the mechanisms of hormone-induced cell polarization and morphogenesis. Conjugation is initiated when haploid MATa and MATa cells signal each other with secreted mating pheromones (Marsh et al., 1991; Kurjan, 1992; Sprague and Thorner, 1992). Pheromone signaling arrests cell division in G1 and then promotes polarized cell growth in the direction of an appropriate mating partner. Polarized morphogenesis results in the formation of an acute projection that becomes the site at which cells fuse together to form a zygote. The mating pheromone signal is transduced by components that are highly homologous to the hormone signaling pathways present in multicellular organ-
+
+Corresponding author. *
+
+isms. The a-factor and a-factor pheromone receptors belong to the large family of G protein-coupled receptors that includes rhodopsin, the adrenergic receptors, and the leukocyte chemoattractant receptors (Dohlman et al., 1991; Murphy, 1994). These G proteincoupled receptors transduce their signal by stimulating the a subunit of a heterotrimeric G protein to bind GTP, causing the Ga subunit to dissociate from the G,By subunits (Hepler and Gilman, 1992). The other steps in the signal pathway include Cdc42p, a member of the rho family of small GTP-binding proteins (Simon et al., 1995; Zhao et al., 1995); the Ste2Op protein kinase (Leberer et al., 1992); and a protein kinase cascade with similarity to the family of mitogen-activated protein (MAP) kinase cascades (Herskowitz, 1995). Activation of the signaling pathway stimulates the Stel2p transcription factor to induce expression of mating-specific genes (Sprague and Thorner, 1992). Mating pheromone receptor signaling determines the site of cell polarization in yeast. Cells polarize their 987
+
+i 1997 by The American Society for Cell Biology
+
+
+L. Giot and J.B. Konopka
+
+Table 1. Yeast strains Strains JKY25 JKY26 DGO7B JKY71 yLG44-5-3 yLG45-1 yLG75-1 yLG76-1 L40
+
+Genotypes MATa ade2-1" his4-580" Iys2" trpl" tyrl" Ieu2 ura3 SUP4-3'0 barl-I MATa ade2-1' his4-580a lys2' trpla tyrl" cryl Ieu2 ura3 SUP4-3'5 barl-1 afrl::URA3 MATa leu2 ura3 canl cdcl2-6 MATa leu2 ura3 his4-580" trpla SUP4-3t' cdc12-6 MATa ade2-1" his4-580a Iys2' trpl" tyrl" leu2 ura3 barl-1 cdc12-6 MATa ade2-1' his4-580a Iys2' trpla tyrl" leu2 ura3 banrlMATa ade2-1' his4-580a Iys2 trpla tyrl" leu2 ura3 banrl-i afrl::URA3 YIplacI28-AFR1-C6 MATa ade2-1' his4-580a Iys2° trpla tyrl Ieul2 ura3 banrl-I cdc12-6 afrl::URA3 YIplacl28-AFRI-C6 MATa his3 leu2 trpl LYS2::1exA-lacZ URA3::1exA-HIS3
+
+growth in the direction of a gradient of pheromone emanating from a cell of opposite mating type (Jackson et al., 1991; Segall, 1993). In the absence of a gradient, cells use a default site that is usually adjacent to the previous site of bud formation (Madden and Snyder, 1992; Dorer et al., 1995; Valtz et al., 1995). Ultimately, the pheromone signal promotes changes in the actin cytoskeleton that are required for polarized growth (Read et al., 1992; Chenevert, 1994; Drubin and Nelson, 1996). The activation of Cdc42p by receptor signaling is thought to play a key role in stimulating cell polarization because Cdc42p is also required for polarized growth of vegetative cells (Adams et al., 1990; Ziman et al., 1993). The intensity of pheromone receptor signaling determines the type of polarized growth that occurs. Cells arrested with a low dose of a-factor pheromone (i.e., <10-8 M) form elongated cells, whereas cells arrested at high doses (i.e., >10-7 M) form acute projections (Moore, 1983). High levels of signaling may be needed to induce sufficient levels of AFR1, a pheromone-induced gene that is required for normal projection formation (Konopka, 1993; Konopka et al., 1995). Genetic analysis indicates that AFRI also acts to regulate receptor signaling (Konopka, 1993). Regulation of receptor signaling is important for projection formation because C-terminal truncation mutants of the a-factor receptor that show 10-fold increased sensitivity to pheromone due to a defect in adaptation are also defective in forming projections (Konopka et al., 1988). In addition, mutation of the distal four phosphorylation sites in the receptor C terminus caused increased sensitivity and a defect in projection formation (Chen and Konopka, 1996). Thus, these results suggest that signaling and morphogenesis are coordinately regulated. The Afrlp protein interacts with Cdcl2p (Konopka et al., 1995), a member of a family of homologous proteins known as septins that also includes Cdc3p, CdclOp, and Cdcllp (Longtine et al., 1996). The septins are filament-forming proteins (Field et al., 1996) that were shown previously to be involved in bud morphogenesis and cytokinesis (Haarer and Pringle, 988 1987; Hartwell, 1971; Ford and Pringle, 1991; Kim et al., 1991; Sanders and Field, 1994; Chant, 1996). Recently, septins have also been implicated in other processes, including sporulation (Fares et al., 1996). Septin homologues have been found in a number of organisms, including Drosophila, mice, and humans (Longtine et al., 1996). Studies on septin homologues in Drosophila suggest that the homologues are involved in cytokinesis and in other morphogenetic processes (Neufeld and Rubin, 1994; Fares et al., 1995). Therefore, the function of Afrlp and the septins in pheromone-induced morphogenesis was explored in this study by examining the significance of interaction between Cdcl2p and Afrlp. MATERIALS AND METHODS Strains and Media Cells were grown in media described by Sherman (1991). Plasmids were transformed into yeast strains using lithium acetate transformation (Schiestl and Gietz, 1989). Yeast strains are described in Table 1. Strain JKY71 was obtained from a cross between cdc12-6 strain DG07B (Haarer and Pringle, 1987) and JKY25. Strain yLG445-3 was obtained from a cross between JKY71 and JKY25. Strain yLG45-1 was derived from yLG44-5-3 by conversion of cdc12-6 to CDC12 by gene replacement with use of an XbaI/PstI fragment bearing the wild-type CDC12 allele. Strains yLG75-1 and yLG76-1 were derived from yLG45-1 and yLG44-5-3, respectively, by deleting AFRI and integrating the AFRI-C6 allele at the AFR1 locus. Plasmids AFR1 deletion mutants were constructed by PCR amplification with use of Taq DNA polymerase. All 5' oligonucleotide primers contained a Sall site followed by a start codon and then a portion of the AFRI-coding sequence. All 3' oligonucleotide primers contained a BamHI site preceded by a stop codon, in some cases an XhoI site, and then the AFRI sequence. Truncation mutants AFRI-Ni, -N2, -N3, -N4, -Cl, -C6, and -C7 were made by use of PCR with the following combinations of oligonucleotides: OLG3/OLG4, OLG8/OLG4, OLG7/OLG4, OLG6/OLG4, OLG1/OLG9, OLGI/OLGI7, and OLGI/OLG20. The SaII/BamnHI fragments were cloned downstream of the GALIO promoter in a modified version of YEp51 (Rose and Broach, 1991) containing a polylinker. Internal deletion mutants were constructed by cloning the appropriate PCR product containing a C-terminal fragment into a vector containing an N-terminal fragment. The PCR primers were designed so that ligation of the XhoI site in the N-terminal fragment with the Sall site of the CMolecular Biology of the Cell
+
+
+terminal fragment restored the reading frame of AFR1. The mutants AFR1-LDM2, -LDM3, and -LDM4 are modified only at the ligation site because the two PCR products reconstitute the entire coding sequence. In AFR1-LDM2, codons 298-300 were changed from KKK to LDM; in AFRI-LDM3, codons 413-415 were changed from QKL to LDM; and in AFR1-LDM4, codon 350 was changed from D to L. The combinations of PCR primers used to construct the internal deletion and LDM mutants are indicated in parenthesis as follows: AFRI-II (OLG1 /OLG9 + OLG7/OLG4), AFR1-I4 (OLG1 /OLG11 + OLG8/OLG4), AFR148 (OLG1/OLG17 + OLG7/OLG4), AFR1-I3 (OLG1/OLG2 + OLG6/OLG4), AFR1-LDM2 (OLG1/OLG9 + OLG8/OLG4), AFR1-LDM3 (OLG1/OLG2 + OLG7/OLG4), and AFR1-LDM4 (OLG1/OLG17 + OLG16/OLG4). For each plasmid construction, three independent clones were transformed into yeast strain JKY26. After galactose-induced expression of the AFRI genes, all three clones always gave the same phenotype for effects on morphogenesis and a-factor resistance, so only one was used for subsequent experiments. The oligonucleotides used were as follows: OLG1, GCTGTCGACCATGGAGGGCTCATATCT; OLG2, CGGGATCCTACTCGAGTCGTATh'7CTAATTGC; OLG3, GGTCGACATGGTCATACCTATTCCTCC; OLG4, CGGGATCCTAAATATGTATGACGCC; OLG6, GGTCGACATGAGAA GGAATTCGCTGCC; OLG7, GGTCGACATGCACGAGACCTCGCACAAC; OLG8, GGTCGACATGACTATTCTGGGCACTGAG; OLG9, CGGGATCCTACTCGAGTCTATCAAATAGGCCTG; OLG11, CGGGATCCTACTCGAGATTATGAGGCCCCAC; OLG16, GGTCGACATGGTTACGCATTCTGATGG; OLG17, CGGGATCCTACTCGAGGATAGGAATTCTCCTTJC; and OLG20, CGGGATCCTACTCGAGATTACTTCCGGAGAACC. To carry out two-hybrid analysis, AFR1 alleles made in YEp51 as described above were subcloned into the LexA DNA-binding domain plasmid pBTM116 (Bartel et al., 1993). AFRI and lexA sequences were joined in frame by modifying pBTM116 so that the Sall site was filled-in with the Klenow DNA polymerase, and then a Sall site was reintroduced at the EcoRI site with the adaptor AATTGTCGAC to create pLG3 or the adaptor AATTTGTCGACA to create pLG7. AFRI-Cl, -C6, -C7, -II, -13, -14, -18, -LDM2, -LDM3, and -LDM4 were cloned in pLG3. AFRI-Ni, -N2, -N3, and -N4 were cloned in pLG7. The Gal4p-Cdcl2p fusion plasmid contained the entire CDC12 open reading frame as described previously (Konopka et al., 1995). The effects of AFRI overexpression were examined in strains carrying AFR1 alleles on the multicopy plasmid vector YEplac181 (Gietz and Sugino, 1988). The genomic SalI/BamHI fragment containing the entire AFR1 gene, including the promoter, was first cloned in YEplacl81 to created pJK52 (Konopka, 1993). The Cterminal truncation genes and the internal deletion genes were cloned into YEplacl81 by using the AvrII/BamHI fragments from the YEp5l-derivative plasmids to replace the corresponding fragment in pJK52. The N-terminal truncation mutants lacked the AvrIH site, so the AvrII site in pJK52 was converted to an XhoI site using an adaptor oligonucleotide (CTAGCCTCGAGG). This permitted a SalI/BamHI fragment from N-terminal mutants to be inserted in frame with the ATG initiation codon. Integration of AFRI alleles into the genome was carried out with use of the integrative plasmid YIplacl28 (Gietz and Sugino, 1988). The SalI/BamHI fragments from the multicopy plasmids were introduced into the polylinker sites of YIplacl28. These integrative plasmids were linearized with SpeI and then integrated in strain JKY26 at the AFR1 locus. A clone of the CDC12 gene was obtained by transforming the cdc12-6 strain JKY71 with a multicopy plasmid yeast genomic library, and then plasmids that rescued the temperature sensitivity were recovered in Escherichia coli. The identity of the CDC12 gene was confirmed by restriction mapping and partial DNA sequence analysis. The XbaI/PstI fragment was used to convert the cdc12-6 allele of yLG44-5-3 to create yLG45-1. Pheromone-Response Assays Cells were grown to midlogarithmic phase in synthetic medium lacking leucine to select for plasmid maintenance. Resistance to Vol. 8, June 1997
+
+Hormone-induced Morphogenesis a-factor-induced cell division arrest was assayed by spotting apconcentration of a-factor. Plates were incubated at 30'C for 2 d and then photographed to record the ability of cells to grow in the of a-factor to 5 x 10- M for the indicated time. Immunoblot analysis was carried out essentially as described previously (Konopka et al., 1995). Cells (108) were induced with a-factor for 2 h and extracted with lysis buffer (2% SDS, 100 mM Tris, pH 7.5), and then equal amounts of extracts were resolved by electrophoresis on a SDS-polyacrylamide gel. The proteins were transferred to nitrocellulose, and then the blot was probed with rabbit anti-Afrlp antibody (Konopka et al., 1995). Immunoreactive bands were detected with an alkaline phosphatase-conjugated secondary antibody (Bio-Rad, Richmond, CA). Microscopy Morphological analysis of mating projections was carried out on cells that were induced with a-factor for 6 h, fixed with formaldehyde, and then examined microscopically with use of differential interference contrast (DIC) optics. The morphology of cells induced with galactose to express AFR1 was examined essentially as described previously (Konopka et al., 1995). Immunofluoresence analysis was carried out as described previously (Pringle et al., 1991; Konopka et al., 1995). Cells were induced for the indicated time and fixed with formaldehyde, cell walls were digested with glusulase, and then the cells were attached to glass slides. Immunostaining was carried out with affinity-purified rabbit anti-Afrlp antibodies followed by fluorescein-conjugated goat anti-rabbit IgG (Cappell, Durham, NC). The cells were photographed with Tmax film (Kodak, Rochester, NY) on a BH-2 microscope (Olympus, Lake Success, NY). Results presented in the text were observed consistently in at least two independent experiments. RESULTS Cdcl2p Interacts with the C-Terminal Half of Afrlp A series of deletion mutations was constructed in the AFRI gene to identify the Cdcl2p-binding domain. The proteins encoded by these mutated AFRI genes were then tested for the ability to interact with Cdcl2p in the two-hybrid assay (Fields and Song, 1989). For this analysis, cells were engineered to produce one fusion protein containing a portion of Afrlp fused to the DNA-binding domain of LexA and another fusion protein containing the entire Cdcl2p protein fused to the Gal4p activation domain as described previously (Konopka et al., 1995). Interaction between LexAAfrlp and Gal4-Cdcl2p was detected in this assay because the interaction of the two fusion proteins reconstitutes a transcription factor that activates the expression of a lacZ reporter gene. Analysis of N-terminal deletion mutants showed that residues 1-300 of the 620-residue Afrlp were not required for interaction with Cdcl2p because AfrlN2p (A1-300) gave a positive signal in the two-hybrid assay (Figure 1 and summarized in Table 2). The Cterminal 147 residues were also not required because Afrl-C7p (M474-620) also gave a positive signal. In contrast, mutations within the domain identified by these boundaries abolished the interaction with Cdcl2p. Afrl-I8p (A350-415) and Afrl-13p (A413-
+
+proximately 1 X 103 cells on an agar plate containing the indicated
+
+presence of a-factor. Livid cultures were induced by the addition
+
+989
+
+
+L. Giot and J.B. Konopka
+
+Two Hybrid Interaction withCdcl 2p
+
+aalactosidase 2.960.38 5.18±0.68 2.86±1.62 7.14±0.69 4.27 ±1.25 004.003 0.31 ±0.24 9-G
+
+0.04 ±0.02
+
+0.80+±0.23
+
+0.04 ±0.02
+
+Fold Above Bas 130 70
+
+180 105 1 8 1 20
+
+on protein stability, the fusion proteins were assayed pr h uio sae by Western immunoblot analysis with anti-Afrlp antibody and found to be stably produced (our unpublished results). The results of two-hybrid assays are often confirmed by determining whether the two proteins coimmunoprecipitate, but we were unable to carry out this analysis because Afrlp was found in the insoluble fraction after cell lysis. Instead, we tested the ability of the mutant Afrlp proteins to interfere with Cdcl2p func-
+
+tion in vivo. Constitutive expression of
+
+AFRI during vegetative growth
+
+elongated buds that are
+
+causes
+
+phenotyVically
+
+wild-type
+
+cells to form similar to the
+
+0 100 200 300 400 soo 600
+
+AFR1 Ni [A1-196] N2 [A1-300] 14 [A194-300] C7 [A 474-620] C6 [ 350-620] 18 [ A350-415] 13 [ A413-522] LDM3 Vector control
+
+Figure 1.
+
+I-
+
+b '
+
+--
+
+ow MMON-
+
+Interaction between mutant Afrlp an(d Cdcl2p detected
+
+elongated buds formed by cdc12 S
+
+strictive
+
+mutants at the re-
+
+by two-hybrid analysis. Two-hybrid analyses we] re carried out with strain L40 carrying one plasmid that contains the i activation domain fused to CDC12. Cells carryinig either a plasmid control or the indicated lexA-AFRI plasmid were? assayed for ,3-ga,B-galactosidase indicates activation of a lacZ reF:orter gene due to interaction between Afrlp and Cdcl2p. None of ttheseAFR1 mutant alleles activated the reporter gene in the abse!nce of the GAL4CDC12 plasmid.
+
+domain fused to AFR1 and another plasmid col etaining the GAL4
+
+lactosidase as described previously (Bartel et al., 1993). Induction of
+
+temperature (Haarer and Pringle, 1987;
+
+Konopka et al., 1995). (The AFR1 gene is normally
+
+522) did not interact significantly withi Cdcl2p. Furthermore, we discovered that the AfrI1-LDM3p protein, in which codons 413-415 were mutated from QKL to LDM (see MATERIALS AN[) METHODS), was partially defective in interacting with Cdcl2p. To confirm that the failure of these construicts to generate a signal in the two-hybrid assay was nct due to effects
+
+expressed at low basal levels but is highly induced by mating pheromones.) Constitutively produced Afrlp is thought to bind Cdcl2p and prevent it from carrying out its normal function during bud formation. Mutants that retain the ability to bind Cdcl2p are also expected to promote the formation of elongated buds. To examine this, cells carrying the mutant AFR1 genes under the control of the galactose-inducible GAL10 promoter were induced with galactose, and then the bud morphology was examined microscopically (Figure 2). All of the AFR1 mutants that contained the Cdcl2p-binding domain as determined in the twohybrid assay (AFRI-Ni, -N2, -C7, and -14) formed elongated buds after galactose induction. Conversely, mutants defective in Cdcl2p-binding (AFR1-C6, -13,
+
+Table 2. Summary of AFRI mutants
+
+AFR1 allele AFR1 afrl A NI N2 N3 N4 C1 C6 C7 I4 II I8 B3 LDM2 LDM3 LDM4 ND, not determined. Codons mutated AM-620 M-196 A1-300 Al-415 Ml-522 A298-620 A350-620 A474-620 A194-300 A298-415 A350-415 A413-522 298-300a 413-415a 350a
+
+Cdcl2p interaction + + +
+
+-
+
++ + b
+
++
+
++/-
+
++
+
+a-Factor resistance + + + + + + + Projection formation + + + + ND + + + Immunolocalization Neck Neck ND ND ND ND Apical Neck Nonlocal ND Apical Apical ND Neck ND
+
+aNo codons deleted, but in LDM2, codons 298-300 were changed from KKK to LDM; in LDM3, codons 413-415 were changed from QKL to LDM; and in LDM4, codon 350 was changed from D to L. bThis mutant caused a high basal activation of the reporter gene in the two-hybrid assay in the absence of Gal4-Cdcl2p.
+
+990 Molecular Biology of the Cell
+
+
+Hormone-induced Morphogenesis
+
+u-Factor Concentration
+
+0 F9 I 10-8 10-7 10-6
+
+A 3025
+
+m 20 1 5
+
+0 ii
+
+1 0 5 0AFRi N2 C7 Vector b.
+
+B
+
+14 C6 18 13 LDM3
+
+AFR1 Allele YEp-vector AFRI C6 (A350-620) 14 (A194-300) 18 (A350-415) LDM3
+
+Figure 3.
+
+GAL-AFR1 i
+
+Resistance to a-factor-induced cell division arrest. Strain
+
+Figure 2. Morphologies of cells induced with galactose to express
+
+mutant AFR1 genes. (A) The bar graph shows the percentage of cells displaying elongated buds for each of the indicated AFRI mutants. Plasmids carrying wild-type or mutant AFR1 genes under control of the galactose-inducible GALIO promoter were introduced into strain JKY26 (afrl::URA3). Cells were grown to midlogarithmic phase in medium containing the noninducting carbon source raffinose, and then AFRI expression was induced with galactose for 6 h. At least 400 cells were examined microscopically for the presence of elongated buds. (B) JKY26 cells carrying the YEp51 vector or YEp51 containing GALIO-AFRI were induced as described in A and then photographed.
+
+JKY26 (afrl::URA3) carrying the indicated AFR1 allele on the multicopy plasmid YEplacl81 was tested for resistance to a-factorinduced cell division arrest. Approximately 103 cells of each type were spotted onto the surface of an agar plate containing the indicated molar concentration of a-factor. The plates were incubated for 2 d at 30°C and then photographed. plasmids were introduced into a strain that lacks AFRI (JKY26; afrl::URA3). As expected, cells carrying a control vector grew in the absence of a-factor but did not grow in the presence of .10-8 M a-factor, indicating that they were sensitive to a-factor-induced cell division arrest (Figure 3). In contrast, celis carrying
+
+wild-type AFRI on a high copy plasmid were able to grow even in the presence of 10-6 M a-factor, demonstrating that they were more resistant to the effects of a-factor. Analysis of mutants lacking a functional Cdcl2p-binding domain because of C-terminal truncation (AFR1-C6, A350-620), modification within this region (AFR1-LDM3), or internal deletion (AFR1-I8, A350-415) showed that they still promoted resistance to a-factor. The AFRI-Nl (A1-196) mutant also promoted a-factor resistance (Table 2). Altogether, these results indicate that the domain responsible for resistance lies between residues 197 and 349. Deletion mutants that perturb this region, such as AFR1-44 (A194300; Figure 3) and AFR1-N2 (Al-300; Table 2), did not confer resistance to a-factor. Although the Cdcl2p-binding domain was not required to confer resistance to a-factor, the results for other AFR1 mutants indicate that the C-terminal half can influence the function of the N-terminal half. In particular, overexpression of AFR1-I3 (A413-522) and AFR1-C7 (A474-620) did not promote resistance (Table 2), although both mutant proteins contain the Nterminal residues 1-349 that were identified above as
+
+991
+
+-18, and -LDM3) had no discernible effects on bud morphogenesis. Thus, these results are consistent with the observation that residues 301-473 are required for interaction with Cdcl2p. The Cdcl2p-binding Domain Is Not Required for Afrlp to Promote Resistance to as-Factor AFRI was identified as a regulator of pheromone signaling because its overexpression confers resistance to pheromone (Konopka, 1993). To determine whether the interaction between Afrlp and Cdcl2p is important for this process, cells that overexpress the mutant AFR1 genes were tested for their ability to grow in the presence of a-factor (Figure 3 and Table 2). Overexpression of the AFR1 mutants was accomplished by inserting the mutant genes into a multicopy plasmid (see MATERIALS AND METHODS), and then the
+
+Vol. 8, June 1997
+
+
+L. Giot and J.B. Konopka A
+
+-"V~. J<U /.z ) ..
+
+B
+
+C D
+
+) L)
+
+E
+
+91
+
+Figure 4.
+
+F
+
+-J \J
+
+"A
+
+Pheromone-induced morphology of wild-type and AFRI
+
+mutants strains. (A) Wild-type AFRI; (B) afrl::URA3; (C) AFR1-C6 (A350-620); (D) AFR1-I4 (A&194-300); (E) AFR1-LDM3; and (F) AFR1-I8 (A350-415). All strains were incubated with a-factor (5 x I0' M) for 6 h, and then cells were fixed with formaldehyde and photographed. The AFR1 strain was JKY25; the afrl::URA3 strain was JKY26. Mutant alleles of AFRI were integrated into JKY26 with use of the YIplacI28 plasmid as described in MATERIALS AND METHODS.
+
+sufficient to promote resistance. The failure of these mutants to function was not obviously due to effects on protein stability because the mutant proteins were found to be stably overproduced after a 90-min induction with a-factor (our unpublished results). The ability of the C-terminal half of Afrlp to affect the functions of the N-terminal half will be discussed below. The Cdcl2p-binding Domain Is Not Required for Afrlp to Promote Projection Formation To determine the role of the Cdcl2p-binding domain in mating projection formation, cells carrying the mutant alleles of AFRI integrated into the genome (in afrl::URA3 strain JKY26) were tested for their ability to form projections (Figure 4 and Table 2). After a 6-h induction with a-factor, nearly all of the wild-type cells produced at least one projection, and 81% produced two or more projections (Figure 4A). Projections are produced sequentially, so these results demonstrate that the wild-type cells formed projections very efficiently under these conditions. In contrast, the afrl::URA3 deletion strain showed only 13% of cells with one projection and none with two or more (Figure 4B). The truncation mutant AFR1-C6 (A350-620),
+
+992
+
+which lacks the C-terminal half of the protein containing the Cdcl2p-binding domain, showed 55% of cells with at least one projection and 30% with two or more projections (Figure 4C). Similar results were observed for the AFR1-LDM3 mutant that lacks a fully functional Cdcl2p-binding domain (Figure 4E). These results indicate that binding to Cdcl2p improves the efficiency of Afrlp function but is not essential for Afrlp to promote projection formation. Since the C-terminal half of Afrlp was not essential for projection formation, mutants carrying deletions in the N-terminal half were examined to identify the essential sequences. The AFRI-Ni mutant (Al-196) formed projections, indicating that the N-terminal 196 residues were also not essential (Table 2). In contrast, the AFR1-I4 mutant (A194-300) was defective in projection formation (Figure 4D). The results for AFRI-Ni and -14, taken together with results for AFR1-C6, indicate that the essential sequences for projection formation encompass the same residues of Afrlp (197349) that function to confer resistance to a-factor. Interestingly, some mutants carrying internal deletions in the C-terminal half of Afrlp were defective in forming projections, although the essential sequences in the N-terminal half were intact. In particular, mutant AFR1-I8 (A350-415; Figure 4F), which lacks part of the Cdcl2p-binding domain, failed to form typical projections. AFR1-I8 cells exposed to a-factor were large and usually peanut shaped. Similar results were obtained with the mutant AFR1-I3 (A413-522; Table 2), which also lacks a part of the Cdcl2p-binding domain. The failure of Afrl-I8p and Afrl-13p proteins to function was not due to effects on their stability because Western blot analysis showed that the mutant Afrlp proteins were induced by a-factor and produced at similar levels (Figure 5). The AFR1-I3 mutant was defective for all of the AFR1 phenotypes and may, therefore, encode a nonfunctional protein. However, the AFR1-I8 mutant cannot be discounted as producing a nonfunctional protein because overexpression of this mutant AFRI gene conferred resistance to a-factor (Figure 3). Thus, sequences in the C-terminal half can alter the ability of the N-terminal half of Afrlp to promote morphogenesis. The Cdcl2p-binding Domain Restricts Afrlp Localization Immunolocalization studies show that Afrlp and the septin proteins localize to similar sites in vivo (Konopka et al., 1995; Longtine et al., 1996). Therefore, immunolocalization studies were carried out to determine how mutation of the Cdcl2p-binding domain affects the localization of the Afrlp protein. In the case of wild-type AFRI and mutants AFR1-C6, -C7, and -18, we were able to observe detectable immunofluorescence signals in cells carrying a single copy of the Molecular Biology of the Cell
+
+
+Hormone-induced Morphogenesis
+
+~~~~~~~~~ %
+
+6&\~
+
+lp"
+
+t b~~~~~~~~~~~~~~~~~~~~~1t
+
+~N~b .K 1tp
+
+Kd 9750-
+
+or 35-
+
+Figure 5. Western immunoblot analysis of Afrlp proteins. JKY26
+
+(afrl::URA3)
+
+allele were
+
+cells carrying an
+
+integrated copy of the indicated AFRI
+
+incubated with a-factor (5 x 10- M) for 2 h. Equivalent
+
+amounts of cell extract were resolved by electrophoresis on an probed with rabbit anti-Afrlp antibody, and then immunoreactive SDS-PAGE gel and then transferred to nitrocellulose. The blot
+
+was
+
+bands were detected with ondary antibody. an alkaline phosphatase-conjugated sec-
+
+Figure 6. Immunolocalization of Afrlp proteins in strains carrying
+
+mutant AFRI genes integrated in the chromosome. Strains carrying induced with a-factor (5 x 10'7 M) for 3 h. (A) Wild-type AFRI; (B) afrl::URA3; (C) AFR1-C6 (A350-620); (D) AFR1-C7 (A&474-620); and then analyzed for immunofluorescence with anti-Afrlp antibodies
+
+the indicated allele of AFRI integrated in the chromosome were
+
+(E) AFR1-I8 (A350-415). Cells were fixed with formaldehyde and
+
+as described in MATERIALS AND METHODS. The wild-type AFRI
+
+strain was JKY25. The mutant AFRI alleles afrl::URA3 strain JKY26. were integrated into
+
+corresponding AFRI gene (Figure 6). To obtain significant immunofluorescence signals for AFR1-I4, -N1,
+
+-LDM3, and -13, the mutant AFRI genes
+
+duced into cells
+
+Afrlp proteins
+
+on multicopy plasmids
+
+were
+
+were introso that the
+
+overproduced and easier to de-
+
+tect (Figure 7). Overproduction was probably necessary to observe a detectable signal for some of the mutant Afrlp proteins either because they do not poorly with the anti-Afrlp antibody because they lack
+
+display a restricted localization or because they react
+
+a portion of the N-terminal sequences against which
+
+the antibody was raised (Konopka et al., 1995).
+
+After induction of the cells with a-factor, wild-type tion in cells that have not yet made a projection. In cells with a projection, Afrlp was detected at the base of the projection (Figures 6A and 7A) at the same site expected for Cdcl2p (Konopka et al., 1995; Longtine et Afrlp
+
+was detected as a patch at the site of polariza-
+
+al., 1996). Comparison of different focal planes
+
+gested that Afrlp was present in
+
+sug-
+
+association with the
+
+plasma membrane and may form a ring around the
+
+localization to the neck of the projection overlap with the sequences required for interaction with Cdcl2p. Deletion of the Cdcl2p-binding domain in Afrl-C6p
+
+correlated with a failure of this protein to show a
+
+restricted localization
+
+were
+
+even though the AFR1-C6 cells
+
+still capable of forming projections. Altogether,
+
+the subcellular localization of these mutant Afrlp proteins indicates that the Cdcl2p-binding domain functions to localize Afrlp to the base of projections. Analysis of Afrlp localization in AFR1 mutant strains that were defective in forming projections was consistent with the Cdcl2p-binding domain playing Afrlp. However, because these mutants fail to form projections it is also possible that their altered protein Afrl-13 (A413-522; Figure 7F), which contain internal deletions within the C-terminal half that inactivate ized end of the cell. Afrl-LDM3p (Figure 7E), which
+
+an important role in the subcellular localization of
+
+localization is
+
+cell
+
+an indirect consequence of the altered
+
+morphology. Afrl-18p (A350-415; Figure 6E) and
+
+Cdcl2p binding, were detected throughout the polar-
+
+contains
+
+was
+
+a partially defective Cdcl2p-binding domain,
+
+difficult to detect at the neck unless it was over-
+
+produced, in which
+
+neck of the projection. The C-terminal half of Afrlp Afrl-C6p (A350-620) showed staining throughout the present in Afrl-C6p plus a functional Cdcl2p-binding
+
+was required for this restricted localization because
+
+polarized end of the C7p (A474-620),
+
+cell (Figure 6C). In contrast, Afrl-
+
+which contains the sequences
+
+domain,
+
+ure
+
+a
+
+was detected at the neck of projections (Fig-
+
+6D). Similarly, Afrl-Nlp (A1-196), which contains
+
+functional Cdcl2p-binding domain, was detected at
+
+the neck of projections (Figure 7C). These results in-
+
+dicate that the Vol. 8, June 1997 sequences required to restrict Afrlp case the projections were slightly 993
+
+
+L. Giot and J.B. Konopka
+
+A B
+
+J.
+
+viI.i'. ": i.
+
+rn C
+
+Figure 8. Pheromone-induced morphology of cdc12-6 cells. Wild-
+
+Figure 7. Immunolocalization of Afrlp proteins in strains carrying
+
+AFRI genes on multicopy plasmids. Strain JKY26 (afrl::URA3)
+
+rying the indicated allele of AFR1 on a multicopy plasmid
+
+carwas
+
+type (A) and cdc12-6 (B) cells incubated in the absence of a-factor. Wild-type (C), cdc12-6 (D), AFR1-C6 (E), and cdc12-6 AFR1-C6
+
+double mutant (F) cells incubated in the
+
+were grown to
+
+presence of a-factor. Cells
+
+midlogarithmic phase at 24°C, incubated in the
+
+absence (A and B)
+
+induced with a-factor (5 x 10- M) for 2 h. (A) Wild-type AFRI; (B) YEplacl81 vector; (C) AFRI-Nl (AI-196); (D) AFR1-14 (A194-300);
+
+(E) AFR1-LDM3; and (F) AFR1-I3 (A&413-522). Cells were fixed with
+
+formaldehyde and then analyzed for immunofluorescence with
+
+ti-Afrlp antibodies as
+
+an-
+
+described in MATERIALS AND METHODS.
+
+or presence
+
+(C-F; 5 x 10'- M final concentration)
+
+of a-factor for 6 h, and then fixed with formaldehyde and photo-
+
+graphed. The wild-type strain was yLG45-1, the cdc12-6 strain was
+
+yLG44-5-3, the AFR1-C6 strain
+
+cdc12-6 double mutant strain
+
+was yLG75-1, and the AFR1-C6
+
+was yLG76-1.
+
+abnormal. Afrl-LDM3p was detected in a restricted
+
+pattern that often seemed to be unevenly distributed abnormal morphology of the projections. Sequences in the N-terminal half of Afrlp that were not required for
+
+across the neck although this could be due to the
+
+interaction with Cdcl2p were also important because
+
+Afrl-I4p (A194-300) did not display a restricted stain-
+
+ing pattern and appeared to be present throughout the cell (Figure 7D). Inspection of the residues missing in + R) found between residues 270 and 350 may direct Afrlp to the membrane. Perhaps membrane localization may facilitate interaction with Cdcl2p. Thus, sequences in both the N-terminal and the C-terminal
+
+Afrl-I4p suggests that a cluster of 24 basic residues (K
+
+halves of Afrlp lar localization. are important for its proper subcellu-
+
+question
+
+process.
+
+as to whether CDC12 is required for this
+
+Therefore, we examined the ability of cells
+
+carrying the temperature-sensitive cdc12-6 mutation to induce projection formation. Interestingly, cdc12-6 the permissive temperature for bud morphogenesis (24°C). The cdc12-6 cells treated with a-factor at 24°C trast, nearly all of the wild-type cells showed at least jections (Figure 8C). The morphogenesis defect of the budding defect of these cells because cdc12-6 cells showed normal morphology at permissive temperature (24°C) in the absence of a-factor (Figure 8B).
+
+cells showed a defect in projection formation even at
+
+appeared as large elongated cells (Figure 8D). In con-
+
+one projection, and 69% produced two or more pro-
+
+cdc12-6 cells was not an indirect consequence of the
+
+Cdcl2p is predicted to play a role in restricting
+
+Afrlp to the neck of the projection,
+
+Afrlp in cdc12-6 mutant cells
+
+so the location of
+
+was examined. Immun-
+
+CDC12 Is Required for Pheromone-induced Morphogenesis CDC12 is known to be required for bud morphogenesis and cytokinesis (Haarer and Pringle, 1987; Hartwell, 1971). The surprising observation that the essential for mating projection formation raised the 994
+
+Cdcl2p-binding domain on Afrlp was helpful but not
+
+ofluoresence analysis of cdc12-6 cells that were induced with a-factor showed Afrlp staining throughout the cell (Figure 9). Thus, Afrlp was not restricted to a particular region in cdc12-6 cells. The similar defects in pheromone-induced morphogenesis observed for afrl::URA3 cells and cdc12-6 cells Molecular Biology of the Cell
+
+
+Hormone-induced Morphogenesis
+
+suggested that the projection formation defect of cdc12-6 cells may be due to the failure to localize Afrlp properly. Alternatively, cdc12-6 cells may also be defective in other aspects of morphogenesis. To distinguish between these possibilities, we examined the ability of cdc12-6 cells carrying the AFR1-C6 mutation to produce projections because this Afrlp mutant protein can induce projection formation even though it lacks the Cdcl2p-binding domain. However, the cdc12-6 AFR1-C6 double mutant was still defective in projection formation (Figure 8F). The failure of the AFR1-C6 mutation to suppress the defect of the cdc12-6 mutation indicates that CDC12 has other functions in addition to binding Afrlp during pheromoneinduced morphogenesis. DISCUSSION Cdcl2p Concentrates Afrlp at the Neck of the Projections During bud formation, the Cdc3p, CdclOp, Cdcllp, and Cdcl2p septins are thought to form a filamentous ring on the inner surface of the plasma membrane at the neck between the mother cell and its bud (Byers and Goetsch, 1976). Interestingly, the localization of the septins may be regulated by Ste2Op-like kinases (Cvrckova et al., 1995). Several observations suggest that the septins function to localize specific components at the bud neck. For example, septins are required for the localization to the bud neck of the Bud3p (Chant et al., 1995), Bud4p (Sanders and Herskowitz, 1996), and Axl2p (Roemer et al., 1996) proteins that are involved in bud site selection. The septins may also function to localize chitin synthesis to the bud neck and to localize actin to the site of cytokinesis at the bud neck (Adams and Pringle, 1984; Mulholland et al., 1994; Longtine et al., 1996). The observations that Afrlp interacts with Cdcl2p and that they localize to similar sites in vivo suggested that Cdcl2p functions to localize Afrlp. Immunolocalization studies showed that the Afrlp sequences that were needed for interaction with Cdcl2p in the twohybrid assay (residues 301-473) were required to restrict Afrlp to the neck of projections (summarized in Table 2). Mutant Afrlp proteins that failed to interact with Cdcl2p also failed to localize properly in vivo. In addition, wild-type Afrlp was mislocalized in a cdc12-6 mutant. Sequences in the N-terminal half of Afrlp also appear to contribute to Afrlp localization because Afrl-14p (A194-300) interacted with Cdcl2p but did not display a restricted localization in vivo. The role of Cdcl2p in localizing Afrlp in mating projections is consistent with the role of Cdcl2p and the other septins in localizing proteins at the bud neck. However, examination of the amino acid sequence of the Cdcl2p-binding domain in Afrlp did not reveal Vol. 8, June 1997
+
+A
+
+B _
+
+Figure 9. Afrlp localization in cdc12-6 cells. Immunofluorescent
+
+staining of Afrlp in CDC12 strain yLG45-1 (A) and cdc12-6 strain yLG44-5-3 (B) carrying AFRI on YEplacl8l. Cells were induced with a-factor (5 x lO M) for 3 h at 36°C and then analyzed by immunofluorescence with affinity-purified anti-Afrlp antibody. any obvious similarity to Bud3p, Bud4p, Axl2p, or other known proteins. Thus, the ability of septins to localize proteins is apparently not mediated by a highly conserved protein sequence motif. Binding to Cdcl2p Is Not Required for Afrlp Function Although both Afrlp and Cdcl2p are required for projection formation, analysis of AFRI mutants demonstrated that interaction with Cdcl2p was not required for Afrlp to promote the formation of mating projections. This was shown most clearly for the AFR1-C6 mutant, which formed projections although it lacks most of the C-terminal half of Afrlp, including sequences required to bind Cdcl2p. In addition, the Cdcl2p-binding domain was not required for overexpressed Afrlp to promote resistance to a-factor. There was no detectable difference in the degree to which overexpression of wild-type AFRI or AFR1-C6 was able to promote resistance to pheromone. However, it cannot be concluded that the localization of Afrlp is unimportant for its function. Immunofluorescence analysis showed that the distribution of Afrl-C6p overlapped with the expected location of wild-type Afrlp at the polarized end of the cell. The more restricted localization of wild-type Afrlp may account for the improved efficiency with which wild-type cells can form projections. Thus, the proper localization of Afrlp may be significant for its function in promoting projection formation.
+
+995
+
+
+L. Giot and J.B. Konopka Relationship between Morphogenesis and Signaling Functions of Afrlp The ability of Afrlp to promote both morphogenesis
+
+and adaptation could be due to different manifestations of a single activity or could be due to multiple independent activities of Afrlp. Previous studies on the a-factor receptors have suggested a functional relationship between the regulation of receptor signaling and morphogenesis. Mutations in the C-terminal sequences of the a-factor receptor caused a defect in projection formation that was proportional to their defect in adaptation (Konopka et al., 1988; Chen and Konopka, 1996). Consistent with this, deletion analysis of AFR1 indicates that the essential sequences for morphogenesis and adaptation overlap. The N-terminal 349 residues present in Afrl-C6p were sufficient to promote both morphogenesis and a-factor resistance; a deletion in this domain (AFR1-I4, A194-300) abolished both functions. Analysis of additional AFRI mutants suggests that the morphogenesis and adaptation functions could also be due to separate activities of Afrlp. The observation that some mutants selectively lost the ability to promote adaptation or morphogenesis indicates that these functions are genetically separable and that Afrlp may carry out independent activities. In particular, AFR1-I8 (A350-415) promotes a-factor resistance but not projection formation; AFR1-C7 (A474-620) fails to induce a-factor resistance but promotes projection formation. However, both AFR1-I8 and AFR1-C7 mutants contain the N-terminal sequences (1-349) that were sufficient to promote morphogenesis and a-factor resistance in AFR1-C6. Since these mutants are altered by deletion of distinct subdomains in the C-terminal half of the protein, we cannot rule out the possibility that there is a single activity of Afrlp that can be differentially affected by sequences in the C-terminal half. One possibility is that, because of the strong alterations made in these AFRI deletion mutants, some of the resulting proteins have abnormal properties because of effects on protein folding. This could account for the AFR1-B (A413-522) mutant, which contains the essential domain but is defective for all Afrlp properties. Alternatively, because the sequences deleted in Afrl-I3p remove a portion of the Cdcl2p-binding domain, as is true for Afrl-I8p, and also remove a portion of the sequences deleted in Afrl-C7p, it is possible that Afrl-I3p combines the defects of AfrlI8p and Afrl-C7p. Perhaps these mutants are revealing a physiological role for the C-terminal half of Afrlp in regulating the N-terminal half. Septins Carry Out Multiple Roles in Cell Growth and Development Septins have been studied in S. cerevisiae primarily for their role in cytokinesis and bud formation. More recently, they have been implicated in a number of
+
+996
+
+other cellular processes (reviewed in Longtine et al., 1996) such as bud site selection (Flescher et al., 1993; Chant et al., 1995; Sanders and Herskowitz, 1996), pseudohyphal growth (Blacketer et al., 1995), and sporulation (Fares et al., 1996). The results of this study show that septins are also important for the morphological differentiation induced by mating pheromones because cdc12-6 cells were defective in projection formation. It was also interesting that the projection formation defect of cdc12-6 cells was detected at the permissive temperature for cytokinesis and bud formation. This suggests that there may be different requirements for septin function in budding cells and mating cells. One function of Cdcl2p that is unique to projection formation is to promote the localization of Afrlp. However, this is probably not the essential function of Cdcl2p because AFR1-C6 cells formed projections even though Afrl-C6p failed to localize properly and was defective in binding Cdcl2p. CDC12 was still required in AFR1-C6 cells because AFR1-C6 cdc12-6 cells were defective in projection formation. These experiments indicate that Cdcl2p has additional function(s) other than restricting Afrlp to the neck of the projection. Analysis of septin homologues in Drosophila melanogaster suggests that septins in this organism play a role in organizing proteins at the cell cortex in a wide range of embryonic and differentiated cell types (Neufeld and Rubin, 1994; Fares et al., 1995). In particular, it is interesting that mutations in a septin homologue called pnut affect photoreceptor cell development. The pnut protein was concentrated at the apex of developing photoreceptor cells at the position expected for cell surface signaling molecules that control development as well as the G protein-coupled photoreceptors (Neufeld and Rubin, 1994). Perhaps septins play a conserved role in organizing signaling proteins because Cdcl2p influences the localization of Afrlp that regulates the signaling activity of the G proteincoupled pheromone receptors. Further analysis will be required to dissect the function of septins, but the distribution of septins in different organisms indicates that they are likely to be playing multiple roles in organizing proteins at the plasma membrane. ACKNOWLEDGMENTS We thank C. Davis for antibodies and C. DeMattei, C. De Virgilio, M. Longtine, and J. Pringle for plasmids and strains. We also thank A. Neiman and the members of our laboratory for their helpful comments on the manuscript. This work was supported by a grant from the American Cancer Society (VM-40), and J.B.K. was supported in part by an American Cancer Society Junior Faculty Research Award. REFERENCES Adams, A.E.M., Johnson, D.I., Longnecker, R.M., Sloat, B.F., and Pringle, J.R. (1990). CDC42 and CDC43, two additional genes inMolecular Biology of the Cell
+
+
+volved in budding and the establishment of cell polarity in the yeast Saccharomyces cerevisiae. J. Cell Biol. 111, 131-142. Adams, A.E.M., and Pringle, J.R. (1984). Relationship of actin and tubulin distribution to bud growth in wild-type and morphogenetic-mutant Saccharomyces cerevisiae. J. Cell Biol. 98, 934-945. Bartel, P.L., Chien, C.-T., Stemglanz, R., and Fields, S. (1993). Using the two-hybrid system to detect protein-protein interaction. In: Cellular Interactions in Development: A Practical Approach, ed. D.A. Hartley, Oxford, United Kingdom: Oxford University Press, 153179. Blacketer, M.J., Madaule, P., and Myers, A.M. (1995). Mutational analysis of morphologic differentiation in Saccharomyces cerevisiae. Genetics 140, 1259-1275. Byers, B., and Goetsch, L. (1976). A highly ordered ring of membrane-associated filaments in budding yeast. J. Cell Biol. 69, 717721. Chant, J. (1996). Septin scaffolds and cleavage planes in Saccharomyces. Cell 84, 187-190. Chant, J., Mischke, M., Mitchell, E., Herskowitz, I., and Pringle, J.R. (1995). Role of Bud3p in producing the axial budding pattem of yeast. J. Cell Biol. 129, 767-778. Chen, Q., and Konopka, J.B. (1996). Regulation of the G proteincoupled a-factor pheromone receptor by phosphorylation. Mol. Cell. Biol. 16, 247-257. Chenevert, J. (1994). Cell polarization directed by extracellular cues in yeast. Mol. Biol. Cell 5, 1169-1175. Cvrckova, F., De Virgilio, C., Manser, E., Pringle, J.R., and Nasmyth, K. (1995). Ste2O-like protein kinases are required for normal localization of cell growth and for cytokinesis in budding yeast. Genes Dev. 9, 1817-1830. Dohlman, H.G., Thomer, J., Caron, M.G., and Lefkowitz, R.J. (1991). Model systems for the study of 7-transmembrane-segment receptors. Annu. Rev. Biochem. 60, 653-688. Dorer, R., Pryciak, P.M., and Hartwell, L.H. (1995). Saccharomyces cerevisiae cells execute a default pathway to select a mate in the absence of pheromone gradients. J. Cell Biol. 131, 845-861. Drubin, D.G., and Nelson, W.J. (1996). Origins of cell polarity. Cell 84, 335-344. Fares, H., Goetsch, L., and Pringle, J.R. (1996). Identification of a developmentally regulated septin and involvement of the septins in spore formation in Saccharomyces cerevisiae. J. Cell Biol. 132, 399-411. Fares, H., Peifer, M., and Pringle, J.R. (1995). Localization and possible functions of Drosophila septins. Mol. Biol. Cell 6, 1843-1859. Field, C.M., Al-Awar, O., Rosenblatt, J., Wong, M.L., Alberts, B., and Mitchison, T.J. (1996). A purified Drosophila septin complex forms filaments and exhibits GTPase activity. J. Cell Biol. 133, 605-616. Fields, S., and Song, 0. (1989). A novel genetic system to detect protein-protein interactions. Nature 340, 245-246. Flescher, E.G., Madden, K., and Snyder, M. (1993). Components required for cytokinesis are important for bud site selection in yeast. J. Cell Biol. 122, 373-386. Ford, S.K., and Pringle, J.R. (1991). Cellular morphogenesis in the Saccharomyces cerevisiae cell cycle: localization of the CDC1 1 gene product and the timing of events at the budding site. Dev. Genet. 12, 281-292. Gietz, R.D., and Sugino, A. (1988). New yeast-Escherichia coli shuttle vectors constructed with in vitro mutagenized yeast genes lacking six-base pair restriction sites. Gene 74, 527-534. Haarer, B.K., and Pringle, J.R. (1987). Immunofluorescence localization of the Saccharomyces cerevisiae CDC12 gene product to the vi-
+
+Vol. 8, June 1997
+
+Hormone-induced Morphogenesis cinity of the 10-nm filaments in the mother-bud neck. Mol. Cell. Biol. 7, 3678-3687. Hartwell, L.H. (1971). Genetic control of the cell division cycle in yeast. IV. Genes controlling bud emergence and cytokinesis. Exp. Cell Res. 69, 265-276. Hepler, J.R., and Gilman, A.G. (1992). G proteins. Trends Biochem. Sci. 17, 382-387. Herskowitz, I. (1995). MAP kinase pathways in yeast: for mating and more. Cell 80, 187-197. Jackson, C.L., Konopka, J.B., and Hartwell, L.H. (1991). S. cerevisiae a-pheromone receptors activate a novel signal transduction pathway for mating partner discrimination. Cell 67, 389-402. Kim, H.B., Haarer, B.K., and Pringle, J.R. (1991). Cellular morphogenesis in the Saccharomyces cerevisiae cell cycle: localization of the CDC3 gene product and the timing of events at the budding site. J. Cell Biol. 112, 535-544. Konopka, J.B. (1993). AFR1 acts in conjunction with the a-factor receptor to promote morphogenesis and adaptation. Mol. Cell. Biol. 13, 6876-6888. Konopka, J.B., DeMattei, C., and Davis, C. (1995). AFR1 promotes polarized apical morphogenesis in Saccharomyces cerevisiae. Mol. Cell. Biol. 15, 723-730. Konopka, J.B., Jenness, D.D., and Hartwell, L.H. (1988). The C terminus of the Saccharomyces cerevisiae a-pheromone receptor mediates an adaptive response to pheromone. Cell 54, 609-620. Kurjan, J. (1992). Pheromone response in yeast. Annu. Rev. Biochem. 61, 1097-1129. Leberer, E., Dignard, D., Harcus, D., Thomas, D.Y., and Whiteway, M. (1992). The protein kinase homologue Ste2Op is required to link the yeast pheromone response G-protein fry subunits to downstream signalling components. EMBO J. 11, 4815-4824. Longtine, M.S., DeMarini, D.J., Valencik, M.L., Al-Awar, O.S., Fares, H., De Virgilio, C., and Pringle, J.R. (1996). The septins: roles in cytokinesis and other processes. Curr. Opin. Cell Biol. 8, 106-119. Madden, K., and Snyder, M. (1992). Specification of sites for polarized growth in Saccharomyces cerevisiae and the influence of extemal factors on site selection. Mol. Biol. Cell 3, 1025-1035. Marsh, L., Neiman, A.M., and Herskowitz, I. (1991). Signal transduction during pheromone response in yeast. Annu. Rev. Cell. Biol. 7, 699-728. Moore, S.A. (1983). Comparison of dose-response curves for a-factor-induced cell division arrest, agglutination, and projection formation of yeast cells. Implication for the mechanisms of a-factor action. J. Biol. Chem. 258, 13849-13856. Mulholland, J., Preuss, D., Moon, A., Wong, A., Drubin, D., and Botstein, D. (1994). Ultrastructure of the yeast actin cytoskeleton and its association with the plasma membrane. J. Cell Biol. 125, 381-391. Murphy, P.M. (1994). The molecular biology of leukocyte chemoattractant receptors. Annu. Rev. Immunol. 12, 593-633. Neufeld, T.P., and Rubin, G.M. (1994). The Drosophila peanut gene is required for cytokinesis and encodes a protein similar to yeast putative bud neck filament proteins. Cell 77, 371-379. Pringle, J.R., Adams, A., Drubin, D.G., and Haarer, B.K. (1991). Immunofluorescence methods for yeast. Methods Enzymol. 194, 565-602. Read, E.B., Okamura, H.H., and Drubin, D.G. (1992). Actin- and tubulin-dependent functions during Saccharomyces cerevisiae mating projection formation. Mol. Biol. Cell 3, 429-444.
+
+997
+
+
+L. Giot and J.B. Konopka Roemer, T., Madden, K., Chang, J., and Snyder, M. (1996). Selection of axial growth sites in yeast requires Axl2p, a novel plasma membrane glycoprotein. Genes Dev. 10, 777-793. Rose, M.D., and Broach, J.R. (1991). Cloning genes by complementation in yeast. Methods Enzymol. 194, 195-230. Sanders, S.L., and Field, C.M. (1994). Septins in common? Curr. Biol. 4, 907-910. Sanders, S.L., and Herskowitz, I. (1996). The Bud4 protein of yeast, required for axial budding, is localized to the mother/bud neck in a cell cycle-dependent manner. J. Cell Biol. 134, 413-427. Schiestl, R.H., and Gietz, R.D. (1989). High efficiency transformation of intact yeast cells using single stranded nucleic acids as a carrier. Curr. Genet. 16, 339-346. Segall, J.E. (1993). Polarization of yeast cells in spatial gradients of a-mating factor. Proc. Natl. Acad. Sci. USA 90, 8332-8336. Sherman, F. (1991). Getting started with yeast. Methods Enzymol. 194, 3-21.
+
+Simon, M.N., De Virgilio, C., Souza, B., Pringle, J.R., Abo, A., and Reed, S.I. (1995). Role for the Rho-family GTPase Cdc42 in yeast mating-pheromone signal pathway. Nature 376, 702-705. Sprague, G.F., Jr., and Thomer, J.W. (1992). Pheromone response and signal transduction during the mating process of Saccharomyces cerevisiae. In: The Molecular and Cellular Biology of the Yeast Saccharomyces, ed. E.W. Jones, J R. Pringle, and J.R. Broach, Cold Spring Harbor, NY: Cold Spring Harbor Laboratory Press, 657-744. Valtz, N., Peter, M., and Herskowitz, I. (1995). FAR1 is required for oriented polarization of yeast cells in response to mating pheromones. J. Cell Biol. 131, 863-873. Zhao, Z.S., Leung, T., Manser, E., and Lim, L. (1995). Pheromone signalling in Saccharomyces cerevisiae requires the small GTP-binding protein Cdc42p and its activator CDC24. Mol. Cell. Biol. 15, 5246-5257. Ziman, M., Preuss, D., Mulholland, J., O'Brien, J.M., Botstein, D., and Johnson, D.I. (1993). Subcellular localization of Cdc42p, a Saccharomyces cerevisiae GTP-binding protein involved in the control of cell polarity. Mol. Biol. Cell 4, 1307-1316.
+
+998 Molecular Biology of the Cell
+
+
