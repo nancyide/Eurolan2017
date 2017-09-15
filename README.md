@@ -11,3 +11,7 @@ Plain-text-corpora : Corpora of PubMed articles in plain text format
 
 README.md : this file
 
+eurolan2017-ide.pdf : Slides from the tutorial
+
+workflows.rtf : URLs of sample workflows 
+
